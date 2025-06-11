@@ -1,0 +1,46 @@
+﻿@model instructor
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+
+<div class="instructor-container">
+    <a class="back-button" asp-action="Index" asp-controller="instructor">← Back</a>
+
+    <div class="instructor-layout">
+        <div class="image-section">
+            <div class="instructor-image">
+                <div class="instructor-image-icon">
+                    <img src="/Image/@Model.Image" class="instructor-image" alt="@Model.name" />
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="instructor-details">
+            <h1> @Model.name</h1>
+
+            <div class="detail-row">
+                <span class="label">Employee ID: </span> @Model.ID
+            </div>
+
+            <div class="detail-row">
+                <span class="label">Department:</span> <span class="department"> @Model.Department.Name</span>
+            </div>
+
+            <div class="detail-row">
+                <span class="label">Salary:</span> <span class="salary">$@Model.salary</span>
+            </div>
+
+            <div class="detail-row">
+                <span class="label">Address:</span> <br>
+                <span class="address">123 University Ave<br>@Model.Address</span>
+            </div>
+
+
+            <button class="contact-button">Contact Instructor</button>
+        </div>
+    </div>
+</div>
+

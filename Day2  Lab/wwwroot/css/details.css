@@ -1,0 +1,115 @@
+﻿
+.instructor-container {
+    background: white;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.instructor-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: start;
+}
+
+.image-section {
+    text-align: center;
+}
+
+.instructor-image {
+    width: 250px;
+    height: 250px;
+    background: #f5f5f5;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.instructor-image-icon {
+    font-size: 80px;
+}
+
+.instructor-details h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.detail-row {
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+.label {
+    font-weight: bold;
+    color: #555;
+}
+
+.salary {
+    font-size: 24px;
+    color: #27ae60;
+    font-weight: bold;
+}
+
+.department {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.address {
+    color: #666;
+    font-style: italic;
+}
+
+.contact-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+    .contact-button:hover {
+        background-color: #0056b3;
+    }
+
+.back-button {
+    background-color: #6c757d;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+    .back-button:hover {
+        background-color: #545b62;
+    }
+
+@media (max-width: 600px) {
+    .instructor-layout {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .instructor-image {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+

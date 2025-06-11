@@ -1,0 +1,240 @@
+﻿@model instructor
+
+@{
+    ViewData["Title"] = "Add";
+}
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        background-color: #f8f9fa;
+        min-height: 100vh;
+        padding: 20px;
+    }
+
+    .form-container {
+        max-width: 700px;
+        margin: 0 auto;
+        background-color: white;
+        border: 2px solid #e9ecef;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
+
+    .form-header {
+        background-color: #f8f9fa;
+        padding: 30px;
+        border-bottom: 1px solid #e9ecef;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 28px;
+        font-weight: 600;
+        color: #212529;
+        margin-bottom: 8px;
+    }
+
+    .form-subtitle {
+        color: #6c757d;
+        font-size: 16px;
+    }
+
+    .form-content {
+        padding: 40px;
+    }
+
+    .form-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+        margin-bottom: 25px;
+    }
+
+    .form-group {
+        margin-bottom: 25px;
+    }
+
+        .form-group.full-width {
+            grid-column: 1 / -1;
+        }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: 600;
+        color: #495057;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    textarea {
+        width: 100%;
+        padding: 15px;
+        border: 2px solid #e9ecef;
+        border-radius: 8px;
+        font-size: 16px;
+        transition: all 0.3s ease;
+        background-color: #fff;
+    }
+
+        input[type="text"]:focus,
+        input[type="number"]:focus,
+        textarea:focus {
+            outline: none;
+            border-color: #6c757d;
+            box-shadow: 0 0 0 3px rgba(108, 117, 125, 0.1);
+        }
+
+    textarea {
+        height: 100px;
+        resize: vertical;
+        font-family: inherit;
+    }
+
+    .required {
+        color: #dc3545;
+    }
+
+    .button-group {
+        display: flex;
+        gap: 15px;
+        margin-top: 40px;
+        padding-top: 30px;
+        border-top: 1px solid #e9ecef;
+    }
+
+    button {
+        padding: 15px 30px;
+        border: 2px solid #495057;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .back-btn {
+        background-color: white;
+        color: #495057;
+        min-width: 120px;
+    }
+
+        .back-btn:hover {
+            background-color: #495057;
+            color: white;
+        }
+
+    .submit-btn {
+        flex: 1;
+        background-color: #495057;
+        color: white;
+        border-color: #495057;
+    }
+
+        .submit-btn:hover {
+            background-color: #343a40;
+            border-color: #343a40;
+        }
+
+    @@media (max-width: 768px) {
+        body
+
+    {
+        padding: 10px;
+    }
+
+    .form-header {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .form-content {
+        padding: 30px 20px;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .button-group {
+        flex-direction: column;
+    }
+
+    .back-btn {
+        order: 2;
+    }
+
+    .submit-btn {
+        order: 1;
+    }
+
+    }
+</style>
+<div class="form-container">
+    <div class="form-header">
+        <h1>Add New Instructor</h1>
+        <div class="form-subtitle">Fill in the details to add a new instructor to the system</div>
+    </div>
+
+    <div class="form-content">
+        <form id="instructorForm" method="post">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Full Name <span class="required">*</span></label>
+                    <input type="text" id="name" name="name" value="@Model?.name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="salary">Salary <span class="required">*</span></label>
+                    <input type="number" id="salary" name="salary" step="0.01" value="@Model?.salary" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="departmentId">Department ID <span class="required">*</span></label>
+                    <input type="text" id="departmentId" name="departmentId" value="@Model?.Dept_id" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="courseId">Course ID <span class="required">*</span></label>
+                    <input type="text" id="courseId" name="courseId" value="@Model?.Crs_id" required>
+                </div>
+            </div>
+
+            <div class="form-group full-width">
+                <label for="image">Image URL</label>
+                <input type="text" id="image" name="image" value="@Model?.Image" placeholder="Enter image URL (optional)">
+            </div>
+
+            <div class="form-group full-width">
+                <label for="address">Address <span class="required">*</span></label>
+                <textarea id="address" name="address" value="@Model?.Address" placeholder="Enter full address" required></textarea>
+            </div>
+
+            <div class="button-group">
+                <a  asp-action="Index" asp-controller="instructor" class="btn btn-outline-dark align-content-center">Back</a>
+                <button type="submit" class="submit-btn" asp-action="SaveData" asp-controller="instructor">Add Instructor</button>
+            </div>
+        </form>
+    </div>
+</div>
+

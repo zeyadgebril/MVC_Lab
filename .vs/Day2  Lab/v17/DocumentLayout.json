@@ -1,0 +1,269 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\DAY1\\Lab Solution\\Day2  Lab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{767AB07A-3FA0-4B24-A00A-742BD5583377}|Day2  Lab\\Day2  Lab.csproj|c:\\users\\zeyad\\onedrive\\desktop\\iti\\mvc\\day1\\lab solution\\day2  lab\\day2  lab\\views\\instructor\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{767AB07A-3FA0-4B24-A00A-742BD5583377}|Day2  Lab\\Day2  Lab.csproj|solutionrelative:day2  lab\\views\\instructor\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{767AB07A-3FA0-4B24-A00A-742BD5583377}|Day2  Lab\\Day2  Lab.csproj|c:\\users\\zeyad\\onedrive\\desktop\\iti\\mvc\\day1\\lab solution\\day2  lab\\day2  lab\\views\\instructor\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{767AB07A-3FA0-4B24-A00A-742BD5583377}|Day2  Lab\\Day2  Lab.csproj|solutionrelative:day2  lab\\views\\instructor\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{767AB07A-3FA0-4B24-A00A-742BD5583377}|Day2  Lab\\Day2  Lab.csproj|c:\\users\\zeyad\\onedrive\\desktop\\iti\\mvc\\day1\\lab solution\\day2  lab\\day2  lab\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{767AB07A-3FA0-4B24-A00A-742BD5583377}|Day2  Lab\\Day2  Lab.csproj|solutionrelative:day2  lab\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{767AB07A-3FA0-4B24-A00A-742BD5583377}|Day2  Lab\\Day2  Lab.csproj|c:\\users\\zeyad\\onedrive\\desktop\\iti\\mvc\\day1\\lab solution\\day2  lab\\day2  lab\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{767AB07A-3FA0-4B24-A00A-742BD5583377}|Day2  Lab\\Day2  Lab.csproj|solutionrelative:day2  lab\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{767AB07A-3FA0-4B24-A00A-742BD5583377}|Day2  Lab\\Day2  Lab.csproj|c:\\users\\zeyad\\onedrive\\desktop\\iti\\mvc\\day1\\lab solution\\day2  lab\\day2  lab\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{767AB07A-3FA0-4B24-A00A-742BD5583377}|Day2  Lab\\Day2  Lab.csproj|solutionrelative:day2  lab\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{767AB07A-3FA0-4B24-A00A-742BD5583377}|Day2  Lab\\Day2  Lab.csproj|c:\\users\\zeyad\\onedrive\\desktop\\iti\\mvc\\day1\\lab solution\\day2  lab\\day2  lab\\wwwroot\\css\\instructor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{767AB07A-3FA0-4B24-A00A-742BD5583377}|Day2  Lab\\Day2  Lab.csproj|solutionrelative:day2  lab\\wwwroot\\css\\instructor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{767AB07A-3FA0-4B24-A00A-742BD5583377}|Day2  Lab\\Day2  Lab.csproj|c:\\users\\zeyad\\onedrive\\desktop\\iti\\mvc\\day1\\lab solution\\day2  lab\\day2  lab\\viewmodel\\instructorpagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{767AB07A-3FA0-4B24-A00A-742BD5583377}|Day2  Lab\\Day2  Lab.csproj|solutionrelative:day2  lab\\viewmodel\\instructorpagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{767AB07A-3FA0-4B24-A00A-742BD5583377}|Day2  Lab\\Day2  Lab.csproj|c:\\users\\zeyad\\onedrive\\desktop\\iti\\mvc\\day1\\lab solution\\day2  lab\\day2  lab\\views\\instructor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{767AB07A-3FA0-4B24-A00A-742BD5583377}|Day2  Lab\\Day2  Lab.csproj|solutionrelative:day2  lab\\views\\instructor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{767AB07A-3FA0-4B24-A00A-742BD5583377}|Day2  Lab\\Day2  Lab.csproj|c:\\users\\zeyad\\onedrive\\desktop\\iti\\mvc\\day1\\lab solution\\day2  lab\\day2  lab\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{767AB07A-3FA0-4B24-A00A-742BD5583377}|Day2  Lab\\Day2  Lab.csproj|solutionrelative:day2  lab\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{767AB07A-3FA0-4B24-A00A-742BD5583377}|Day2  Lab\\Day2  Lab.csproj|c:\\users\\zeyad\\onedrive\\desktop\\iti\\mvc\\day1\\lab solution\\day2  lab\\day2  lab\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{767AB07A-3FA0-4B24-A00A-742BD5583377}|Day2  Lab\\Day2  Lab.csproj|solutionrelative:day2  lab\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{767AB07A-3FA0-4B24-A00A-742BD5583377}|Day2  Lab\\Day2  Lab.csproj|c:\\users\\zeyad\\onedrive\\desktop\\iti\\mvc\\day1\\lab solution\\day2  lab\\day2  lab\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{767AB07A-3FA0-4B24-A00A-742BD5583377}|Day2  Lab\\Day2  Lab.csproj|solutionrelative:day2  lab\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{767AB07A-3FA0-4B24-A00A-742BD5583377}|Day2  Lab\\Day2  Lab.csproj|c:\\users\\zeyad\\onedrive\\desktop\\iti\\mvc\\day1\\lab solution\\day2  lab\\day2  lab\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{767AB07A-3FA0-4B24-A00A-742BD5583377}|Day2  Lab\\Day2  Lab.csproj|solutionrelative:day2  lab\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{767AB07A-3FA0-4B24-A00A-742BD5583377}|Day2  Lab\\Day2  Lab.csproj|c:\\users\\zeyad\\onedrive\\desktop\\iti\\mvc\\day1\\lab solution\\day2  lab\\day2  lab\\wwwroot\\css\\details.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{767AB07A-3FA0-4B24-A00A-742BD5583377}|Day2  Lab\\Day2  Lab.csproj|solutionrelative:day2  lab\\wwwroot\\css\\details.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{767AB07A-3FA0-4B24-A00A-742BD5583377}|Day2  Lab\\Day2  Lab.csproj|c:\\users\\zeyad\\onedrive\\desktop\\iti\\mvc\\day1\\lab solution\\day2  lab\\day2  lab\\migrations\\20250611092319_firstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{767AB07A-3FA0-4B24-A00A-742BD5583377}|Day2  Lab\\Day2  Lab.csproj|solutionrelative:day2  lab\\migrations\\20250611092319_firstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\DAY1\\Lab Solution\\Day2  Lab\\Day2  Lab\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Day2  Lab\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\DAY1\\Lab Solution\\Day2  Lab\\Day2  Lab\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Day2  Lab\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAADcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-11T14:46:45.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\DAY1\\Lab Solution\\Day2  Lab\\Day2  Lab\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Day2  Lab\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\DAY1\\Lab Solution\\Day2  Lab\\Day2  Lab\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Day2  Lab\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T12:53:27.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "instructor.cs",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\DAY1\\Lab Solution\\Day2  Lab\\Day2  Lab\\Models\\instructor.cs",
+              "RelativeDocumentMoniker": "Day2  Lab\\Models\\instructor.cs",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\DAY1\\Lab Solution\\Day2  Lab\\Day2  Lab\\Models\\instructor.cs",
+              "RelativeToolTip": "Day2  Lab\\Models\\instructor.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T10:12:49.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\DAY1\\Lab Solution\\Day2  Lab\\Day2  Lab\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Day2  Lab\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\DAY1\\Lab Solution\\Day2  Lab\\Day2  Lab\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Day2  Lab\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAADEAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T09:40:32.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\DAY1\\Lab Solution\\Day2  Lab\\Day2  Lab\\Views\\instructor\\Details.cshtml",
+              "RelativeDocumentMoniker": "Day2  Lab\\Views\\instructor\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\DAY1\\Lab Solution\\Day2  Lab\\Day2  Lab\\Views\\instructor\\Details.cshtml",
+              "RelativeToolTip": "Day2  Lab\\Views\\instructor\\Details.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T09:55:15.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "instructor.css",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\DAY1\\Lab Solution\\Day2  Lab\\Day2  Lab\\wwwroot\\css\\instructor.css",
+              "RelativeDocumentMoniker": "Day2  Lab\\wwwroot\\css\\instructor.css",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\DAY1\\Lab Solution\\Day2  Lab\\Day2  Lab\\wwwroot\\css\\instructor.css",
+              "RelativeToolTip": "Day2  Lab\\wwwroot\\css\\instructor.css",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAqwKUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-11T09:33:47.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\DAY1\\Lab Solution\\Day2  Lab\\Day2  Lab\\Views\\instructor\\Add.cshtml",
+              "RelativeDocumentMoniker": "Day2  Lab\\Views\\instructor\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\DAY1\\Lab Solution\\Day2  Lab\\Day2  Lab\\Views\\instructor\\Add.cshtml",
+              "RelativeToolTip": "Day2  Lab\\Views\\instructor\\Add.cshtml",
+              "ViewState": "AgIAAOUAAAAAAAAAAAAhwOkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T10:04:19.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\DAY1\\Lab Solution\\Day2  Lab\\Day2  Lab\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Day2  Lab\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\DAY1\\Lab Solution\\Day2  Lab\\Day2  Lab\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Day2  Lab\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T14:56:16.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\DAY1\\Lab Solution\\Day2  Lab\\Day2  Lab\\Views\\instructor\\Index.cshtml",
+              "RelativeDocumentMoniker": "Day2  Lab\\Views\\instructor\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\DAY1\\Lab Solution\\Day2  Lab\\Day2  Lab\\Views\\instructor\\Index.cshtml",
+              "RelativeToolTip": "Day2  Lab\\Views\\instructor\\Index.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAhwDwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T09:33:19.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "instructorPagination.cs",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\DAY1\\Lab Solution\\Day2  Lab\\Day2  Lab\\ViewModel\\instructorPagination.cs",
+              "RelativeDocumentMoniker": "Day2  Lab\\ViewModel\\instructorPagination.cs",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\DAY1\\Lab Solution\\Day2  Lab\\Day2  Lab\\ViewModel\\instructorPagination.cs",
+              "RelativeToolTip": "Day2  Lab\\ViewModel\\instructorPagination.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T12:48:31.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\DAY1\\Lab Solution\\Day2  Lab\\Day2  Lab\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Day2  Lab\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\DAY1\\Lab Solution\\Day2  Lab\\Day2  Lab\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Day2  Lab\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T12:53:28.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "instructorController.cs",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\DAY1\\Lab Solution\\Day2  Lab\\Day2  Lab\\Controllers\\instructorController.cs",
+              "RelativeDocumentMoniker": "Day2  Lab\\Controllers\\instructorController.cs",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\DAY1\\Lab Solution\\Day2  Lab\\Day2  Lab\\Controllers\\instructorController.cs",
+              "RelativeToolTip": "Day2  Lab\\Controllers\\instructorController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAhwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T09:32:22.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "details.css",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\DAY1\\Lab Solution\\Day2  Lab\\Day2  Lab\\wwwroot\\css\\details.css",
+              "RelativeDocumentMoniker": "Day2  Lab\\wwwroot\\css\\details.css",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\DAY1\\Lab Solution\\Day2  Lab\\Day2  Lab\\wwwroot\\css\\details.css",
+              "RelativeToolTip": "Day2  Lab\\wwwroot\\css\\details.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-11T09:56:29.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20250611092319_FirstMigration.cs",
+              "DocumentMoniker": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\DAY1\\Lab Solution\\Day2  Lab\\Day2  Lab\\Migrations\\20250611092319_FirstMigration.cs",
+              "RelativeDocumentMoniker": "Day2  Lab\\Migrations\\20250611092319_FirstMigration.cs",
+              "ToolTip": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\DAY1\\Lab Solution\\Day2  Lab\\Day2  Lab\\Migrations\\20250611092319_FirstMigration.cs",
+              "RelativeToolTip": "Day2  Lab\\Migrations\\20250611092319_FirstMigration.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAewJYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T09:23:19.762Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
