@@ -1,0 +1,148 @@
+﻿@{
+    ViewData["Title"] = "Not Found";
+}
+
+
+<style>
+
+
+    .not-found-container {
+        background: white;
+        border-radius: 20px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    }
+
+    .not-found-header {
+        background: linear-gradient(135deg, #e17055 0%, #fd79a8 100%);
+        color: white;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .search-info-card {
+        background: #f8f9fa;
+        border-radius: 15px;
+        border-left: 5px solid #dc3545;
+    }
+
+    .error-icon {
+        font-size: 5rem;
+        color: #dc3545;
+        margin-bottom: 1rem;
+    }
+
+    .btn-back {
+        background-color: #6c757d;
+        border-color: #6c757d;
+    }
+
+        .btn-back:hover {
+            background-color: #5a6268;
+            border-color: #545b62;
+        }
+
+    .btn-search {
+        background: linear-gradient(135deg, #6c5ce7 0%, #a29bfe 100%);
+        border: none;
+    }
+
+        .btn-search:hover {
+            background: linear-gradient(135deg, #5f4fcf 0%, #9085e8 100%);
+        }
+
+    .search-term {
+        color: #6c5ce7;
+        font-weight: bold;
+        background: #f8f9fa;
+        padding: 2px 8px;
+        border-radius: 5px;
+    }
+</style>
+
+
+<div class="container-fluid py-5">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-lg-8 col-xl-6">
+            <div class="not-found-container">
+                <!-- Header -->
+                <div class="not-found-header text-center py-5">
+                    <i class="bi bi-exclamation-triangle fs-1 mb-3"></i>
+                    <h1 class="mb-2">Trainee Not Found</h1>
+                    <p class="mb-0 opacity-75">No matching records found</p>
+                </div>
+
+                <!-- Content -->
+                <div class="p-5">
+                    <!-- Error Icon and Message -->
+                    <div class="text-center mb-5">
+                        <i class="bi bi-person-x error-icon"></i>
+                        <h3 class="text-danger mb-3">Record Not Found</h3>
+                        <p class="lead text-muted">
+                            We couldn't find any trainee records matching your search criteria.
+                        </p>
+                    </div>
+
+                    <!-- Search Information -->
+                    <div class="search-info-card p-4 mb-4">
+                        <h5 class="mb-3">
+                            <i class="bi bi-search me-2"></i>Search Details
+                        </h5>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <div class="text-muted">Trainee Name:</div>
+                                <div class="search-term">John Smith</div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="text-muted">Course Name:</div>
+                                <div class="search-term">Advanced JavaScript</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Suggestions -->
+                    <div class="alert alert-info mb-4">
+                        <h6 class="alert-heading">
+                            <i class="bi bi-lightbulb me-2"></i>Suggestions:
+                        </h6>
+                        <ul class="mb-0">
+                            <li>Check if the trainee name is spelled correctly</li>
+                            <li>Verify the course name matches exactly</li>
+                            <li>Make sure the trainee is registered for this course</li>
+                            <li>Contact the administrator if you believe this is an error</li>
+                        </ul>
+                    </div>
+
+                    <!-- Alternative Actions -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h6 class="card-title">
+                                <i class="bi bi-question-circle me-2"></i>Need Help?
+                            </h6>
+                            <p class="card-text text-muted">
+                                If you're having trouble finding the trainee record, you can:
+                            </p>
+                            <div class="row">
+                                <div class="col-md-6 mb-2">
+                                    <i class="bi bi-telephone text-primary me-2"></i>
+                                    <small>Call Support: +20 123-456-789</small>
+                                </div>
+                                <div class="col-md-6 mb-2">
+                                    <i class="bi bi-envelope text-primary me-2"></i>
+                                    <small>Email: support@training.com</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="text-center">
+                        <a class="btn btn-secondary btn-back btn-lg me-3" asp-action="Index" asp-controller="Trainee">
+                            <i class="bi bi-arrow-left me-2"></i>Go Back
+                        </a>
+                        
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

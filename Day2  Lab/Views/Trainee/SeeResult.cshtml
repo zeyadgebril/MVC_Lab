@@ -1,0 +1,199 @@
+﻿@model TraineeResultVm
+@{
+    ViewData["Title"] = "SeeResult";
+}
+
+<style>
+
+    .details-container {
+        background: white;
+        border-radius: 20px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    }
+
+    .details-header {
+        background: linear-gradient(135deg, #6c5ce7 0%, #a29bfe 100%);
+        color: white;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .info-card {
+        background: #f8f9fa;
+        border-radius: 15px;
+        border-left: 5px solid #6c5ce7;
+        transition: transform 0.2s ease;
+    }
+
+        .info-card:hover {
+            transform: translateY(-3px);
+        }
+
+    .status-badge {
+        font-size: 1.1rem;
+        padding: 10px 20px;
+        border-radius: 25px;
+    }
+
+    .pass-status {
+        background: linear-gradient(135deg, #00b894 0%, #00cec9 100%);
+        color: white;
+    }
+
+    .fail-status {
+        background: linear-gradient(135deg, #e17055 0%, #fd79a8 100%);
+        color: white;
+    }
+
+    .degree-display {
+        font-size: 3rem;
+        font-weight: bold;
+        color: #6c5ce7;
+    }
+
+    .info-icon {
+        font-size: 2rem;
+        color: #6c5ce7;
+        margin-bottom: 10px;
+    }
+
+    .btn-back {
+        background-color: #6c757d;
+        border-color: #6c757d;
+    }
+
+        .btn-back:hover {
+            background-color: #5a6268;
+            border-color: #545b62;
+        }
+
+    .info-label {
+        color: #6c757d;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 0.85rem;
+        letter-spacing: 1px;
+    }
+
+    .info-value {
+        color: #2d3436;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+</style>
+
+
+<div class="container-fluid py-5">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-lg-8 col-xl-6">
+            <div class="details-container">
+                <div class="details-header text-center py-5">
+                    <i class="bi bi-person-badge fs-1 mb-3"></i>
+                    <h1 class="mb-2">Trainee Details</h1>
+                    <p class="mb-0 opacity-75">Training Program Results</p>
+                </div>
+
+                <div class="p-5">
+                    <div class="info-card p-4 mb-4">
+                        <div class="row align-items-center">
+                            <div class="col-2 text-center">
+                                <i class="bi bi-person-fill info-icon"></i>
+                            </div>
+                            <div class="col-10">
+                                <div class="info-label">Trainee Name</div>
+                                <div class="info-value">@Model.tName</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-card p-4 mb-4">
+                        <div class="row align-items-center">
+                            <div class="col-2 text-center">
+                                <i class="bi bi-book-fill info-icon"></i>
+                            </div>
+                            <div class="col-10">
+                                <div class="info-label">Course Name</div>
+                                <div class="info-value">@Model.cName</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-card p-4 mb-4">
+                        <div class="row align-items-center">
+                            <div class="col-2 text-center">
+                                <i class="bi bi-award-fill info-icon"></i>
+                            </div>
+                            <div class="col-6">
+                                <div class="info-label">Final Degree</div>
+                                <div class="info-value">Score Achieved</div>
+                            </div>
+                            <div class="col-4 text-center">
+                                <div class="degree-display">@Model.Degree</div>
+                                <small class="text-muted">out of @Model.CourseDegree</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-card p-4 mb-4">
+                        <div class="row align-items-center">
+                            <div class="col-2 text-center">
+                                <i class="bi bi-check-circle-fill info-icon"></i>
+                            </div>
+                            <div class="col-6">
+                                <div class="info-label">Result Status</div>
+                                <div class="info-value">Final Result</div>
+                            </div>
+                            <div class="col-4 text-center">
+                                <span class="status-badge" style="background-color:@Model.Color;color:aliceblue;font-size:large">
+                                    <i class="bi bi-check-circle me-2"></i>PASSED
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-5">
+                        <div class="col-md-6 mb-3">
+                            <div class="text-center p-3 bg-light rounded">
+                                <i class="bi bi-calendar3 text-primary fs-4 mb-2"></i>
+                                <div class="info-label">Completion Date</div>
+                                <div class="info-value">June 12, 2025</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="text-center p-3 bg-light rounded">
+                                <i class="bi bi-clock text-primary fs-4 mb-2"></i>
+                                <div class="info-label">Duration</div>
+                                <div class="info-value">3 Months</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-5">
+                        <a class="btn btn-secondary btn-back btn-lg me-3" asp-action="Index" asp-controller="Trainee">
+                            <i class="bi bi-arrow-left me-2"></i>Back to List
+                        </a>
+                        <button class="btn btn-primary btn-lg">
+                            <i class="bi bi-download me-2"></i>Download Certificate
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -46,7 +46,9 @@ namespace Day2__Lab.Controllers
         [HttpPost]
         public IActionResult SaveData(instructor ins)
         {
-            if (ins.name!=null)
+            ModelState.Remove("Department");
+            ModelState.Remove("Course");
+            if (ModelState.IsValid)
             {
                 db.instructor.Add(ins);
                 db.SaveChanges();

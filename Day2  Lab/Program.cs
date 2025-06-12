@@ -8,6 +8,8 @@ namespace Day2__Lab
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddSession(); 
+
 
             var app = builder.Build();
 
@@ -17,6 +19,7 @@ namespace Day2__Lab
                 app.UseExceptionHandler("/Home/Error");
             }
             app.UseRouting();
+            app.UseSession();
 
             app.UseAuthorization();
 
