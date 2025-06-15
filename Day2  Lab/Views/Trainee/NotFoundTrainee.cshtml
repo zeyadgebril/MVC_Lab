@@ -81,24 +81,6 @@
                         </p>
                     </div>
 
-                    <!-- Search Information -->
-                    <div class="search-info-card p-4 mb-4">
-                        <h5 class="mb-3">
-                            <i class="bi bi-search me-2"></i>Search Details
-                        </h5>
-                        <div class="row">
-                            <div class="col-md-6 mb-3">
-                                <div class="text-muted">Trainee Name:</div>
-                                <div class="search-term">John Smith</div>
-                            </div>
-                            <div class="col-md-6 mb-3">
-                                <div class="text-muted">Course Name:</div>
-                                <div class="search-term">Advanced JavaScript</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Suggestions -->
                     <div class="alert alert-info mb-4">
                         <h6 class="alert-heading">
                             <i class="bi bi-lightbulb me-2"></i>Suggestions:
@@ -135,7 +117,7 @@
 
                     <!-- Action Buttons -->
                     <div class="text-center">
-                        <a class="btn btn-secondary btn-back btn-lg me-3" asp-action="Index" asp-controller="Trainee">
+                        <a class="btn btn-secondary btn-back btn-lg me-3" onclick="goBack()">
                             <i class="bi bi-arrow-left me-2"></i>Go Back
                         </a>
                         
@@ -146,3 +128,14 @@
         </div>
     </div>
 </div>
+
+<script>
+    function goBack() {
+              if (window.history.length > 1) {
+                  window.history.back();
+              } else {
+                  alert('No previous page to go back to. ');
+              }
+          }
+
+</script>

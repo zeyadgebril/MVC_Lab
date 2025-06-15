@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@@fortawesome/fontawesome-free@6.5.2/css/all.min.css">
 
     <link href="~/css/instructor.css" rel="stylesheet" />
-    <link href="~/css/details.css" rel="stylesheet" />
+   
 
 </head>
 <body>
@@ -26,16 +26,19 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-dark" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="instructor" asp-action="Index">Instructor</a>
+                            <a class="nav-link text-dark" asp-controller="instructor" asp-action="Index">Instructor</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Trainee" asp-action="Index">Trainee</a>
+                            <a class="nav-link text-dark" asp-controller="Trainee" asp-action="Index">Trainee</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Trainee" asp-action="getSessionAndCookie">Session&Cookies</a>
+                            <a class="nav-link text-dark" asp-controller="Trainee" asp-action="getSessionAndCookie">Session&Cookies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="Course" asp-action="Index">Course</a>
                         </li>
                     </ul>
                 </div>

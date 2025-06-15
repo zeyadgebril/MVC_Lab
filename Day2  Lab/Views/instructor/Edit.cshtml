@@ -1,8 +1,9 @@
 ﻿@model InstructorWithDeptList
 
 @{
-    ViewData["Title"] = "Add";
+    ViewData["Title"] = "Edit";
 }
+
 
 <style>
 
@@ -140,9 +141,7 @@
     }
 
     @@media (max-width: 768px) {
-    body
-
-    {
+    body {
     padding: 10px;
     }
 
@@ -174,7 +173,6 @@
     .submit-btn {
     order: 1;
     }
-
     }
 </style>
 <div class="form-container">
@@ -185,6 +183,7 @@
 
     <div class="form-content">
         <form id="instructorForm" method="post">
+            <input type="hidden" name="id" value="@Model.ID"/>
             <div class="form-row">
                 <div class="form-group">
                     <label for="name">Full Name <span class="required">*</span></label>
@@ -200,30 +199,43 @@
             <div class="form-row">
                 <div class="form-group">
                     <label for="departmentId">Department ID <span class="required">*</span></label>
-                    @* <input type="text" id="Dept_id" name="Dept_id" value="@Model?.Dept_id" required> *@
                     <select id="Dept_id" name="Dept_id" class="form form-control">
-                        <option value="0" selected> -- Select Department --</option>
-                        @foreach(var item in Model.DeptList)
+                        @foreach (var item in Model.DeptList)
                         {
-                            <option value="@item.ID">@item.Name</option>
+                            if (Model.Dept_id == item.ID)
+                            {
+                                <option value="@item.ID" selected>@item.Name</option>
+
+                            }
+                            else
+                            {
+                                <option value="@item.ID" >@item.Name</option>
+
+                            }
                         }
                     </select>
                 </div>
 
                 <div class="form-group">
                     <label for="courseId">Course ID <span class="required">*</span></label>
-                    @* <input type="text" id="Crs_id" name="Crs_id" value="@Model?.Crs_id" required> *@
                     <select id="Crs_id" name="Crs_id" class="form form-control">
-                        <option value="0" selected> -- Select Department --</option>
                         @foreach (var item in Model.CourseList)
                         {
-                            <option value="@item.ID">@item.Name</option>
+                            if(Model.Crs_id==item.ID)
+                            {
+                                <option value="@item.ID" selected>@item.Name</option>
+                            }
+                            else
+                            {
+                                <option value="@item.ID" >@item.Name</option>
+
+                            }
                         }
                     </select>
                 </div>
             </div>
 
-            <input type="hidden" name="DeptList" value="@Model.DeptList"/>
+            <input type="hidden" name="DeptList" value="@Model.DeptList" />
             <input type="hidden" name="CourseList" value="@Model.CourseList" />
 
             <div class="form-group full-width">
@@ -237,10 +249,12 @@
             </div>
 
             <div class="button-group">
-                <a  asp-action="Index" asp-controller="instructor" class="btn btn-outline-dark align-content-center">Back</a>
-                <button type="submit" class="submit-btn" asp-action="SaveData" asp-controller="instructor">Add Instructor</button>
+                <a asp-action="Index" asp-controller="instructor" class="btn btn-outline-dark align-content-center">Back</a>
+                <button type="submit" class="submit-btn" asp-action="SaveEdit" asp-controller="instructor" asp-route-id="@Model.ID">Update Instructor</button>
             </div>
         </form>
     </div>
 </div>
+
+
 

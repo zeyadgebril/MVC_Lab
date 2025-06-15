@@ -4,43 +4,562 @@
 }
 
 
+<style>
+   .instructor-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+
+        /* Header Section */
+        .header-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 30px 40px;
+            color: white;
+            position: relative;
+        }
+
+        .header-controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .back-button {
+            background: rgba(255,255,255,0.2);
+            color: white;
+            padding: 10px 20px;
+            border: 2px solid rgba(255,255,255,0.3);
+            border-radius: 25px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .back-button:hover {
+            background: rgba(255,255,255,0.3);
+            transform: translateY(-2px);
+        }
+
+        .edit-button {
+            background: #28a745;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 25px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3);
+        }
+
+        .edit-button:hover {
+            background: #218838;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(40, 167, 69, 0.4);
+        }
+
+        .profile-header {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .profile-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid rgba(255,255,255,0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            overflow: hidden;
+            flex-shrink: 0;
+        }
+
+        .profile-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .profile-image-icon {
+            font-size: 48px;
+            opacity: 0.8;
+        }
+
+        .profile-info h1 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .profile-subtitle {
+            font-size: 18px;
+            opacity: 0.9;
+            margin-bottom: 12px;
+        }
+
+        .status-badges {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .badge {
+            background: rgba(255,255,255,0.2);
+            padding: 6px 12px;
+            border-radius: 15px;
+            font-size: 12px;
+            font-weight: 500;
+            backdrop-filter: blur(10px);
+        }
+
+        .badge.active {
+            background: #28a745;
+        }
+
+        /* Main Content */
+        .main-content {
+            padding: 40px;
+        }
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        /* Details Section */
+        .details-section {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 16px;
+            border: 1px solid #e9ecef;
+        }
+
+        .section-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .details-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .detail-item {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            border-left: 4px solid #007bff;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .detail-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .detail-item:nth-child(1) { border-left-color: #007bff; }
+        .detail-item:nth-child(2) { border-left-color: #28a745; }
+        .detail-item:nth-child(3) { border-left-color: #ffc107; }
+        .detail-item:nth-child(4) { border-left-color: #dc3545; }
+
+        .detail-label {
+            font-size: 12px;
+            font-weight: 600;
+            color: #6c757d;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+        }
+
+        .detail-value {
+            font-size: 16px;
+            font-weight: 500;
+            color: #2c3e50;
+        }
+
+        .salary-value {
+            font-size: 24px;
+            font-weight: 700;
+            color: #28a745;
+        }
+
+        .department-value {
+            background: #e3f2fd;
+            color: #1976d2;
+            padding: 8px 16px;
+            border-radius: 20px;
+            display: inline-block;
+            font-weight: 600;
+        }
+
+        /* Quick Actions */
+        .quick-actions {
+            background: white;
+            padding: 30px;
+            border-radius: 16px;
+            border: 1px solid #e9ecef;
+            height: fit-content;
+        }
+
+        .action-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .action-btn {
+            padding: 16px 24px;
+            border: none;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            text-decoration: none;
+        }
+
+        .btn-primary {
+            background: #007bff;
+            color: white;
+            box-shadow: 0 4px 15px rgba(0,123,255,0.3);
+        }
+
+        .btn-primary:hover {
+            background: #0056b3;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,123,255,0.4);
+        }
+
+        .btn-secondary {
+            background: #6c757d;
+            color: white;
+            box-shadow: 0 4px 15px rgba(108,117,125,0.3);
+        }
+
+        .btn-secondary:hover {
+            background: #545b62;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(108,117,125,0.4);
+        }
+
+        .btn-success {
+            background: #28a745;
+            color: white;
+            box-shadow: 0 4px 15px rgba(40,167,69,0.3);
+        }
+
+        .btn-success:hover {
+            background: #218838;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(40,167,69,0.4);
+        }
+
+        /* Additional Info */
+        .additional-info {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 16px;
+            margin-top: 20px;
+        }
+
+        .info-tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #e9ecef;
+        }
+
+        .tab-button {
+            padding: 12px 20px;
+            background: none;
+            border: none;
+            font-size: 14px;
+            font-weight: 500;
+            color: #6c757d;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+
+        .tab-button.active {
+            color: #007bff;
+            border-bottom-color: #007bff;
+        }
+
+        .tab-content {
+            padding: 20px 0;
+        }
+
+        .contact-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 15px;
+            background: white;
+            border-radius: 10px;
+            border-left: 3px solid #007bff;
+        }
+
+        .contact-icon {
+            width: 40px;
+            height: 40px;
+            background: #007bff;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+        }
+
+        .contact-text {
+            flex: 1;
+        }
+
+        .contact-label {
+            font-size: 12px;
+            color: #6c757d;
+            font-weight: 500;
+        }
+
+        .contact-value {
+            font-size: 14px;
+            color: #2c3e50;
+            font-weight: 600;
+        }
+
+        /* Responsive Design */
+@@media (max-width: 1024px) {
+            .content-grid {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .quick-actions {
+                order: -1;
+            }
+
+            .action-buttons {
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+
+            .action-btn {
+                flex: 1;
+                min-width: 200px;
+            }
+        }
+
+@@media (max-width: 768px) {
+            .instructor-container {
+                margin: 0;
+                border-radius: 0;
+            }
+
+            .header-section {
+                padding: 20px;
+            }
+
+            .profile-header {
+                flex-direction: column;
+                text-align: center;
+                gap: 20px;
+            }
+
+            .profile-info h1 {
+                font-size: 24px;
+            }
+
+            .main-content {
+                padding: 20px;
+            }
+
+            .details-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .header-controls {
+                flex-direction: column;
+                gap: 15px;
+                align-items: stretch;
+            }
+        }
+
+@@media (max-width: 480px) {
+            .action-buttons {
+                flex-direction: column;
+            }
+
+            .action-btn {
+                min-width: unset;
+            }
+
+            .contact-info {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Loading Animation */
+        .loading {
+            opacity: 0.7;
+            pointer-events: none;
+        }
+
+        .loading::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 20px;
+            height: 20px;
+            margin: -10px 0 0 -10px;
+            border: 2px solid #007bff;
+            border-radius: 50%;
+            border-top-color: transparent;
+            animation: spin 1s linear infinite;
+        }
+
+@@keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+    </style>
+
 
 <div class="instructor-container">
-    <a class="back-button" asp-action="Index" asp-controller="instructor">← Back</a>
+    <!-- Header Section -->
+    <div class="header-section">
+        <div class="header-controls">
+            <a class="back-button" href="#" onclick="goBack()">
+                ←️ Back 
+            </a>
+            <a class="edit-button" asp-action="Edit" asp-controller="instructor" asp-route-id="@Model.ID">
+                ✏️ Edit Profile
+            </a>
+        </div>
 
-    <div class="instructor-layout">
-        <div class="image-section">
-            <div class="instructor-image">
-                <div class="instructor-image-icon">
-                    <img src="/Image/@Model.Image" class="instructor-image" alt="@Model.name" />
+        <div class="profile-header">
+            <div class="profile-image">
+                <div class="profile-image-icon">
+                    <img src="@Url.Content("~/Image/" + Model.Image)" alt="@Model.name" />
+
                 </div>
             </div>
-            
+
+            <div class="profile-info">
+                <h1>@Model.name</h1>
+                <div class="profile-subtitle">@Model.Department.Name</div>
+                <div class="status-badges">
+                    <span class="badge active">Active</span>
+                    <span class="badge">Full-time</span>
+                    <span class="badge">PhD</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="content-grid">
+            <div class="details-section">
+                <h2 class="section-title">
+                    📋 Profile Details
+                </h2>
+
+                <div class="details-grid">
+                    <div class="detail-item">
+                        <div class="detail-label">Employee ID</div>
+                        <div class="detail-value">EMP#@Model.ID</div>
+                    </div>
+
+                    <div class="detail-item">
+                        <div class="detail-label">Department</div>
+                        <div class="detail-value">
+                            <span class="department-value">@Model.Department.Name</span>
+                        </div>
+                    </div>
+
+                    <div class="detail-item">
+                        <div class="detail-label">Annual Salary</div>
+                        <div class="detail-value">
+                            <span class="salary-value">$@Model.salary</span>
+                        </div>
+                    </div>
+
+                    <div class="detail-item">
+                        <div class="detail-label">Office Location</div>
+                        <div class="detail-value">@Model.Address</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quick-actions">
+                <h2 class="section-title">
+                    ⚡ Quick Actions
+                </h2>
+
+                <div class="action-buttons">
+                    <button class="action-btn btn-primary" onclick="contactInstructor()">
+                        📧 Send Message
+                    </button>
+                    <button class="action-btn btn-success" onclick="scheduleAppoint()">
+                        📅 Schedule Meeting
+                    </button>
+                    <button class="action-btn btn-secondary" onclick="viewSchedule()">
+                        🕒 View Schedule
+                    </button>
+                </div>
+            </div>
         </div>
 
-        <div class="instructor-details">
-            <h1> @Model.name</h1>
-
-            <div class="detail-row">
-                <span class="label">Employee ID: </span> @Model.ID
-            </div>
-
-            <div class="detail-row">
-                <span class="label">Department:</span> <span class="department"> @Model.Department.Name</span>
-            </div>
-
-            <div class="detail-row">
-                <span class="label">Salary:</span> <span class="salary">$@Model.salary</span>
-            </div>
-
-            <div class="detail-row">
-                <span class="label">Address:</span> <br>
-                <span class="address">123 University Ave<br>@Model.Address</span>
-            </div>
-
-
-            <button class="contact-button">Contact Instructor</button>
-        </div>
     </div>
 </div>
 
+<script>
+    function goBack() {
+              if (window.history.length > 1) {
+                  window.history.back();
+              } else {
+                  alert('No previous page to go back to. ');
+              }
+          }
+
+</script>
