@@ -15,5 +15,8 @@ namespace Day2__Lab.ViewModel
         public List<Department> DeptList { get; set; }
         public List<Course> CourseList{ get; set; }
 
+        [NotMapped]
+        public IFormFile ImageFile { get; set; }
+
     }
 }

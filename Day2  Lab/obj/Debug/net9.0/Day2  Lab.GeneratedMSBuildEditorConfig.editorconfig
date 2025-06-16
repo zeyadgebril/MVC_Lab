@@ -28,12 +28,24 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
+[C:/Users/Zeyad/OneDrive/Desktop/ITI/MVC/Lab Solution/MVC_Lab/Day2  Lab/Views/Course/AddNew.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEFkZE5ldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeyad/OneDrive/Desktop/ITI/MVC/Lab Solution/MVC_Lab/Day2  Lab/Views/Course/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Zeyad/OneDrive/Desktop/ITI/MVC/Lab Solution/MVC_Lab/Day2  Lab/Views/Course/GitCourseReselt.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEdpdENvdXJzZVJlc2VsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Zeyad/OneDrive/Desktop/ITI/MVC/Lab Solution/MVC_Lab/Day2  Lab/Views/Course/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeyad/OneDrive/Desktop/ITI/MVC/Lab Solution/MVC_Lab/Day2  Lab/Views/Course/NotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXE5vdEZvdW5kLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Zeyad/OneDrive/Desktop/ITI/MVC/Lab Solution/MVC_Lab/Day2  Lab/Views/Home/Index.cshtml]
@@ -62,6 +74,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Zeyad/OneDrive/Desktop/ITI/MVC/Lab Solution/MVC_Lab/Day2  Lab/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Zeyad/OneDrive/Desktop/ITI/MVC/Lab Solution/MVC_Lab/Day2  Lab/Views/Shared/_MyLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NeUxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Zeyad/OneDrive/Desktop/ITI/MVC/Lab Solution/MVC_Lab/Day2  Lab/Views/Shared/_ValidationScriptsPartial.cshtml]

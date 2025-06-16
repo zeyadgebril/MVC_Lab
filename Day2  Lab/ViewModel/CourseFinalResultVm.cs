@@ -2,6 +2,7 @@
 {
     public class CourseFinalResultVm
     {
+        public int ID { get; set; }
         public string CouseName { get; set; }
         public int TotalStudent { get; set; }
         public int TotalPassed { get; set; }

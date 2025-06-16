@@ -1,6 +1,8 @@
 ﻿@model List<Course>
 @{
     ViewData["Title"] = "Index";
+    Layout = "_MyLayout";
+
 }
 
 
@@ -56,7 +58,7 @@
                             <i class="bi bi-train-front-fill me-2"></i>Train Name
                         </label>
                         <select class="form-control" id="CourseName" name="crName" required>
-                            <option value="-1" selected >-- Select Cours --</option>
+                            <option value="-1" selected >-- Select Course --</option>
                             @foreach(var item in Model)
                             {
                                 <option value="@item.Name"> @item.Name</option>
@@ -80,8 +82,8 @@
 
 
 <div class="fab-container">
-    <div class="fab-tooltip">Add New Instructor</div>
-    <a class="fab-button" asp-action="Add" asp-controller="instructor">
+    <div class="fab-tooltip">Add New Course</div>
+    <a class="fab-button" asp-action="AddNew" asp-controller="Course">
         <i class="fa-solid fa-plus"></i>
     </a>
 </div>

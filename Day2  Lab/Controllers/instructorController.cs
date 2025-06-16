@@ -52,24 +52,39 @@ namespace Day2__Lab.Controllers
         [HttpPost]
         public IActionResult SaveData(InstructorWithDeptList ins)
         {
-            //ModelState.Remove("DeptList");
-            //ModelState.Remove("CourseList");
-
             if (ModelState.IsValid)
             {
-                instructor instructor = new instructor();
-                instructor.name = ins.name;
-                instructor.salary = ins.salary;
-                instructor.Dept_id = ins.Dept_id;
-                instructor.Crs_id = ins.Crs_id;
-                instructor.Image = ins.Image;
-                instructor.Address = ins.Address;
+                string uniqueFileName = null;
+
+                if (ins.ImageFile != null && ins.ImageFile.Length > 0)
+                {
+                    string uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Image");
+                    uniqueFileName = Guid.NewGuid().ToString() + "_" + ins.ImageFile.FileName;
+                    string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                    using (var fileStream = new FileStream(filePath, FileMode.Create))
+                    {
+                        ins.ImageFile.CopyTo(fileStream);
+                    }
+                }
+
+                var instructor = new instructor
+                {
+                    name = ins.name,
+                    salary = ins.salary,
+                    Dept_id = ins.Dept_id,
+                    Crs_id = ins.Crs_id,
+                    Address = ins.Address,
+                    Image = uniqueFileName 
+                };
 
                 db.instructor.Add(instructor);
                 db.SaveChanges();
+
                 return RedirectToAction("Index");
             }
-            return View("Add",ins);
+
+            return View("Add", ins);
         }
 
 
@@ -96,19 +111,36 @@ namespace Day2__Lab.Controllers
         {
             if (ModelState.IsValid)
             {
-                var insFromDB = db.instructor.FirstOrDefault(i=>i.ID==ins.ID);
-                insFromDB.name = ins.name;
-                insFromDB.salary = ins.salary;
-                insFromDB.Address = ins.Address;
-                insFromDB.Dept_id=ins.Dept_id;
-                insFromDB.Crs_id=ins.Crs_id;
-                insFromDB.Image = ins.Image;
+                var insFromDB = db.instructor.FirstOrDefault(i => i.ID == ins.ID);
+                if (insFromDB != null)
+                {
+                    insFromDB.name = ins.name;
+                    insFromDB.salary = ins.salary;
+                    insFromDB.Address = ins.Address;
+                    insFromDB.Dept_id = ins.Dept_id;
+                    insFromDB.Crs_id = ins.Crs_id;
 
-                db.instructor.Update(insFromDB);
-                db.SaveChanges();
-                return RedirectToAction("Index");
+                    if (ins.ImageFile != null)
+                    {
+                        string imageName = Guid.NewGuid().ToString() + Path.GetExtension(ins.ImageFile.FileName);
+                        string imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Image", imageName);
+
+                        using (var stream = new FileStream(imagePath, FileMode.Create))
+                        {
+                            ins.ImageFile.CopyTo(stream);
+                        }
+                        insFromDB.Image = imageName;
+                    }
+
+                    db.SaveChanges();
+                    return RedirectToAction("Index");
+                }
             }
-            return View("Edit",ins);
+            ins.CourseList = db.Course.ToList();
+            ins.DeptList = db.Department.ToList();
+            return View("Edit", ins);
         }
+
+
     }
 }

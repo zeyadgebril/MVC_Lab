@@ -66,8 +66,10 @@ wwwroot\css\details.css
 wwwroot\css\instructor.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\Image\06aed042-7fd5-4438-b2a9-d099336e8ab3.png
 wwwroot\Image\1.png
 wwwroot\Image\10.png
+wwwroot\Image\191a9deb-f828-4f12-8ce6-94969f392958_adonet.png
 wwwroot\Image\2.png
 wwwroot\Image\3.png
 wwwroot\Image\4.png
@@ -76,6 +78,7 @@ wwwroot\Image\6.png
 wwwroot\Image\7.png
 wwwroot\Image\8.png
 wwwroot\Image\9.png
+wwwroot\Image\b7bad6bc-76b8-4ca9-917f-3231976c13d5.png
 wwwroot\Image\croc.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

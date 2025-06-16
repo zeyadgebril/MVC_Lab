@@ -1,246 +1,209 @@
 ﻿@model InstructorWithDeptList
 
 @{
+    Layout = "_MyLayout";
+
     ViewData["Title"] = "Add";
 }
 
-<style>
-
-
-
-    .form-container {
-    max-width: 700px;
-    margin: 0 auto;
-    background-color: white;
-    border: 2px solid #e9ecef;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    }
-
-    .form-header {
-    background-color: #f8f9fa;
-    padding: 30px;
-    border-bottom: 1px solid #e9ecef;
-    text-align: center;
-    }
-
-    h1 {
-    font-size: 28px;
-    font-weight: 600;
-    color: #212529;
-    margin-bottom: 8px;
-    }
-
-    .form-subtitle {
-    color: #6c757d;
-    font-size: 16px;
-    }
-
-    .form-content {
-    padding: 40px;
-    }
-
-    .form-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 25px;
-    margin-bottom: 25px;
-    }
-
-    .form-group {
-    margin-bottom: 25px;
-    }
-
-    .form-group.full-width {
-    grid-column: 1 / -1;
-    }
-
-    label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: 600;
-    color: #495057;
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    }
-
-    input[type="text"],
-    input[type="number"],
-    textarea {
-    width: 100%;
-    padding: 15px;
-    border: 2px solid #e9ecef;
-    border-radius: 8px;
-    font-size: 16px;
-    transition: all 0.3s ease;
-    background-color: #fff;
-    }
-
-    input[type="text"]:focus,
-    input[type="number"]:focus,
-    textarea:focus {
-    outline: none;
-    border-color: #6c757d;
-    box-shadow: 0 0 0 3px rgba(108, 117, 125, 0.1);
-    }
-
-    textarea {
-    height: 100px;
-    resize: vertical;
-    font-family: inherit;
-    }
-
-    .required {
-    color: #dc3545;
-    }
-
-    .button-group {
-    display: flex;
-    gap: 15px;
-    margin-top: 40px;
-    padding-top: 30px;
-    border-top: 1px solid #e9ecef;
-    }
-
-    button {
-    padding: 15px 30px;
-    border: 2px solid #495057;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    }
-
-    .back-btn {
-    background-color: white;
-    color: #495057;
-    min-width: 120px;
-    }
-
-    .back-btn:hover {
-    background-color: #495057;
-    color: white;
-    }
-
-    .submit-btn {
-    flex: 1;
-    background-color: #495057;
-    color: white;
-    border-color: #495057;
-    }
-
-    .submit-btn:hover {
-    background-color: #343a40;
-    border-color: #343a40;
-    }
-
-    @@media (max-width: 768px) {
-    body
-
-    {
-    padding: 10px;
-    }
-
-    .form-header {
-    padding: 20px;
-    }
-
-    h1 {
-    font-size: 24px;
-    }
-
-    .form-content {
-    padding: 30px 20px;
-    }
-
-    .form-row {
-    grid-template-columns: 1fr;
-    gap: 20px;
-    }
-
-    .button-group {
-    flex-direction: column;
-    }
-
-    .back-btn {
-    order: 2;
-    }
-
-    .submit-btn {
-    order: 1;
-    }
-
-    }
-</style>
-<div class="form-container">
-    <div class="form-header">
-        <h1>Add New Instructor</h1>
-        <div class="form-subtitle">Fill in the details to add a new instructor to the system</div>
-    </div>
-
-    <div class="form-content">
-        <form id="instructorForm" method="post">
-            <div class="form-row">
-                <div class="form-group">
-                    <label for="name">Full Name <span class="required">*</span></label>
-                    <input type="text" id="name" name="name" value="@Model?.name" required>
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-10">
+            <div class="card shadow-lg border-0 mb-4">
+                <div class="card-header bg-primary text-white text-center py-4">
+                    <h1 class="card-title mb-2 fw-bold">
+                        <i class="fas fa-user-plus me-2"></i>Add New Instructor
+                    </h1>
+                    <p class="card-text mb-0 opacity-75">Fill in the details to add a new instructor to the system</p>
                 </div>
 
-                <div class="form-group">
-                    <label for="salary">Salary <span class="required">*</span></label>
-                    <input type="number" id="salary" name="salary" step="0.01" value="@Model?.salary" required>
+                <div class="card-body p-4 p-md-5">
+                    <form id="instructorForm" method="post" enctype="multipart/form-data">
+                        <input type="hidden" name="id" value="@Model.ID" />
+
+                        <div class="mb-4">
+                            <h5 class="text-primary mb-3 border-bottom pb-2">
+                                <i class="fas fa-user me-2"></i>Personal Information
+                            </h5>
+
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label asp-for="name" class="form-label fw-semibold">
+                                        Full Name <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="input-group">
+                                        <span class="input-group-text bg-light">
+                                            <i class="fas fa-user"></i>
+                                        </span>
+                                        <input type="text"
+                                               asp-for="name"
+                                               value="@Model?.name"
+                                               class="form-control form-control-lg"
+                                               placeholder="Enter full name"
+                                               required>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="salary" class="form-label fw-semibold">
+                                        Salary <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="input-group">
+                                        <span class="input-group-text bg-light">
+                                            <i class="fas fa-dollar-sign"></i>
+                                        </span>
+                                        <input type="number"
+                                               id="salary"
+                                               name="salary"
+                                               step="0.01"
+                                               value="@Model?.salary"
+                                               class="form-control form-control-lg"
+                                               placeholder="Enter salary"
+                                               required>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <h5 class="text-primary mb-3 border-bottom pb-2">
+                                <i class="fas fa-graduation-cap me-2"></i>Academic Information
+                            </h5>
+
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="Dept_id" class="form-label fw-semibold">
+                                        Department <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="input-group">
+                                        <span class="input-group-text bg-light">
+                                            <i class="fas fa-building"></i>
+                                        </span>
+                                        <select id="Dept_id" name="Dept_id" class="form-select form-select-lg" required>
+                                            <option value="">Select Department</option>
+                                            @foreach (var item in Model.DeptList)
+                                            {
+                                                if (Model.Dept_id == item.ID)
+                                                {
+                                                    <option value="@item.ID" selected>@item.Name</option>
+                                                }
+                                                else
+                                                {
+                                                    <option value="@item.ID">@item.Name</option>
+                                                }
+                                            }
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="Crs_id" class="form-label fw-semibold">
+                                        Course <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="input-group">
+                                        <span class="input-group-text bg-light">
+                                            <i class="fas fa-book"></i>
+                                        </span>
+                                        <select id="Crs_id" name="Crs_id" class="form-select form-select-lg" required>
+                                            <option value="">Select Course</option>
+                                            @foreach (var item in Model.CourseList)
+                                            {
+                                                if (Model.Crs_id == item.ID)
+                                                {
+                                                    <option value="@item.ID" selected>@item.Name</option>
+                                                }
+                                                else
+                                                {
+                                                    <option value="@item.ID">@item.Name</option>
+                                                }
+                                            }
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <h5 class="text-primary mb-3 border-bottom pb-2">
+                                <i class="fas fa-camera me-2"></i>Profile Photo
+                            </h5>
+
+                            <div class="row align-items-center">
+                                <div class="col-md-8">
+                                    <label for="image" class="form-label fw-semibold">
+                                        Upload New Photo <span class="text-muted">(optional)</span>
+                                    </label>
+                                    <input type="file"
+                                           class="form-control form-control-lg"
+                                           id="image"
+                                           name="ImageFile"
+                                           accept="image/*">
+                                    <div class="form-text">
+                                        <i class="fas fa-info-circle me-1"></i>
+                                        Accepted formats: JPG, PNG, GIF (Max 5MB)
+                                    </div>
+                                </div>
+
+                                @if (!string.IsNullOrEmpty(Model.Image))
+                                {
+                                    <div class="col-md-4 text-center">
+                                        <div class="card border-light">
+                                            <img src="~/Image/@Model.Image"
+                                                 alt="Current Image"
+                                                 class="card-img-top rounded"
+                                                 style="height: 120px; object-fit: cover;">
+                                            <div class="card-body p-2">
+                                                <small class="text-muted">Current Photo</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <h5 class="text-primary mb-3 border-bottom pb-2">
+                                <i class="fas fa-map-marker-alt me-2"></i>Contact Information
+                            </h5>
+
+                            <label for="address" class="form-label fw-semibold">
+                                Address <span class="text-danger">*</span>
+                            </label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-light align-items-start pt-3">
+                                    <i class="fas fa-home"></i>
+                                </span>
+                                <textarea id="address"
+                                          name="address"
+                                          class="form-control form-control-lg"
+                                          rows="4"
+                                          placeholder="Enter full address including street, city, state, and postal code"
+                                          required>@Model?.Address</textarea>
+                            </div>
+                        </div>
+
+                        <input type="hidden" name="DeptList" value="@Model.DeptList" />
+                        <input type="hidden" name="CourseList" value="@Model.CourseList" />
+
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end pt-4 border-top">
+                            <a asp-action="Index"
+                               asp-controller="instructor"
+                               class="btn btn-outline-secondary btn-lg me-md-2 px-4">
+                                <i class="fas fa-arrow-left me-2"></i>Back to List
+                            </a>
+                            <button type="submit"
+                                    class="btn btn-primary btn-lg px-4"
+                                    asp-action="SaveData"
+                                    asp-controller="instructor"
+                                    asp-route-id="@Model.ID">
+                                <i class="fas fa-save me-2"></i>Save Instructor
+                            </button>
+                        </div>
+                    </form>
                 </div>
             </div>
-
-            <div class="form-row">
-                <div class="form-group">
-                    <label for="departmentId">Department ID <span class="required">*</span></label>
-                    @* <input type="text" id="Dept_id" name="Dept_id" value="@Model?.Dept_id" required> *@
-                    <select id="Dept_id" name="Dept_id" class="form form-control">
-                        <option value="0" selected> -- Select Department --</option>
-                        @foreach(var item in Model.DeptList)
-                        {
-                            <option value="@item.ID">@item.Name</option>
-                        }
-                    </select>
-                </div>
-
-                <div class="form-group">
-                    <label for="courseId">Course ID <span class="required">*</span></label>
-                    @* <input type="text" id="Crs_id" name="Crs_id" value="@Model?.Crs_id" required> *@
-                    <select id="Crs_id" name="Crs_id" class="form form-control">
-                        <option value="0" selected> -- Select Department --</option>
-                        @foreach (var item in Model.CourseList)
-                        {
-                            <option value="@item.ID">@item.Name</option>
-                        }
-                    </select>
-                </div>
-            </div>
-
-            <input type="hidden" name="DeptList" value="@Model.DeptList"/>
-            <input type="hidden" name="CourseList" value="@Model.CourseList" />
-
-            <div class="form-group full-width">
-                <label for="image">Image URL</label>
-                <input type="text" id="image" name="image" value="@Model?.Image" placeholder="Enter image URL (optional)">
-            </div>
-
-            <div class="form-group full-width">
-                <label for="address">Address <span class="required">*</span></label>
-                <textarea id="address" name="address" value="@Model?.Address" placeholder="Enter full address" required></textarea>
-            </div>
-
-            <div class="button-group">
-                <a  asp-action="Index" asp-controller="instructor" class="btn btn-outline-dark align-content-center">Back</a>
-                <button type="submit" class="submit-btn" asp-action="SaveData" asp-controller="instructor">Add Instructor</button>
-            </div>
-        </form>
+        </div>
     </div>
 </div>
+
 
