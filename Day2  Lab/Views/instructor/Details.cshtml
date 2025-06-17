@@ -412,9 +412,7 @@
                 font-size: 24px;
             }
 
-            .main-content {
-                padding: 20px;
-            }
+
 
             .details-grid {
                 grid-template-columns: 1fr;
@@ -555,6 +553,14 @@
     </div>
 </div>
 
+<div class="fab-container">
+    <div class="del-fab-tooltip">Delete Course</div>
+    <button class="del-fab-button" data-id="@Model.ID">
+        <i class="fa-solid fa-trash"></i>
+    </button>
+</div>
+
+
 <script>
     function goBack() {
               if (window.history.length > 1) {
@@ -563,5 +569,26 @@
                   alert('No previous page to go back to. ');
               }
           }
+              $(document).ready(function () {
+        $(".del-fab-button").click(function (e) {
+            e.preventDefault();
+            var id = $(this).data("id");
 
+            if (confirm("Are you sure you want to delete this Instructor?")) {
+                var form = $('<form>', {
+                    method: 'POST',
+                    action: '@Url.Action("Delete", "instructor")'
+                }).append(
+                    $('<input>', {
+                        type: 'hidden',
+                        name: 'id',
+                        value: id
+                    })
+                ).appendTo('body');
+
+                form.submit();
+            }
+        });
+    });
+</script>
 </script>

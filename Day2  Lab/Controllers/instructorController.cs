@@ -17,8 +17,9 @@ namespace Day2__Lab.Controllers
         public IActionResult Index(int page = 1)
         {
             int pageSize = 4;
-            int totalInstructor = db.instructor.Count();
+            int totalInstructor = db.instructor.Where(i => i.IsDeleted != 1).Count();
             var _instroctors=db.instructor.Include(d=>d.Department)
+                                         .Where(i => i.IsDeleted != 1)
                                          .OrderBy(i=>i.ID)
                                          .Skip((page - 1) * pageSize)
                                          .Take(pageSize)
@@ -141,6 +142,18 @@ namespace Day2__Lab.Controllers
             return View("Edit", ins);
         }
 
+        [HttpPost]
+        public IActionResult Delete(int id)
+        {
+            var InstructorData = db.instructor.FirstOrDefault(c => c.ID == id);
+            if (InstructorData != null)
+            {
+                InstructorData.IsDeleted = 1;
+                db.instructor.Update(InstructorData);
+                db.SaveChanges();
+            }
+            return RedirectToAction("Index");
+        }
 
     }
 }

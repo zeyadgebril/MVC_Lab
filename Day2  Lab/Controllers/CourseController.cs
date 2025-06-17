@@ -1,4 +1,6 @@
-﻿using System.Globalization;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Globalization;
+using System.Xml.Linq;
 using Azure.Core;
 using Day2__Lab.Models;
 using Day2__Lab.ViewModel;
@@ -11,13 +13,14 @@ namespace Day2__Lab.Controllers
     public class CourseController : Controller
     {
         CompanyDbcontext db;
+        
         public CourseController()
         {
             db = new CompanyDbcontext();
         }
         public IActionResult Index()
         {
-            return View("Index", db.Course.ToList());
+            return View("Index", db.Course.Where(c => c.IsDeleted != 1).ToList());
         }
 
         [HttpGet]
@@ -28,31 +31,34 @@ namespace Day2__Lab.Controllers
                 int pageSize = 10;
                 var totalCourseResults = db.crsResult.Include(cr => cr.Course)
                                                     .Include(cr => cr.Trainee)
-                                                    .Where(cr => cr.Course.Name == crName)
+                                                    .Where(cr => cr.Course.Name == crName && cr.IsDeleted != 1)
                                                     .Count();
 
                 var CourseDatafromDB = db.crsResult.Include(cr => cr.Course)
                                                   .Include(cr => cr.Trainee)
                                                   .Include(cr => cr.Trainee.Department)
-                                                  .Where(cr => cr.Course.Name == crName)
+                                                  .Where(cr => cr.Course.Name == crName && cr.Trainee.IsDeleted != 1)
                                                   .OrderBy(cr => cr.Trainee.Name)
                                                   .Skip((page - 1) * pageSize)
                                                   .Take(pageSize)
                                                   .ToList();
 
+               
                 var InstructorDataFromDB = db.instructor.Include(i => i.Department)
                                                         .Include(i => i.Course)
-                                                        .Where(c => c.Course.Name == crName)
+                                                        .Where(c => c.Course.Name == crName && c.IsDeleted != 1)
                                                         .ToList();
 
                 int pass = db.crsResult.Include(cr => cr.Course)
                                       .Include(cr => cr.Trainee)
-                                      .Where(cr => cr.Course.Name == crName && cr.degree >= cr.Course.minDegree)
+                                      .Where(cr => cr.Course.Name == crName && cr.degree >= cr.Course.minDegree &&cr.IsDeleted != 1)
                                       .Count();
+                var dataForValidation = db.Course.Where(c => c.IsDeleted != 1).FirstOrDefault(c => c.Name == crName);
 
                 CourseFinalResultVm crfVM = new CourseFinalResultVm();
-                crfVM.ID = db.Course.FirstOrDefault(c => c.Name == crName).ID;
+                crfVM.ID = dataForValidation.ID;
                 crfVM.CouseName = crName;
+                crfVM.CouseDepartmentId = dataForValidation.Dept_id;
                 crfVM.TotalStudent = totalCourseResults;
                 crfVM.TotalPassed = pass;
                 crfVM.TotalFaild = crfVM.TotalStudent - pass;
@@ -81,7 +87,7 @@ namespace Day2__Lab.Controllers
                         crVM.Color = "Red";
                     }
 
-                    var instructor = InstructorDataFromDB.FirstOrDefault(i => i.Course.Name == data.Course.Name);
+                    var instructor = InstructorDataFromDB.Where(i=>i.IsDeleted!=1).FirstOrDefault(i => i.Course.Name == data.Course.Name);
                     if (instructor != null)
                     {
                         crVM.InstructorName = instructor.name;
@@ -108,6 +114,7 @@ namespace Day2__Lab.Controllers
         {
             CourseWithDeptList courseWithDeptList = new CourseWithDeptList();
             courseWithDeptList.DeptList=db.Department.ToList();
+            courseWithDeptList.IsDeleted = 0;
             return View("AddNew",courseWithDeptList);
         }
 
@@ -117,21 +124,34 @@ namespace Day2__Lab.Controllers
         {
             if(ModelState.IsValid)
             {
-                Course course = new Course();
-                course.ID = dataFromForm.ID;
-                course.Name = dataFromForm.Name;
-                course.degree = dataFromForm.degree;
-                course.minDegree = dataFromForm.minDegree;
-                course.Dept_id = dataFromForm.Dept_id;
-                course.Hours = dataFromForm.Hours;
+                try
+                {
+                    if (dataFromForm.minDegree > dataFromForm.degree)
+                    {
+                        ModelState.AddModelError("minDegree", "Minimum degree must be less than or equal to total degree.");
+                        dataFromForm.DeptList = db.Department.ToList();
+                        return View("AddNew", dataFromForm);
+                    }
+                    Course course = new Course();
+                    course.ID = dataFromForm.ID;
+                    course.Name = dataFromForm.Name;
+                    course.degree = dataFromForm.degree;
+                    course.minDegree = dataFromForm.minDegree;
+                    course.Dept_id = dataFromForm.Dept_id;
+                    course.Hours = dataFromForm.Hours;
+                    course.IsDeleted = dataFromForm.IsDeleted;  
 
-                db.Course.Add(course);
-                db.SaveChanges();
-                return RedirectToAction("Index");
+                    db.Course.Add(course);
+                    db.SaveChanges();
+                    return RedirectToAction("Index");
+                }
+                catch (Exception ex)
+                {
+                    ModelState.AddModelError("Dept_id", "Select a department");
+                }
             }
-            CourseWithDeptList courseWithDeptList = new CourseWithDeptList();
-            courseWithDeptList.DeptList = db.Department.ToList();
-            return View("AddNew",courseWithDeptList);
+            dataFromForm.DeptList= db.Department.ToList();
+            return View("AddNew", dataFromForm);
         }
 
         [HttpGet]
@@ -170,5 +190,43 @@ namespace Day2__Lab.Controllers
 
         }
 
+
+        [HttpPost]
+        public IActionResult Delete(int id, int courseDepartmentID)
+        {
+            try
+            {
+                var CourseData = db.Course.FirstOrDefault(c => c.ID == id && c.Dept_id == courseDepartmentID);
+                if (CourseData != null)
+                {
+                    CourseData.IsDeleted = 1;
+                    db.Course.Update(CourseData);
+                    db.SaveChanges();
+                    return RedirectToAction("Index");
+                }
+
+                return Json(new { success = true });
+            }
+            catch
+            {
+                return View("NotFound");
+            }
+        }
+
+
+        //Remote Validation 
+        public IActionResult CheckMinDegree(int minDegree, int degree)
+        {
+          
+
+            if (minDegree <= degree)
+            {
+                return Json(true);
+            }
+            return Json("Minimum degree must be less than or equal to total degree.");
+        }
     }
 }
+
+
+

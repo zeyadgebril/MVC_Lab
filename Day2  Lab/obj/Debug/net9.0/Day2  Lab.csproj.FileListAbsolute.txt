@@ -946,7 +946,6 @@ C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\obj\Debug
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\obj\Debug\net9.0\scopedcss\bundle\Day2  Lab.styles.css
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\obj\Debug\net9.0\scopedcss\projectbundle\Day2  Lab.bundle.scp.css
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\obj\Debug\net9.0\compressed\feb5yhzzx6-khgr1rzlc2.gz
-C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\obj\Debug\net9.0\compressed\05fpwcnu4b-jrxjwkxoj5.gz
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\obj\Debug\net9.0\compressed\t8apdymw0r-d9s5w8uaj5.gz
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\obj\Debug\net9.0\compressed\orgtk8rlrc-61n19gt1b8.gz
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\obj\Debug\net9.0\compressed\upsaciwjxd-xtxxf3hu2r.gz
@@ -1027,3 +1026,4 @@ C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\obj\Debug
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\obj\Debug\net9.0\Day2  Lab.pdb
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\obj\Debug\net9.0\Day2  Lab.genruntimeconfig.cache
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\obj\Debug\net9.0\ref\Day2  Lab.dll
+C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\obj\Debug\net9.0\compressed\05fpwcnu4b-wfuiwo84md.gz

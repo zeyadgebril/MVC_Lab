@@ -1,8 +1,8 @@
-﻿@model TraineNameAndCourseVM
+﻿@model Trainee
 @{
     Layout = "_MyLayout";
 
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Details";
 }
 
 <style>
@@ -51,21 +51,13 @@
                 <div class="p-4">
                     <form method="post">
                         <div class="mb-3">
-                            <label for="TraineeName" class="form-label">
-                                <i class="bi bi-train-front-fill me-2"></i>Train Name
+                            <label asp-for="@Model.ID" class="form-label">
+                                <i class="bi bi-train-front-fill me-2"></i>Train ID
                             </label>
-                            <input type="text" value="@Model?.TraineeName" class="form-control" id="TraineeName" name="TraineeName" placeholder="Enter train name" required>
+                        <input type="text" asp-for="ID" class="form-control" i placeholder="Enter train ID" required>
                         </div>
-
-                        <div class="mb-4">
-                            <label for="CourseName" class="form-label">
-                                <i class="bi bi-book-fill me-2"></i>Course Name
-                            </label>
-                        <input type="text" value="@Model?.CourseName" class="form-control" id="CourseName" name="CourseName" placeholder="Enter course name" required>
-                        </div>
-
                         <div class="d-grid">
-                        <button type="submit" class="btn btn-primary btn-lg" asp-action="SeeResult" asp-controller="Trainee">
+                        <button type="submit" class="btn btn-primary btn-lg" asp-action="TraineeDetails" asp-controller="Trainee" asp-route-id="ID" >
                                 <i class="bi bi-check-circle me-2"></i>
                                 Result
                             </button>

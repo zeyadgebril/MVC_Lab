@@ -379,3 +379,52 @@
     </a>
 </div>
 
+
+<div class="del-fab-container">
+    <button class="del-fab-button" data-id="@Model.ID">
+        <i class="fa-solid fa-trash del-fab-icon"></i>
+    </button>
+    <div class="del-fab-tooltip">Delete Course</div>
+</div>
+
+<div class="del-fab-container">
+    <div class="del-fab-tooltip">Delete Course</div>
+    <button class="del-fab-button"
+            data-id="@Model.ID"
+            data-dept="@Model.CouseDepartmentId">
+        <i class="fa-solid fa-trash"></i>
+    </button>
+</div>
+<script>
+    $(document).ready(function () {
+        $(".del-fab-button").click(function (e) {
+            e.preventDefault();
+
+            var id = $(this).data("id");
+            var deptId = $(this).data("dept");
+
+            if (confirm("Are you sure you want to delete this course?")) {
+                $.ajax({
+                    url: '@Url.Action("Delete", "Course")',
+                    type: 'POST',
+                    data: {
+                        id: id,
+                        courseDepartmentID: deptId
+                    },
+                    success: function (response) {
+                        // You can redirect, show a success message, etc.
+                        alert("Course deleted successfully.");
+                        window.location.href = '@Url.Action("Index", "Course")';
+                    },
+                    error: function () {
+                        alert("Something went wrong while deleting the course.");
+                    }
+                });
+            }
+        });
+    });
+</script>
+
+    
+
+ 

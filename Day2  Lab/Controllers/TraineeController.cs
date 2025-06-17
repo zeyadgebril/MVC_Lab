@@ -17,7 +17,14 @@ namespace Day2__Lab.Controllers
         {
             return View("Index");
         }
+
+        [HttpGet]
+        public IActionResult GetTraineeCourseResult()
+        {
+            return View("GetTraineeCourseResult");
+        }
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult SeeResult(TraineNameAndCourseVM tc)
         {
             var resFromDB = db.crsResult.Include(cr => cr.Trainee)
@@ -65,19 +72,21 @@ namespace Day2__Lab.Controllers
         public IActionResult TraineeDetails(int id)
         {
 
-            var TraineeData = db.crsResult.Include(cr => cr.Trainee)
+            var TraineeData = db.crsResult.Where(t=>t.Trainee.IsDeleted!=1)
+                                       .Include(cr => cr.Trainee)
                                        .Include(cr => cr.Course)
                                        .FirstOrDefault(t => t.Trainee.ID == id);
             if(TraineeData==null)
             {
-                return View  ("Error");
+                return View  ("NotFoundTrainee");
             }
-            var allCources = db.crsResult.Where(cr => cr.Traniee_id == id).Count();
+            var allCources = db.crsResult.Where(cr => cr.Traniee_id == id&&cr.IsDeleted!=1).Count();
             var allPassedCourse = db.crsResult.Include(cr => cr.Trainee)
                                              .Include(cr => cr.Course)
-                                             .Where(cr => cr.degree >= cr.Course.minDegree &&cr.Traniee_id==id)
+                                             .Where(cr => cr.degree >= cr.Course.minDegree &&cr.Traniee_id==id && cr.IsDeleted != 1)
                                              .Count();
-            var allTraineeCources= db.crsResult.Include(cr => cr.Trainee)
+            var allTraineeCources= db.crsResult.Where(cr => cr.IsDeleted != 1)
+                                       .Include(cr => cr.Trainee)
                                        .Include(cr => cr.Course)
                                        .Where(t => t.Trainee.ID == id)
                                        .ToList();
@@ -126,5 +135,18 @@ namespace Day2__Lab.Controllers
 
             return View("TraineeDetails",td);
         }
+        [HttpPost]
+        public IActionResult Delete(int id)
+        {
+            var TraineeData = db.Trainee.FirstOrDefault(c => c.ID == id);
+            if (TraineeData != null)
+            {
+                TraineeData.IsDeleted = 1;
+                db.Trainee.Update(TraineeData);
+                db.SaveChanges();
+            }   
+            return RedirectToAction("Index");
+        }
+
     }
 }

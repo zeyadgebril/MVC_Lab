@@ -5,5 +5,7 @@
         public int ID { get; set; }
         public String Name { get; set; }
         public string Manager { get; set; }
+        public int? IsDeleted { get; set; }
+
     }
 }

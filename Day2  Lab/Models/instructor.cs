@@ -14,6 +14,8 @@ namespace Day2__Lab.Models
         public virtual Department Department { get; set; }
         [ForeignKey("Course")]
         public int Crs_id { get; set; }
+        public int? IsDeleted { get; set; }
         public virtual Course Course { get; set; }
+
     }
 }

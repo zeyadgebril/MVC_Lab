@@ -15,5 +15,7 @@ namespace Day2__Lab.Models
         [ForeignKey("Trainee")]
         public int Traniee_id { get; set; }
         public virtual Trainee Trainee { get; set; }
+        public int? IsDeleted { get; set; }
+
     }
 }
