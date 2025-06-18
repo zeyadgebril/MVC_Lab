@@ -10,11 +10,14 @@ namespace Day2__Lab.Models
         public DbSet<Course> Course { get; set; }
 
         public DbSet<crsResult> crsResult { get; set; }
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public CompanyDbcontext(DbContextOptions<CompanyDbcontext> option) : base(option)
         {
-            optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=ITI_MVC_Days;Integrated Security=True;TrustServerCertificate=True");
-            base.OnConfiguring(optionsBuilder);
         }
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=ITI_MVC_Days;Integrated Security=True;TrustServerCertificate=True");
+        //    base.OnConfiguring(optionsBuilder);
+        //}
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

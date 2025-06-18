@@ -480,13 +480,13 @@
         <div class="profile-header">
             <div class="profile-image">
                 <div class="profile-image-icon">
-                    <img src="@Url.Content("~/Image/" + Model.Image)" alt="@Model.name" />
+                    <img src="@Url.Content("~/Image/" + Model.Image)" alt="@Model?.name" />
 
                 </div>
             </div>
 
             <div class="profile-info">
-                <h1>@Model.name</h1>
+                <h1>@Model?.name</h1>
                 <div class="profile-subtitle">@Model.Department.Name</div>
                 <div class="status-badges">
                     <span class="badge active">Active</span>
@@ -569,26 +569,30 @@
                   alert('No previous page to go back to. ');
               }
           }
-              $(document).ready(function () {
-        $(".del-fab-button").click(function (e) {
-            e.preventDefault();
-            var id = $(this).data("id");
+    $(document).ready(function () {
+           $(".del-fab-button").click(function (e) {
+               e.preventDefault();
 
-            if (confirm("Are you sure you want to delete this Instructor?")) {
-                var form = $('<form>', {
-                    method: 'POST',
-                    action: '@Url.Action("Delete", "instructor")'
-                }).append(
-                    $('<input>', {
-                        type: 'hidden',
-                        name: 'id',
-                        value: id
-                    })
-                ).appendTo('body');
+               var id = $(this).data("id");
 
-                form.submit();
-            }
-        });
-    });
+               if (confirm("Are you sure you want to delete this Instructor?")) {
+                   $.ajax({
+                       url: '@Url.Action("Delete", "instructor")',
+                       type: 'POST',
+                       data: {
+                           id: id
+                       },
+                       success: function (response) {
+                           alert("Instructor deleted successfully.");
+                           window.location.href = '@Url.Action("Index", "instructor")';
+                       },
+                       error: function () {
+                           alert("Something went wrong while deleting the Instructor.");
+                       }
+                   });
+               }
+           });
+       });
 </script>
-</script>
+
+

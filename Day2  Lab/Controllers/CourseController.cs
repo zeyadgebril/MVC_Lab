@@ -3,6 +3,7 @@ using System.Globalization;
 using System.Xml.Linq;
 using Azure.Core;
 using Day2__Lab.Models;
+using Day2__Lab.Repository;
 using Day2__Lab.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -12,48 +13,32 @@ namespace Day2__Lab.Controllers
 {
     public class CourseController : Controller
     {
-        CompanyDbcontext db;
         
-        public CourseController()
+        private readonly ICourseRepository courseRepository;
+        private readonly IDepartmentRepository departmentRepository;
+
+        public CourseController(ICourseRepository courseRepository,IDepartmentRepository departmentRepository)
         {
-            db = new CompanyDbcontext();
+            this.courseRepository = courseRepository;
+            this.departmentRepository = departmentRepository;
         }
         public IActionResult Index()
         {
-            return View("Index", db.Course.Where(c => c.IsDeleted != 1).ToList());
+            return View("Index", courseRepository.GetAll(""));
         }
 
         [HttpGet]
         public IActionResult GitCourseReselt(string crName, int page = 1)
         {
-           if(crName!="-1")
+            if (crName != "-1")
             {
                 int pageSize = 10;
-                var totalCourseResults = db.crsResult.Include(cr => cr.Course)
-                                                    .Include(cr => cr.Trainee)
-                                                    .Where(cr => cr.Course.Name == crName && cr.IsDeleted != 1)
-                                                    .Count();
+                var totalCourseResults = courseRepository.TotalNumberOfCourses("Course,Trainee", crName);
+                var CourseDatafromDB = courseRepository.GetCourcesWithPagination("Course,Trainee,Trainee.Department", crName, page, pageSize);
+                var InstructorDataFromDB = courseRepository.GetInstructorCousre("Department,Course", crName);
+                int pass = courseRepository.TotalPassedCourse("Course,Trainee", crName);
+                var dataForValidation = courseRepository.DataToValidate(crName);
 
-                var CourseDatafromDB = db.crsResult.Include(cr => cr.Course)
-                                                  .Include(cr => cr.Trainee)
-                                                  .Include(cr => cr.Trainee.Department)
-                                                  .Where(cr => cr.Course.Name == crName && cr.Trainee.IsDeleted != 1)
-                                                  .OrderBy(cr => cr.Trainee.Name)
-                                                  .Skip((page - 1) * pageSize)
-                                                  .Take(pageSize)
-                                                  .ToList();
-
-               
-                var InstructorDataFromDB = db.instructor.Include(i => i.Department)
-                                                        .Include(i => i.Course)
-                                                        .Where(c => c.Course.Name == crName && c.IsDeleted != 1)
-                                                        .ToList();
-
-                int pass = db.crsResult.Include(cr => cr.Course)
-                                      .Include(cr => cr.Trainee)
-                                      .Where(cr => cr.Course.Name == crName && cr.degree >= cr.Course.minDegree &&cr.IsDeleted != 1)
-                                      .Count();
-                var dataForValidation = db.Course.Where(c => c.IsDeleted != 1).FirstOrDefault(c => c.Name == crName);
 
                 CourseFinalResultVm crfVM = new CourseFinalResultVm();
                 crfVM.ID = dataForValidation.ID;
@@ -87,7 +72,7 @@ namespace Day2__Lab.Controllers
                         crVM.Color = "Red";
                     }
 
-                    var instructor = InstructorDataFromDB.Where(i=>i.IsDeleted!=1).FirstOrDefault(i => i.Course.Name == data.Course.Name);
+                    var instructor = InstructorDataFromDB.Where(i => i.IsDeleted != 1).FirstOrDefault(i => i.Course.Name == data.Course.Name);
                     if (instructor != null)
                     {
                         crVM.InstructorName = instructor.name;
@@ -109,11 +94,11 @@ namespace Day2__Lab.Controllers
             {
                 return View("NotFound");
             }
-        }   
+        }
         public IActionResult AddNew()
         {
             CourseWithDeptList courseWithDeptList = new CourseWithDeptList();
-            courseWithDeptList.DeptList=db.Department.ToList();
+            courseWithDeptList.DeptList=departmentRepository.GetAll("");
             courseWithDeptList.IsDeleted = 0;
             return View("AddNew",courseWithDeptList);
         }
@@ -129,7 +114,7 @@ namespace Day2__Lab.Controllers
                     if (dataFromForm.minDegree > dataFromForm.degree)
                     {
                         ModelState.AddModelError("minDegree", "Minimum degree must be less than or equal to total degree.");
-                        dataFromForm.DeptList = db.Department.ToList();
+                        dataFromForm.DeptList = departmentRepository.GetAll("");
                         return View("AddNew", dataFromForm);
                     }
                     Course course = new Course();
@@ -141,8 +126,8 @@ namespace Day2__Lab.Controllers
                     course.Hours = dataFromForm.Hours;
                     course.IsDeleted = dataFromForm.IsDeleted;  
 
-                    db.Course.Add(course);
-                    db.SaveChanges();
+                    courseRepository.Add(course);
+                    courseRepository.save();
                     return RedirectToAction("Index");
                 }
                 catch (Exception ex)
@@ -150,7 +135,7 @@ namespace Day2__Lab.Controllers
                     ModelState.AddModelError("Dept_id", "Select a department");
                 }
             }
-            dataFromForm.DeptList= db.Department.ToList();
+            dataFromForm.DeptList= departmentRepository.GetAll("");
             return View("AddNew", dataFromForm);
         }
 
@@ -158,14 +143,14 @@ namespace Day2__Lab.Controllers
 
         public IActionResult Edit(int id)
         {
-            var dataFromDb = db.Course.FirstOrDefault(c => c.ID == id);
+            var dataFromDb = courseRepository.GetById(id);
             CourseWithDeptList courseWithDeptList = new CourseWithDeptList();
             courseWithDeptList.ID = dataFromDb.ID;
             courseWithDeptList.Name = dataFromDb.Name;
             courseWithDeptList.Hours = dataFromDb.Hours;
             courseWithDeptList.degree = dataFromDb.degree;
             courseWithDeptList.minDegree = dataFromDb.minDegree;
-            courseWithDeptList.DeptList = db.Department.ToList();
+            courseWithDeptList.DeptList = departmentRepository.GetAll("");
             return View("Edit", courseWithDeptList);
 
         }
@@ -174,18 +159,18 @@ namespace Day2__Lab.Controllers
         {
             if (ModelState.IsValid)
             {
-                Course course = db.Course.FirstOrDefault(c => c.ID == dataFromForm.ID);
+                Course course = courseRepository.GetById(dataFromForm.ID);
                 course.degree = dataFromForm.degree;
                 course.minDegree = dataFromForm.minDegree;
                 course.Dept_id = dataFromForm.Dept_id;
                 course.Hours = dataFromForm.Hours;
 
-                db.Course.Update(course);
-                db.SaveChanges();
+                courseRepository.Update(course);
+                courseRepository.save();
                 return RedirectToAction("GitCourseReselt", new {crName=dataFromForm.Name,page = 1 });
             }
             CourseWithDeptList courseWithDeptList = new CourseWithDeptList();
-            courseWithDeptList.DeptList = db.Department.ToList();
+            courseWithDeptList.DeptList = departmentRepository.GetAll("");
             return View("Edit", courseWithDeptList);
 
         }
@@ -194,20 +179,13 @@ namespace Day2__Lab.Controllers
         [HttpPost]
         public IActionResult Delete(int id, int courseDepartmentID)
         {
-            try
+            var condition = courseRepository.Delete(id, courseDepartmentID);
+            if(condition)
             {
-                var CourseData = db.Course.FirstOrDefault(c => c.ID == id && c.Dept_id == courseDepartmentID);
-                if (CourseData != null)
-                {
-                    CourseData.IsDeleted = 1;
-                    db.Course.Update(CourseData);
-                    db.SaveChanges();
-                    return RedirectToAction("Index");
-                }
-
+                courseRepository.save();
                 return Json(new { success = true });
             }
-            catch
+            else
             {
                 return View("NotFound");
             }

@@ -1,5 +1,6 @@
 ﻿using System.Runtime.Intrinsics.Arm;
 using Day2__Lab.Models;
+using Day2__Lab.Repository;
 using Day2__Lab.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -8,23 +9,22 @@ namespace Day2__Lab.Controllers
 {
     public class instructorController : Controller
     {
-        CompanyDbcontext db;
-
-        public instructorController()
+        private readonly IInstructorRepository instructorRepository;
+        private readonly ICourseRepository courseRepository;
+        private readonly IDepartmentRepository departmentRepository;
+        public instructorController(IInstructorRepository instructorRepository, ICourseRepository courseRepository,IDepartmentRepository departmentRepository)
         {
-            db = new CompanyDbcontext();
+            this.instructorRepository = instructorRepository;
+            this.courseRepository = courseRepository;
+            this.departmentRepository = departmentRepository;
         }
         public IActionResult Index(int page = 1)
         {
             int pageSize = 4;
-            int totalInstructor = db.instructor.Where(i => i.IsDeleted != 1).Count();
-            var _instroctors=db.instructor.Include(d=>d.Department)
-                                         .Where(i => i.IsDeleted != 1)
-                                         .OrderBy(i=>i.ID)
-                                         .Skip((page - 1) * pageSize)
-                                         .Take(pageSize)
-                                         .ToList();
-          
+            int totalInstructor = instructorRepository.NumberOfInstructor();
+            var _instroctors=instructorRepository.GetWithPagintion("Department",page,pageSize);
+
+
             instructorPagination pagination = new instructorPagination()
             {
                 instructors = _instroctors,
@@ -37,20 +37,22 @@ namespace Day2__Lab.Controllers
         }
         public IActionResult Details(int id)
         {
-            return View("Details",db.instructor.Include(d=>d.Department).FirstOrDefault(i=>i.ID==id));
+            
+            return View("Details", instructorRepository.GetAll("Department").FirstOrDefault(i => i.ID == id));
         }
         public IActionResult Add()
         {
             InstructorWithDeptList Idepptlist= new InstructorWithDeptList()
             {
-                CourseList = db.Course.ToList(),
-                DeptList = db.Department.ToList(),
+                CourseList = courseRepository.GetAll(string.Empty) ,
+                DeptList = departmentRepository.GetAll(string.Empty),
 
             };
             
             return View ("Add",Idepptlist);
         }
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult SaveData(InstructorWithDeptList ins)
         {
             if (ModelState.IsValid)
@@ -79,9 +81,8 @@ namespace Day2__Lab.Controllers
                     Image = uniqueFileName 
                 };
 
-                db.instructor.Add(instructor);
-                db.SaveChanges();
-
+                instructorRepository.Add(instructor);
+                instructorRepository.save();
                 return RedirectToAction("Index");
             }
 
@@ -91,7 +92,7 @@ namespace Day2__Lab.Controllers
 
         public IActionResult Edit(int id)
         {
-            var dataOfInstructor = db.instructor.FirstOrDefault(i => i.ID == id);
+            var dataOfInstructor = instructorRepository.GetById(id);
             InstructorWithDeptList Idepptlist = new InstructorWithDeptList()
             {
                 ID=dataOfInstructor.ID,
@@ -101,8 +102,8 @@ namespace Day2__Lab.Controllers
                 Crs_id=dataOfInstructor.Crs_id,
                 Image=dataOfInstructor.Image,
                 Address=dataOfInstructor.Address,
-                CourseList = db.Course.ToList(),
-                DeptList = db.Department.ToList(),
+                CourseList = courseRepository.GetAll(string.Empty),
+                DeptList = departmentRepository.GetAll(string.Empty),
 
             };
             return View("Edit", Idepptlist);
@@ -112,7 +113,7 @@ namespace Day2__Lab.Controllers
         {
             if (ModelState.IsValid)
             {
-                var insFromDB = db.instructor.FirstOrDefault(i => i.ID == ins.ID);
+                var insFromDB = instructorRepository.GetById(ins.ID);
                 if (insFromDB != null)
                 {
                     insFromDB.name = ins.name;
@@ -132,28 +133,30 @@ namespace Day2__Lab.Controllers
                         }
                         insFromDB.Image = imageName;
                     }
-
-                    db.SaveChanges();
+                    instructorRepository.Update(insFromDB);
+                    instructorRepository.save();
                     return RedirectToAction("Index");
                 }
             }
-            ins.CourseList = db.Course.ToList();
-            ins.DeptList = db.Department.ToList();
+            ins.CourseList = courseRepository.GetAll(string.Empty);
+            ins.DeptList = departmentRepository.GetAll(string.Empty);
             return View("Edit", ins);
         }
 
         [HttpPost]
         public IActionResult Delete(int id)
         {
-            var InstructorData = db.instructor.FirstOrDefault(c => c.ID == id);
-            if (InstructorData != null)
+            var condition = instructorRepository.Delete(id);
+            if (condition)
             {
-                InstructorData.IsDeleted = 1;
-                db.instructor.Update(InstructorData);
-                db.SaveChanges();
+                instructorRepository.save();
+                return Json(new { success = true });
             }
-            return RedirectToAction("Index");
+            else
+            {
+                return View("NotFound");
+            }
         }
-
+    
     }
 }

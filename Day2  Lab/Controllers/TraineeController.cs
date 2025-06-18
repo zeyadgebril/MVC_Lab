@@ -1,5 +1,6 @@
 ﻿using System.Runtime.Intrinsics.Arm;
 using Day2__Lab.Models;
+using Day2__Lab.Repository;
 using Day2__Lab.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -8,10 +9,21 @@ namespace Day2__Lab.Controllers
 {
     public class TraineeController : Controller
     {
-        CompanyDbcontext db;
-        public TraineeController()
+        private readonly ITraineeRepository traineeRepository;
+        private readonly IcrsResultRepository crsResultRepository;
+        private readonly IDepartmentRepository departmentRepository;
+        private readonly IInstructorRepository instructorRepository;
+
+        //CompanyDbcontext db;
+        public TraineeController(ITraineeRepository traineeRepository,
+            IcrsResultRepository crsResultRepository,
+            IDepartmentRepository departmentRepository,
+            IInstructorRepository instructorRepository)
         {
-            db = new CompanyDbcontext();
+            this.traineeRepository = traineeRepository;
+            this.crsResultRepository = crsResultRepository;
+            this.departmentRepository = departmentRepository;
+            this.instructorRepository = instructorRepository;
         }
         public IActionResult Index()
         {
@@ -27,10 +39,8 @@ namespace Day2__Lab.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult SeeResult(TraineNameAndCourseVM tc)
         {
-            var resFromDB = db.crsResult.Include(cr => cr.Trainee)
-                                      .Include(cr => cr.Course)
-                                      .FirstOrDefault(cr => cr.Trainee.Name == tc.TraineeName && cr.Course.Name == tc.CourseName);
-
+            var temp = crsResultRepository.GetAll("Trainee,Course");
+            var resFromDB=temp.FirstOrDefault(cr => cr.Trainee.Name == tc.TraineeName && cr.Course.Name == tc.CourseName);
             #region Cookies&sSession 
 
 
@@ -72,31 +82,27 @@ namespace Day2__Lab.Controllers
         public IActionResult TraineeDetails(int id)
         {
 
-            var TraineeData = db.crsResult.Where(t=>t.Trainee.IsDeleted!=1)
-                                       .Include(cr => cr.Trainee)
-                                       .Include(cr => cr.Course)
-                                       .FirstOrDefault(t => t.Trainee.ID == id);
-            if(TraineeData==null)
+            //var TraineeData = db.crsResult.Where(t=>t.Trainee.IsDeleted!=1)
+            //                           .Include(cr => cr.Trainee)
+            //                           .Include(cr => cr.Course)
+            //                          
+            var TraineeData=crsResultRepository.GetAll("Trainee,Course") .FirstOrDefault(t => t.Trainee.ID == id);
+            var trainee = traineeRepository.GetAll("Department").FirstOrDefault(t => t.ID == id);
+
+            if (trainee == null || trainee.Department == null)
             {
                 return View  ("NotFoundTrainee");
             }
-            var allCources = db.crsResult.Where(cr => cr.Traniee_id == id&&cr.IsDeleted!=1).Count();
-            var allPassedCourse = db.crsResult.Include(cr => cr.Trainee)
-                                             .Include(cr => cr.Course)
-                                             .Where(cr => cr.degree >= cr.Course.minDegree &&cr.Traniee_id==id && cr.IsDeleted != 1)
-                                             .Count();
-            var allTraineeCources= db.crsResult.Where(cr => cr.IsDeleted != 1)
-                                       .Include(cr => cr.Trainee)
-                                       .Include(cr => cr.Course)
-                                       .Where(t => t.Trainee.ID == id)
-                                       .ToList();
+            var allCources = crsResultRepository.GetAll(string.Empty).Count();
+            var allPassedCourse = crsResultRepository.TotalTraineePassed(id);
+            var allTraineeCources = crsResultRepository.TotalTraineeCourses(id);
 
 
             TraineeDetailsVM td = new TraineeDetailsVM();
             td.traineID = TraineeData.Traniee_id;
             td.traineAddress = TraineeData.Trainee.Address;
             td.traineName = TraineeData.Trainee.Name;
-            td.traineDepartment = db.Trainee.Include(d => d.Department).FirstOrDefault(t => t.ID == id).Department.Name;
+            td.traineDepartment = trainee?.Department?.Name ?? "N/A";
             td.traineTotalCources = allCources;
             td.trainePassedCources = allPassedCourse;
             td.traineFailedCources = allCources - allPassedCourse;
@@ -124,10 +130,8 @@ namespace Day2__Lab.Controllers
                     tc.CourceStatus = "Failed";
                     tc.Color = "Red";
                 }
-                var temp = db.instructor.Include(i => i.Course).FirstOrDefault(i => i.Crs_id == item.Crs_id);
+                var temp = instructorRepository.GetAll("Course").FirstOrDefault(i => i.Crs_id == item.Crs_id);
                 tc.CourceInstructor = temp != null ? temp.name : "N/A";
-
-
                 td.TraineeList.Add(tc);
             }
 
@@ -138,14 +142,16 @@ namespace Day2__Lab.Controllers
         [HttpPost]
         public IActionResult Delete(int id)
         {
-            var TraineeData = db.Trainee.FirstOrDefault(c => c.ID == id);
-            if (TraineeData != null)
+            var condition = traineeRepository.Delete(id);
+            if (condition)
             {
-                TraineeData.IsDeleted = 1;
-                db.Trainee.Update(TraineeData);
-                db.SaveChanges();
-            }   
-            return RedirectToAction("Index");
+                traineeRepository.save();
+                return Json(new { success = true });
+            }
+            else
+            {
+                return View("NotFound");
+            }
         }
 
     }

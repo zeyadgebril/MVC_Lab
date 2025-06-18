@@ -4,19 +4,29 @@ using Day2__Lab.ViewModel;
 
 namespace Day2__Lab.CustomAttribute
 {
-    public class UniqueCourseNameAttribute:ValidationAttribute
+    public class UniqueCourseNameAttribute : ValidationAttribute
     {
         protected override ValidationResult? IsValid(object? value, ValidationContext validationContext)
         {
-            var name = value.ToString();
-            CompanyDbcontext db = new CompanyDbcontext();
+            var db = (CompanyDbcontext)validationContext.GetService(typeof(CompanyDbcontext));
+
+            if (db == null)
+            {
+                throw new Exception("DbContext is not available in ValidationContext.");
+            }
+
+            var name = value?.ToString();
             var courseData = (CourseWithDeptList)validationContext.ObjectInstance;
-            var DataFromDB = db.Course.FirstOrDefault(c=>c.Name==name&&courseData.Dept_id==c.Dept_id);
-            if (DataFromDB == null)
+
+            var existingCourse = db.Course.FirstOrDefault(c =>
+                c.Name == name && c.Dept_id == courseData.Dept_id);
+
+            if (existingCourse == null)
             {
                 return ValidationResult.Success;
             }
-            return new ValidationResult($"Course Is Alredey Available in Department");
+
+            return new ValidationResult("Course is already available in this department.");
         }
     }
 }

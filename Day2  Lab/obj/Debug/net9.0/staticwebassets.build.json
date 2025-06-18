@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kBOsYuMv4rolJQI0MTsReitHWEbMhVfkXFcr3gkBcE0=",
+  "Hash": "CyUz42HZ014PkENVhfwnX9V53WrKGm8V4AEfo3jP/3E=",
   "Source": "Day2  Lab",
   "BasePath": "_content/Day2  Lab",
   "Mode": "Default",
@@ -1529,27 +1529,6 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\Image\\06aed042-7fd5-4438-b2a9-d099336e8ab3.png",
-      "SourceId": "Day2  Lab",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\",
-      "BasePath": "_content/Day2  Lab",
-      "RelativePath": "Image/06aed042-7fd5-4438-b2a9-d099336e8ab3#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "f5lm3tqqsy",
-      "Integrity": "bVSQH35tOnP7etCmGQI3FUu5a9EsmC5wTYGn4pjWdGU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Image\\06aed042-7fd5-4438-b2a9-d099336e8ab3.png"
-    },
-    {
       "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\Image\\1.png",
       "SourceId": "Day2  Lab",
       "SourceType": "Discovered",
@@ -1592,27 +1571,6 @@
       "OriginalItemSpec": "wwwroot\\Image\\10.png"
     },
     {
-      "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\Image\\191a9deb-f828-4f12-8ce6-94969f392958_adonet.png",
-      "SourceId": "Day2  Lab",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\",
-      "BasePath": "_content/Day2  Lab",
-      "RelativePath": "Image/191a9deb-f828-4f12-8ce6-94969f392958_adonet#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "vor176w8q5",
-      "Integrity": "kX6pD1Y3HkGGtOtFUSy6G786K9PVcVS92/AkUnri0qY=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Image\\191a9deb-f828-4f12-8ce6-94969f392958_adonet.png"
-    },
-    {
       "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\Image\\2.png",
       "SourceId": "Day2  Lab",
       "SourceType": "Discovered",
@@ -1632,27 +1590,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Image\\2.png"
-    },
-    {
-      "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\Image\\258ca55f-0558-4367-ab90-50769d61f578.jpeg",
-      "SourceId": "Day2  Lab",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\",
-      "BasePath": "_content/Day2  Lab",
-      "RelativePath": "Image/258ca55f-0558-4367-ab90-50769d61f578#[.{fingerprint}]?.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "fwwxomyl88",
-      "Integrity": "MUszrlU0eP7yPAYCh6ig/D28augwBfGjjLchgCWUL8U=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Image\\258ca55f-0558-4367-ab90-50769d61f578.jpeg"
     },
     {
       "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\Image\\3.png",
@@ -1676,12 +1613,12 @@
       "OriginalItemSpec": "wwwroot\\Image\\3.png"
     },
     {
-      "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\Image\\301378bd-95fa-4ef6-a402-4fe005866118.jpeg",
+      "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\Image\\3651ef38-059f-4034-b111-8c6f840b75a4.png",
       "SourceId": "Day2  Lab",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\",
       "BasePath": "_content/Day2  Lab",
-      "RelativePath": "Image/301378bd-95fa-4ef6-a402-4fe005866118#[.{fingerprint}]?.jpeg",
+      "RelativePath": "Image/3651ef38-059f-4034-b111-8c6f840b75a4#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1690,11 +1627,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "fwwxomyl88",
-      "Integrity": "MUszrlU0eP7yPAYCh6ig/D28augwBfGjjLchgCWUL8U=",
+      "Fingerprint": "cot5k9l07h",
+      "Integrity": "fM37jqrDHx0ywFjWMwDXMkSqhpQd6lNPJr0F6PsHmqY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Image\\301378bd-95fa-4ef6-a402-4fe005866118.jpeg"
+      "OriginalItemSpec": "wwwroot\\Image\\3651ef38-059f-4034-b111-8c6f840b75a4.png"
     },
     {
       "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\Image\\4.png",
@@ -1779,27 +1716,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Image\\7.png"
-    },
-    {
-      "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\Image\\7cb7c47f-ebde-450a-b632-75d6d61f9099_db.jpeg",
-      "SourceId": "Day2  Lab",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\",
-      "BasePath": "_content/Day2  Lab",
-      "RelativePath": "Image/7cb7c47f-ebde-450a-b632-75d6d61f9099_db#[.{fingerprint}]?.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "88roui4ygo",
-      "Integrity": "KDqtkb791e+8JzoVkH4IRo5nLpGMUYH6ZPlWl1jJTfI=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Image\\7cb7c47f-ebde-450a-b632-75d6d61f9099_db.jpeg"
     },
     {
       "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\Image\\8.png",
@@ -4957,88 +4873,6 @@
       ]
     },
     {
-      "Route": "Image/06aed042-7fd5-4438-b2a9-d099336e8ab3.f5lm3tqqsy.png",
-      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\Image\\06aed042-7fd5-4438-b2a9-d099336e8ab3.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "36647"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"bVSQH35tOnP7etCmGQI3FUu5a9EsmC5wTYGn4pjWdGU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:49:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "f5lm3tqqsy"
-        },
-        {
-          "Name": "label",
-          "Value": "Image/06aed042-7fd5-4438-b2a9-d099336e8ab3.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-bVSQH35tOnP7etCmGQI3FUu5a9EsmC5wTYGn4pjWdGU="
-        }
-      ]
-    },
-    {
-      "Route": "Image/06aed042-7fd5-4438-b2a9-d099336e8ab3.png",
-      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\Image\\06aed042-7fd5-4438-b2a9-d099336e8ab3.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "36647"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"bVSQH35tOnP7etCmGQI3FUu5a9EsmC5wTYGn4pjWdGU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:49:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-bVSQH35tOnP7etCmGQI3FUu5a9EsmC5wTYGn4pjWdGU="
-        }
-      ]
-    },
-    {
       "Route": "Image/1.e98jhde9so.png",
       "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\Image\\1.png",
       "Selectors": [],
@@ -5061,7 +4895,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Jun 2025 19:39:06 GMT"
+          "Value": "Tue, 17 Jun 2025 12:40:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5106,7 +4940,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Jun 2025 19:39:06 GMT"
+          "Value": "Tue, 17 Jun 2025 12:40:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5203,88 +5037,6 @@
       ]
     },
     {
-      "Route": "Image/191a9deb-f828-4f12-8ce6-94969f392958_adonet.png",
-      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\Image\\191a9deb-f828-4f12-8ce6-94969f392958_adonet.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1601"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"kX6pD1Y3HkGGtOtFUSy6G786K9PVcVS92/AkUnri0qY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 04:04:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-kX6pD1Y3HkGGtOtFUSy6G786K9PVcVS92/AkUnri0qY="
-        }
-      ]
-    },
-    {
-      "Route": "Image/191a9deb-f828-4f12-8ce6-94969f392958_adonet.vor176w8q5.png",
-      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\Image\\191a9deb-f828-4f12-8ce6-94969f392958_adonet.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1601"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"kX6pD1Y3HkGGtOtFUSy6G786K9PVcVS92/AkUnri0qY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 04:04:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vor176w8q5"
-        },
-        {
-          "Name": "label",
-          "Value": "Image/191a9deb-f828-4f12-8ce6-94969f392958_adonet.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-kX6pD1Y3HkGGtOtFUSy6G786K9PVcVS92/AkUnri0qY="
-        }
-      ]
-    },
-    {
       "Route": "Image/2.cot5k9l07h.png",
       "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\Image\\2.png",
       "Selectors": [],
@@ -5363,88 +5115,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-fM37jqrDHx0ywFjWMwDXMkSqhpQd6lNPJr0F6PsHmqY="
-        }
-      ]
-    },
-    {
-      "Route": "Image/258ca55f-0558-4367-ab90-50769d61f578.fwwxomyl88.jpeg",
-      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\Image\\258ca55f-0558-4367-ab90-50769d61f578.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "25059"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"MUszrlU0eP7yPAYCh6ig/D28augwBfGjjLchgCWUL8U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 12:14:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "fwwxomyl88"
-        },
-        {
-          "Name": "label",
-          "Value": "Image/258ca55f-0558-4367-ab90-50769d61f578.jpeg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-MUszrlU0eP7yPAYCh6ig/D28augwBfGjjLchgCWUL8U="
-        }
-      ]
-    },
-    {
-      "Route": "Image/258ca55f-0558-4367-ab90-50769d61f578.jpeg",
-      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\Image\\258ca55f-0558-4367-ab90-50769d61f578.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "25059"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"MUszrlU0eP7yPAYCh6ig/D28augwBfGjjLchgCWUL8U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 12:14:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-MUszrlU0eP7yPAYCh6ig/D28augwBfGjjLchgCWUL8U="
         }
       ]
     },
@@ -5531,8 +5201,8 @@
       ]
     },
     {
-      "Route": "Image/301378bd-95fa-4ef6-a402-4fe005866118.fwwxomyl88.jpeg",
-      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\Image\\301378bd-95fa-4ef6-a402-4fe005866118.jpeg",
+      "Route": "Image/3651ef38-059f-4034-b111-8c6f840b75a4.cot5k9l07h.png",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\Image\\3651ef38-059f-4034-b111-8c6f840b75a4.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5541,19 +5211,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25059"
+          "Value": "76657"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"MUszrlU0eP7yPAYCh6ig/D28augwBfGjjLchgCWUL8U=\""
+          "Value": "\"fM37jqrDHx0ywFjWMwDXMkSqhpQd6lNPJr0F6PsHmqY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 12:17:27 GMT"
+          "Value": "Wed, 18 Jun 2025 13:40:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5563,21 +5233,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "fwwxomyl88"
+          "Value": "cot5k9l07h"
         },
         {
           "Name": "label",
-          "Value": "Image/301378bd-95fa-4ef6-a402-4fe005866118.jpeg"
+          "Value": "Image/3651ef38-059f-4034-b111-8c6f840b75a4.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-MUszrlU0eP7yPAYCh6ig/D28augwBfGjjLchgCWUL8U="
+          "Value": "sha256-fM37jqrDHx0ywFjWMwDXMkSqhpQd6lNPJr0F6PsHmqY="
         }
       ]
     },
     {
-      "Route": "Image/301378bd-95fa-4ef6-a402-4fe005866118.jpeg",
-      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\Image\\301378bd-95fa-4ef6-a402-4fe005866118.jpeg",
+      "Route": "Image/3651ef38-059f-4034-b111-8c6f840b75a4.png",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\Image\\3651ef38-059f-4034-b111-8c6f840b75a4.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5586,19 +5256,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25059"
+          "Value": "76657"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"MUszrlU0eP7yPAYCh6ig/D28augwBfGjjLchgCWUL8U=\""
+          "Value": "\"fM37jqrDHx0ywFjWMwDXMkSqhpQd6lNPJr0F6PsHmqY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 12:17:27 GMT"
+          "Value": "Wed, 18 Jun 2025 13:40:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5608,7 +5278,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-MUszrlU0eP7yPAYCh6ig/D28augwBfGjjLchgCWUL8U="
+          "Value": "sha256-fM37jqrDHx0ywFjWMwDXMkSqhpQd6lNPJr0F6PsHmqY="
         }
       ]
     },
@@ -5937,88 +5607,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-niNh7D25QdtnN7gF1IOWA2AGHl0C7q55Pzh6v3B3caA="
-        }
-      ]
-    },
-    {
-      "Route": "Image/7cb7c47f-ebde-450a-b632-75d6d61f9099_db.88roui4ygo.jpeg",
-      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\Image\\7cb7c47f-ebde-450a-b632-75d6d61f9099_db.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "18100"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KDqtkb791e+8JzoVkH4IRo5nLpGMUYH6ZPlWl1jJTfI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 12:17:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "88roui4ygo"
-        },
-        {
-          "Name": "label",
-          "Value": "Image/7cb7c47f-ebde-450a-b632-75d6d61f9099_db.jpeg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-KDqtkb791e+8JzoVkH4IRo5nLpGMUYH6ZPlWl1jJTfI="
-        }
-      ]
-    },
-    {
-      "Route": "Image/7cb7c47f-ebde-450a-b632-75d6d61f9099_db.jpeg",
-      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\Image\\7cb7c47f-ebde-450a-b632-75d6d61f9099_db.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "18100"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KDqtkb791e+8JzoVkH4IRo5nLpGMUYH6ZPlWl1jJTfI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 12:17:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-KDqtkb791e+8JzoVkH4IRo5nLpGMUYH6ZPlWl1jJTfI="
         }
       ]
     },

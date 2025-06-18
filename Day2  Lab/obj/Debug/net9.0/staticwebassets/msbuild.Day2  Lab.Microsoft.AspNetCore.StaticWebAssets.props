@@ -90,24 +90,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Image\06aed042-7fd5-4438-b2a9-d099336e8ab3.png'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Day2  Lab</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Day2  Lab</BasePath>
-      <RelativePath>Image/06aed042-7fd5-4438-b2a9-d099336e8ab3.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>f5lm3tqqsy</Fingerprint>
-      <Integrity>bVSQH35tOnP7etCmGQI3FUu5a9EsmC5wTYGn4pjWdGU=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Image\06aed042-7fd5-4438-b2a9-d099336e8ab3.png'))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Image\1.png'))">
       <SourceType>Package</SourceType>
       <SourceId>Day2  Lab</SourceId>
@@ -144,24 +126,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Image\10.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Image\191a9deb-f828-4f12-8ce6-94969f392958_adonet.png'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Day2  Lab</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Day2  Lab</BasePath>
-      <RelativePath>Image/191a9deb-f828-4f12-8ce6-94969f392958_adonet.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>vor176w8q5</Fingerprint>
-      <Integrity>kX6pD1Y3HkGGtOtFUSy6G786K9PVcVS92/AkUnri0qY=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Image\191a9deb-f828-4f12-8ce6-94969f392958_adonet.png'))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Image\2.png'))">
       <SourceType>Package</SourceType>
       <SourceId>Day2  Lab</SourceId>
@@ -179,24 +143,6 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Image\2.png'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Image\258ca55f-0558-4367-ab90-50769d61f578.jpeg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Day2  Lab</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Day2  Lab</BasePath>
-      <RelativePath>Image/258ca55f-0558-4367-ab90-50769d61f578.jpeg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>fwwxomyl88</Fingerprint>
-      <Integrity>MUszrlU0eP7yPAYCh6ig/D28augwBfGjjLchgCWUL8U=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Image\258ca55f-0558-4367-ab90-50769d61f578.jpeg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Image\3.png'))">
       <SourceType>Package</SourceType>
@@ -216,23 +162,23 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Image\3.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Image\301378bd-95fa-4ef6-a402-4fe005866118.jpeg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Image\3651ef38-059f-4034-b111-8c6f840b75a4.png'))">
       <SourceType>Package</SourceType>
       <SourceId>Day2  Lab</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Day2  Lab</BasePath>
-      <RelativePath>Image/301378bd-95fa-4ef6-a402-4fe005866118.jpeg</RelativePath>
+      <RelativePath>Image/3651ef38-059f-4034-b111-8c6f840b75a4.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>fwwxomyl88</Fingerprint>
-      <Integrity>MUszrlU0eP7yPAYCh6ig/D28augwBfGjjLchgCWUL8U=</Integrity>
+      <Fingerprint>cot5k9l07h</Fingerprint>
+      <Integrity>fM37jqrDHx0ywFjWMwDXMkSqhpQd6lNPJr0F6PsHmqY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Image\301378bd-95fa-4ef6-a402-4fe005866118.jpeg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Image\3651ef38-059f-4034-b111-8c6f840b75a4.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Image\4.png'))">
       <SourceType>Package</SourceType>
@@ -305,24 +251,6 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Image\7.png'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Image\7cb7c47f-ebde-450a-b632-75d6d61f9099_db.jpeg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Day2  Lab</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Day2  Lab</BasePath>
-      <RelativePath>Image/7cb7c47f-ebde-450a-b632-75d6d61f9099_db.jpeg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>88roui4ygo</Fingerprint>
-      <Integrity>KDqtkb791e+8JzoVkH4IRo5nLpGMUYH6ZPlWl1jJTfI=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Image\7cb7c47f-ebde-450a-b632-75d6d61f9099_db.jpeg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Image\8.png'))">
       <SourceType>Package</SourceType>

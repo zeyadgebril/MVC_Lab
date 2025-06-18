@@ -1,3 +1,7 @@
+using Day2__Lab.Models;
+using Day2__Lab.Repository;
+using Microsoft.EntityFrameworkCore;
+
 namespace Day2__Lab
 {
     public class Program
@@ -8,7 +12,21 @@ namespace Day2__Lab
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-            builder.Services.AddSession(); 
+            builder.Services.AddSession();
+
+            //*****************Injection******************************
+            builder.Services.AddScoped<ICourseRepository,CourseRepository>();
+            builder.Services.AddScoped<IInstructorRepository, InstructorRepository>();
+            builder.Services.AddScoped<ITraineeRepository, TraineeRepository>();
+            builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
+            builder.Services.AddScoped<IcrsResultRepository, crsResultRepository>();
+
+            //*****************SQL-Injection**************************
+            builder.Services.AddDbContext<CompanyDbcontext>(options =>
+            {
+                options.UseSqlServer(builder.Configuration.GetConnectionString("cs"));
+            });
+            //*****************End-Injection**************************
 
 
             var app = builder.Build();
