@@ -24,6 +24,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wfuiwo84md"},{"Name":"integrity","Value":"sha256-nGoswRZFC0d0SXjMyXOz8OOSHmCLj37y/aaBCibKbvQ="},{"Name":"label","Value":"_content/Day2  Lab/css/instructor.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6669"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022nGoswRZFC0d0SXjMyXOz8OOSHmCLj37y/aaBCibKbvQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Jun 2025 15:55:37 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Day2  Lab/css/LandingPage.c9r5k0yke6.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\LandingPage.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"c9r5k0yke6"},{"Name":"integrity","Value":"sha256-QM2nqXFqNWlHU1wvM7Ej9UvLRPYe7T0h3KPgz7534co="},{"Name":"label","Value":"_content/Day2  Lab/css/LandingPage.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6355"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022QM2nqXFqNWlHU1wvM7Ej9UvLRPYe7T0h3KPgz7534co=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 10:39:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Day2  Lab/css/LandingPage.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\LandingPage.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QM2nqXFqNWlHU1wvM7Ej9UvLRPYe7T0h3KPgz7534co="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6355"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022QM2nqXFqNWlHU1wvM7Ej9UvLRPYe7T0h3KPgz7534co=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 10:39:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Day2  Lab/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -215,6 +227,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nI7JV17M6tGuq3OouDf0XzEN2j5WNBjOKAe/f3HxQzE="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"36054"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022nI7JV17M6tGuq3OouDf0XzEN2j5WNBjOKAe/f3HxQzE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 02 Jun 2025 19:09:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Day2  Lab/js/LandingPage.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\LandingPage.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7wXp\u002B\u002B\u002BBS\u002BIhi0oUBg5531DbBivcdERlDBWPMXnulH8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1674"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00227wXp\u002B\u002B\u002BBS\u002BIhi0oUBg5531DbBivcdERlDBWPMXnulH8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 10:43:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Day2  Lab/js/LandingPage.zjehqed60t.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\LandingPage.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zjehqed60t"},{"Name":"integrity","Value":"sha256-7wXp\u002B\u002B\u002BBS\u002BIhi0oUBg5531DbBivcdERlDBWPMXnulH8="},{"Name":"label","Value":"_content/Day2  Lab/js/LandingPage.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1674"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00227wXp\u002B\u002B\u002BBS\u002BIhi0oUBg5531DbBivcdERlDBWPMXnulH8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 10:43:05 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Day2  Lab/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
@@ -767,6 +791,54 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"81b7ukuj9c"},{"Name":"integrity","Value":"sha256-ZH6pA6BSx6fuHZvdaKph1DwUJ\u002BVSYilIiEQu8ilnvqk="},{"Name":"label","Value":"_content/Day2  Lab/lib/bootstrap/LICENSE"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1153"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022ZH6pA6BSx6fuHZvdaKph1DwUJ\u002BVSYilIiEQu8ilnvqk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Jun 2025 07:30:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Day2  Lab/lib/fontawesome-iconpicker/css/fontawesome-iconpicker.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\fontawesome-iconpicker\css\fontawesome-iconpicker.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KC2XUWlJX7EuWPF02ZakG9K7ny3Y9AYDfmdnQD/pLlU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7329"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022KC2XUWlJX7EuWPF02ZakG9K7ny3Y9AYDfmdnQD/pLlU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 10:05:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Day2  Lab/lib/fontawesome-iconpicker/css/fontawesome-iconpicker.cvgbjci1bo.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\fontawesome-iconpicker\css\fontawesome-iconpicker.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cvgbjci1bo"},{"Name":"integrity","Value":"sha256-KC2XUWlJX7EuWPF02ZakG9K7ny3Y9AYDfmdnQD/pLlU="},{"Name":"label","Value":"_content/Day2  Lab/lib/fontawesome-iconpicker/css/fontawesome-iconpicker.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7329"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022KC2XUWlJX7EuWPF02ZakG9K7ny3Y9AYDfmdnQD/pLlU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 10:05:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Day2  Lab/lib/fontawesome-iconpicker/css/fontawesome-iconpicker.min.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\fontawesome-iconpicker\css\fontawesome-iconpicker.min.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-yExEWA6b/bqs3FXxQy03aOWIFtx9QEVnHZ/EwemRLbc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6184"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022yExEWA6b/bqs3FXxQy03aOWIFtx9QEVnHZ/EwemRLbc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 10:05:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Day2  Lab/lib/fontawesome-iconpicker/css/fontawesome-iconpicker.min.sn6eujp02f.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\fontawesome-iconpicker\css\fontawesome-iconpicker.min.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"sn6eujp02f"},{"Name":"integrity","Value":"sha256-yExEWA6b/bqs3FXxQy03aOWIFtx9QEVnHZ/EwemRLbc="},{"Name":"label","Value":"_content/Day2  Lab/lib/fontawesome-iconpicker/css/fontawesome-iconpicker.min.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6184"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022yExEWA6b/bqs3FXxQy03aOWIFtx9QEVnHZ/EwemRLbc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 10:05:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Day2  Lab/lib/fontawesome-iconpicker/js/fontawesome-iconpicker.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\fontawesome-iconpicker\js\fontawesome-iconpicker.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-sAlwRjlYvlekTLgTnPQK/oO1b\u002Bzc2Phz6cbLRVXWfyI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"188667"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022sAlwRjlYvlekTLgTnPQK/oO1b\u002Bzc2Phz6cbLRVXWfyI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 10:05:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Day2  Lab/lib/fontawesome-iconpicker/js/fontawesome-iconpicker.min.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\fontawesome-iconpicker\js\fontawesome-iconpicker.min.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QvBM3HnWsvcCWqpqHZrtoefjB8t2qPNzdSDNyaSNH5Q="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"110712"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022QvBM3HnWsvcCWqpqHZrtoefjB8t2qPNzdSDNyaSNH5Q=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 10:05:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Day2  Lab/lib/fontawesome-iconpicker/js/fontawesome-iconpicker.min.qy2d8mcz5k.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\fontawesome-iconpicker\js\fontawesome-iconpicker.min.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qy2d8mcz5k"},{"Name":"integrity","Value":"sha256-QvBM3HnWsvcCWqpqHZrtoefjB8t2qPNzdSDNyaSNH5Q="},{"Name":"label","Value":"_content/Day2  Lab/lib/fontawesome-iconpicker/js/fontawesome-iconpicker.min.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"110712"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022QvBM3HnWsvcCWqpqHZrtoefjB8t2qPNzdSDNyaSNH5Q=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 10:05:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Day2  Lab/lib/fontawesome-iconpicker/js/fontawesome-iconpicker.wcgapjacwj.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\fontawesome-iconpicker\js\fontawesome-iconpicker.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wcgapjacwj"},{"Name":"integrity","Value":"sha256-sAlwRjlYvlekTLgTnPQK/oO1b\u002Bzc2Phz6cbLRVXWfyI="},{"Name":"label","Value":"_content/Day2  Lab/lib/fontawesome-iconpicker/js/fontawesome-iconpicker.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"188667"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022sAlwRjlYvlekTLgTnPQK/oO1b\u002Bzc2Phz6cbLRVXWfyI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 10:05:57 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Day2  Lab/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.47otxtyo56.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js'))</AssetFile>

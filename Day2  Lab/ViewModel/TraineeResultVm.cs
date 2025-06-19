@@ -2,6 +2,8 @@
 {
     public class TraineeResultVm
     {
+
+        public int ID { get; set; }
         public string tName { get; set; }
         public string cName { get; set; }
         public int Degree { get; set; }

@@ -1027,3 +1027,10 @@ C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\obj\Debug
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\obj\Debug\net9.0\Day2  Lab.genruntimeconfig.cache
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\obj\Debug\net9.0\ref\Day2  Lab.dll
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\obj\Debug\net9.0\compressed\05fpwcnu4b-wfuiwo84md.gz
+C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\bin\Debug\net9.0\libman.json
+C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\obj\Debug\net9.0\compressed\kg1ey36b3z-c9r5k0yke6.gz
+C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\obj\Debug\net9.0\compressed\ta6rqiem5w-zjehqed60t.gz
+C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\obj\Debug\net9.0\compressed\5o3f2kfl4j-cvgbjci1bo.gz
+C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\obj\Debug\net9.0\compressed\cr2w2dczp8-sn6eujp02f.gz
+C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\obj\Debug\net9.0\compressed\3d9k68jfyw-wcgapjacwj.gz
+C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\obj\Debug\net9.0\compressed\q2o06kpcgo-qy2d8mcz5k.gz

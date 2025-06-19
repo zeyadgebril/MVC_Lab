@@ -1,0 +1,280 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@@fortawesome/fontawesome-free@6.5.2/css/all.min.css">
+    <link href="/css/LandingPage.css" rel="stylesheet" />
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/lib/fontawesome-iconpicker/js/fontawesome-iconpicker.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-graduation-cap me-2"></i>SkillForge Academy
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#courses">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#instructors">Instructors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <button class="btn btn-outline-light">Login / Signup</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h1 class="hero-title">Master New Skills with Expert Instructors</h1>
+                        <p class="hero-subtitle">Join thousands of learners who have transformed their careers with our comprehensive training courses. Learn from industry experts and advance your professional journey.</p>
+                        <a href="#courses" class="btn btn-primary btn-lg">Browse Courses</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="text-center">
+                        <i class="fas fa-laptop-code" style="font-size: 15rem; opacity: 0.3;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Courses Section -->
+    <section id="courses" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Popular Courses</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card course-card">
+                        <div class="course-image">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Web Development Bootcamp</h5>
+                            <p class="card-text">Master HTML, CSS, JavaScript, and React to build modern web applications. Perfect for beginners and intermediate developers.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="text-primary fw-bold">$299</span>
+                                <button class="btn btn-primary">Enroll Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card course-card">
+                        <div class="course-image">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Data Science Fundamentals</h5>
+                            <p class="card-text">Learn Python, statistics, and machine learning to analyze data and derive meaningful insights for business decisions.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="text-primary fw-bold">$399</span>
+                                <button class="btn btn-primary">Enroll Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card course-card">
+                        <div class="course-image">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Mobile App Development</h5>
+                            <p class="card-text">Build native iOS and Android apps using React Native and Flutter. Create stunning mobile experiences.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="text-primary fw-bold">$349</span>
+                                <button class="btn btn-primary">Enroll Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instructors Section -->
+    <section id="instructors" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title">Meet Our Expert Instructors</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="instructor-card">
+                        <div class="instructor-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <h5>Sarah Johnson</h5>
+                        <p class="text-muted mb-3">Senior Full-Stack Developer</p>
+                        <p>10+ years of experience in web development. Former tech lead at Google and startup founder. Passionate about teaching modern web technologies.</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="instructor-card">
+                        <div class="instructor-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <h5>Michael Chen</h5>
+                        <p class="text-muted mb-3">Data Science Expert</p>
+                        <p>PhD in Computer Science with expertise in machine learning and AI. Published researcher and consultant for Fortune 500 companies.</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="instructor-card">
+                        <div class="instructor-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <h5>Emily Rodriguez</h5>
+                        <p class="text-muted mb-3">Mobile Development Specialist</p>
+                        <p>Award-winning mobile app developer with 50+ apps in the App Store. Expert in React Native, Flutter, and native iOS/Android development.</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonial-section">
+        <div class="container">
+            <h2 class="section-title">What Our Students Say</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="testimonial-card">
+                        <p>The Web Development course completely changed my career path. The instructors are knowledgeable and the hands-on projects prepared me for real-world challenges.</p>
+                        <div class="d-flex align-items-center mt-4">
+                            <div class="instructor-avatar me-3" style="width: 50px; height: 50px; font-size: 1.2rem;">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-0">Alex Thompson</h6>
+                                <small class="text-muted">Frontend Developer</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial-card">
+                        <p>Amazing course structure and excellent support from instructors. I landed my dream job as a data scientist within 3 months of completing the course.</p>
+                        <div class="d-flex align-items-center mt-4">
+                            <div class="instructor-avatar me-3" style="width: 50px; height: 50px; font-size: 1.2rem;">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-0">Priya Patel</h6>
+                                <small class="text-muted">Data Scientist</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial-card">
+                        <p>The mobile development course exceeded my expectations. The practical approach and mentorship helped me launch my own app successfully.</p>
+                        <div class="d-flex align-items-center mt-4">
+                            <div class="instructor-avatar me-3" style="width: 50px; height: 50px; font-size: 1.2rem;">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-0">James Wilson</h6>
+                                <small class="text-muted">App Developer</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div>
+        @RenderBody()
+    </div>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5>SkillForge Academy</h5>
+                    <p>Empowering professionals with cutting-edge skills and knowledge. Join our community of learners and transform your career today.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#instructors">Instructors</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Support</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Contact Info</h5>
+                    <p><i class="fas fa-envelope me-2"></i>info@skillforge.com</p>
+                    <p><i class="fas fa-phone me-2"></i>+1 (555) 123-4567</p>
+                    <p><i class="fas fa-map-marker-alt me-2"></i>123 Learning Street, Education City, EC 12345</p>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>&copy; 2025 SkillForge Academy. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

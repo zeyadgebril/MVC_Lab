@@ -183,9 +183,9 @@
                     </div>
 
                     <div class="text-center mt-5">
-                        <button class="btn btn-secondary btn-back btn-lg me-3" onclick="goBack()">
+                        <a class="btn btn-secondary btn-back btn-lg me-3" asp-action="TraineeDetails" asp-controller="Trainee" asp-route-id="@Model.ID">
                             <i class="bi bi-arrow-left me-2"></i>Back 
-                        </button>
+                        </a>
                         <button class="btn btn-primary btn-lg">
                             <i class="bi bi-download me-2"></i>Download Certificate
                         </button>

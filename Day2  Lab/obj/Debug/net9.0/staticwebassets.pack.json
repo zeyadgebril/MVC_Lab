@@ -57,6 +57,10 @@
       "PackagePath": "staticwebassets\\Image\\croc.png"
     },
     {
+      "Id": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\css\\LandingPage.css",
+      "PackagePath": "staticwebassets\\css\\LandingPage.css"
+    },
+    {
       "Id": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\css\\details.css",
       "PackagePath": "staticwebassets\\css\\details.css"
     },
@@ -71,6 +75,10 @@
     {
       "Id": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\js\\LandingPage.js",
+      "PackagePath": "staticwebassets\\js\\LandingPage.js"
     },
     {
       "Id": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\js\\site.js",
@@ -255,6 +263,22 @@
     {
       "Id": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\lib\\fontawesome-iconpicker\\css\\fontawesome-iconpicker.css",
+      "PackagePath": "staticwebassets\\lib\\fontawesome-iconpicker\\css\\fontawesome-iconpicker.css"
+    },
+    {
+      "Id": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\lib\\fontawesome-iconpicker\\css\\fontawesome-iconpicker.min.css",
+      "PackagePath": "staticwebassets\\lib\\fontawesome-iconpicker\\css\\fontawesome-iconpicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\lib\\fontawesome-iconpicker\\js\\fontawesome-iconpicker.js",
+      "PackagePath": "staticwebassets\\lib\\fontawesome-iconpicker\\js\\fontawesome-iconpicker.js"
+    },
+    {
+      "Id": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\lib\\fontawesome-iconpicker\\js\\fontawesome-iconpicker.min.js",
+      "PackagePath": "staticwebassets\\lib\\fontawesome-iconpicker\\js\\fontawesome-iconpicker.min.js"
     },
     {
       "Id": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",

@@ -8,7 +8,7 @@ namespace Day2__Lab.CustomAttribute
     {
         protected override ValidationResult? IsValid(object? value, ValidationContext validationContext)
         {
-            var db = (CompanyDbcontext)validationContext.GetService(typeof(CompanyDbcontext));
+            var db = validationContext.GetService<CompanyDbcontext>();//Incase you Inject Using SQL-Injection 
 
             if (db == null)
             {

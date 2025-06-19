@@ -53,6 +53,7 @@ namespace Day2__Lab.Controllers
             }
                 TraineeResultVm trVM = new TraineeResultVm();
 
+                trVM.ID = resFromDB.Traniee_id;
                 trVM.tName = resFromDB.Trainee.Name;
                 trVM.cName = resFromDB.Course.Name;
                 trVM.Degree = resFromDB.degree;
@@ -80,12 +81,7 @@ namespace Day2__Lab.Controllers
         }
    
         public IActionResult TraineeDetails(int id)
-        {
-
-            //var TraineeData = db.crsResult.Where(t=>t.Trainee.IsDeleted!=1)
-            //                           .Include(cr => cr.Trainee)
-            //                           .Include(cr => cr.Course)
-            //                          
+        {                        
             var TraineeData=crsResultRepository.GetAll("Trainee,Course") .FirstOrDefault(t => t.Trainee.ID == id);
             var trainee = traineeRepository.GetAll("Department").FirstOrDefault(t => t.ID == id);
 
@@ -93,7 +89,7 @@ namespace Day2__Lab.Controllers
             {
                 return View  ("NotFoundTrainee");
             }
-            var allCources = crsResultRepository.GetAll(string.Empty).Count();
+            var allCources = crsResultRepository.GetAll(string.Empty).Where(cr=>cr.Traniee_id==id).Count();
             var allPassedCourse = crsResultRepository.TotalTraineePassed(id);
             var allTraineeCources = crsResultRepository.TotalTraineeCourses(id);
 

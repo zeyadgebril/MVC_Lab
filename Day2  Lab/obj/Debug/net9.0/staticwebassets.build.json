@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CyUz42HZ014PkENVhfwnX9V53WrKGm8V4AEfo3jP/3E=",
+  "Hash": "Oay9Wl4pv4sfsINmsXvNa52PRlYKRub2/dyBNYjsvd8=",
   "Source": "Day2  Lab",
   "BasePath": "_content/Day2  Lab",
   "Mode": "Default",
@@ -143,6 +143,27 @@
       "OriginalItemSpec": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
+      "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\3d9k68jfyw-wcgapjacwj.gz",
+      "SourceId": "Day2  Lab",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Day2  Lab",
+      "RelativePath": "lib/fontawesome-iconpicker/js/fontawesome-iconpicker#[.{fingerprint=wcgapjacwj}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\lib\\fontawesome-iconpicker\\js\\fontawesome-iconpicker.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "fd0tjywgiv",
+      "Integrity": "3Z3G9t1WBjWXmUrzM6hV3EWC+B/jG6uJfMQ1pH2Ie40=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\lib\\fontawesome-iconpicker\\js\\fontawesome-iconpicker.js"
+    },
+    {
       "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\4sumkxbsrm-ft3s53vfgj.gz",
       "SourceId": "Day2  Lab",
       "SourceType": "Discovered",
@@ -183,6 +204,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\5o3f2kfl4j-cvgbjci1bo.gz",
+      "SourceId": "Day2  Lab",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Day2  Lab",
+      "RelativePath": "lib/fontawesome-iconpicker/css/fontawesome-iconpicker#[.{fingerprint=cvgbjci1bo}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\lib\\fontawesome-iconpicker\\css\\fontawesome-iconpicker.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "uquxakeot1",
+      "Integrity": "5hNnWoPQeoVl9auDW+Se9rmCN2mElwodSdQx/jP6rb4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\lib\\fontawesome-iconpicker\\css\\fontawesome-iconpicker.css"
     },
     {
       "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\6oz9v0s4eq-jj8uyg4cgr.gz",
@@ -542,6 +584,27 @@
       "OriginalItemSpec": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
+      "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\cr2w2dczp8-sn6eujp02f.gz",
+      "SourceId": "Day2  Lab",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Day2  Lab",
+      "RelativePath": "lib/fontawesome-iconpicker/css/fontawesome-iconpicker.min#[.{fingerprint=sn6eujp02f}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\lib\\fontawesome-iconpicker\\css\\fontawesome-iconpicker.min.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "0x2vpqzqib",
+      "Integrity": "fM70DmRHNqjTy3Mh6DkM0b0QG4DzjKHjIu2+WE3UP4I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\lib\\fontawesome-iconpicker\\css\\fontawesome-iconpicker.min.css"
+    },
+    {
       "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\edizcutwi4-nvvlpmu67g.gz",
       "SourceId": "Day2  Lab",
       "SourceType": "Discovered",
@@ -750,6 +813,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\kg1ey36b3z-c9r5k0yke6.gz",
+      "SourceId": "Day2  Lab",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Day2  Lab",
+      "RelativePath": "css/LandingPage#[.{fingerprint=c9r5k0yke6}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\css\\LandingPage.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "2f1ir081gy",
+      "Integrity": "rpJ/GlEkfI5Pmr8NLlVQdcFL601YqnpXIY26JlX3CU4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\css\\LandingPage.css"
     },
     {
       "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\klojpf39pa-erw9l3u2r3.gz",
@@ -983,6 +1067,27 @@
       "OriginalItemSpec": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
+      "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\q2o06kpcgo-qy2d8mcz5k.gz",
+      "SourceId": "Day2  Lab",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Day2  Lab",
+      "RelativePath": "lib/fontawesome-iconpicker/js/fontawesome-iconpicker.min#[.{fingerprint=qy2d8mcz5k}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\lib\\fontawesome-iconpicker\\js\\fontawesome-iconpicker.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "lpy8if77gl",
+      "Integrity": "uX9UOju5m3AiEy108UAAfKj9SRpPBF5qKQ5MUeT/kuY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\lib\\fontawesome-iconpicker\\js\\fontawesome-iconpicker.min.js"
+    },
+    {
       "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\q4yj5fsoib-h1s4sie4z3.gz",
       "SourceId": "Day2  Lab",
       "SourceType": "Discovered",
@@ -1107,6 +1212,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\ta6rqiem5w-zjehqed60t.gz",
+      "SourceId": "Day2  Lab",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Day2  Lab",
+      "RelativePath": "js/LandingPage#[.{fingerprint=zjehqed60t}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\js\\LandingPage.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "b4bgonjy5o",
+      "Integrity": "td9AcIR7afvdaeCpZWESJmacKtK8BpZAvq0gNmGZiRc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\js\\LandingPage.js"
     },
     {
       "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\tad4e2c1wp-ausgxo2sd3.gz",
@@ -1487,6 +1613,27 @@
       "OriginalItemSpec": "wwwroot\\css\\instructor.css"
     },
     {
+      "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\css\\LandingPage.css",
+      "SourceId": "Day2  Lab",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\",
+      "BasePath": "_content/Day2  Lab",
+      "RelativePath": "css/LandingPage#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c9r5k0yke6",
+      "Integrity": "QM2nqXFqNWlHU1wvM7Ej9UvLRPYe7T0h3KPgz7534co=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\LandingPage.css"
+    },
+    {
       "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\css\\site.css",
       "SourceId": "Day2  Lab",
       "SourceType": "Discovered",
@@ -1800,6 +1947,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Image\\croc.png"
+    },
+    {
+      "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\js\\LandingPage.js",
+      "SourceId": "Day2  Lab",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\",
+      "BasePath": "_content/Day2  Lab",
+      "RelativePath": "js/LandingPage#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zjehqed60t",
+      "Integrity": "7wXp+++BS+Ihi0oUBg5531DbBivcdERlDBWPMXnulH8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\LandingPage.js"
     },
     {
       "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\js\\site.js",
@@ -2768,6 +2936,90 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
+      "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\lib\\fontawesome-iconpicker\\css\\fontawesome-iconpicker.css",
+      "SourceId": "Day2  Lab",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\",
+      "BasePath": "_content/Day2  Lab",
+      "RelativePath": "lib/fontawesome-iconpicker/css/fontawesome-iconpicker#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cvgbjci1bo",
+      "Integrity": "KC2XUWlJX7EuWPF02ZakG9K7ny3Y9AYDfmdnQD/pLlU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\fontawesome-iconpicker\\css\\fontawesome-iconpicker.css"
+    },
+    {
+      "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\lib\\fontawesome-iconpicker\\css\\fontawesome-iconpicker.min.css",
+      "SourceId": "Day2  Lab",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\",
+      "BasePath": "_content/Day2  Lab",
+      "RelativePath": "lib/fontawesome-iconpicker/css/fontawesome-iconpicker.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sn6eujp02f",
+      "Integrity": "yExEWA6b/bqs3FXxQy03aOWIFtx9QEVnHZ/EwemRLbc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\fontawesome-iconpicker\\css\\fontawesome-iconpicker.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\lib\\fontawesome-iconpicker\\js\\fontawesome-iconpicker.js",
+      "SourceId": "Day2  Lab",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\",
+      "BasePath": "_content/Day2  Lab",
+      "RelativePath": "lib/fontawesome-iconpicker/js/fontawesome-iconpicker#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wcgapjacwj",
+      "Integrity": "sAlwRjlYvlekTLgTnPQK/oO1b+zc2Phz6cbLRVXWfyI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\fontawesome-iconpicker\\js\\fontawesome-iconpicker.js"
+    },
+    {
+      "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\lib\\fontawesome-iconpicker\\js\\fontawesome-iconpicker.min.js",
+      "SourceId": "Day2  Lab",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\",
+      "BasePath": "_content/Day2  Lab",
+      "RelativePath": "lib/fontawesome-iconpicker/js/fontawesome-iconpicker.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qy2d8mcz5k",
+      "Integrity": "QvBM3HnWsvcCWqpqHZrtoefjB8t2qPNzdSDNyaSNH5Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\fontawesome-iconpicker\\js\\fontawesome-iconpicker.min.js"
+    },
+    {
       "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Day2  Lab",
       "SourceType": "Discovered",
@@ -3677,6 +3929,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-JzwFDs8/lchnavo3+w3wzbf7O1l0C+KdkRlOomNoOc0="
+        }
+      ]
+    },
+    {
+      "Route": "css/LandingPage.c9r5k0yke6.css",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\kg1ey36b3z-c9r5k0yke6.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000640204866"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1561"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rpJ/GlEkfI5Pmr8NLlVQdcFL601YqnpXIY26JlX3CU4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:39:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"QM2nqXFqNWlHU1wvM7Ej9UvLRPYe7T0h3KPgz7534co=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c9r5k0yke6"
+        },
+        {
+          "Name": "label",
+          "Value": "css/LandingPage.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QM2nqXFqNWlHU1wvM7Ej9UvLRPYe7T0h3KPgz7534co="
+        }
+      ]
+    },
+    {
+      "Route": "css/LandingPage.c9r5k0yke6.css",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\css\\LandingPage.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6355"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QM2nqXFqNWlHU1wvM7Ej9UvLRPYe7T0h3KPgz7534co=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:39:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c9r5k0yke6"
+        },
+        {
+          "Name": "label",
+          "Value": "css/LandingPage.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QM2nqXFqNWlHU1wvM7Ej9UvLRPYe7T0h3KPgz7534co="
+        }
+      ]
+    },
+    {
+      "Route": "css/LandingPage.c9r5k0yke6.css.gz",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\kg1ey36b3z-c9r5k0yke6.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1561"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rpJ/GlEkfI5Pmr8NLlVQdcFL601YqnpXIY26JlX3CU4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:39:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c9r5k0yke6"
+        },
+        {
+          "Name": "label",
+          "Value": "css/LandingPage.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rpJ/GlEkfI5Pmr8NLlVQdcFL601YqnpXIY26JlX3CU4="
+        }
+      ]
+    },
+    {
+      "Route": "css/LandingPage.css",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\kg1ey36b3z-c9r5k0yke6.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000640204866"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1561"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rpJ/GlEkfI5Pmr8NLlVQdcFL601YqnpXIY26JlX3CU4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:39:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"QM2nqXFqNWlHU1wvM7Ej9UvLRPYe7T0h3KPgz7534co=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QM2nqXFqNWlHU1wvM7Ej9UvLRPYe7T0h3KPgz7534co="
+        }
+      ]
+    },
+    {
+      "Route": "css/LandingPage.css",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\css\\LandingPage.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6355"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QM2nqXFqNWlHU1wvM7Ej9UvLRPYe7T0h3KPgz7534co=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:39:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QM2nqXFqNWlHU1wvM7Ej9UvLRPYe7T0h3KPgz7534co="
+        }
+      ]
+    },
+    {
+      "Route": "css/LandingPage.css.gz",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\kg1ey36b3z-c9r5k0yke6.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1561"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rpJ/GlEkfI5Pmr8NLlVQdcFL601YqnpXIY26JlX3CU4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:39:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rpJ/GlEkfI5Pmr8NLlVQdcFL601YqnpXIY26JlX3CU4="
         }
       ]
     },
@@ -5935,6 +6485,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-nI7JV17M6tGuq3OouDf0XzEN2j5WNBjOKAe/f3HxQzE="
+        }
+      ]
+    },
+    {
+      "Route": "js/LandingPage.js",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\ta6rqiem5w-zjehqed60t.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001545595054"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "646"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"td9AcIR7afvdaeCpZWESJmacKtK8BpZAvq0gNmGZiRc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:43:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"7wXp+++BS+Ihi0oUBg5531DbBivcdERlDBWPMXnulH8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7wXp+++BS+Ihi0oUBg5531DbBivcdERlDBWPMXnulH8="
+        }
+      ]
+    },
+    {
+      "Route": "js/LandingPage.js",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\js\\LandingPage.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1674"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7wXp+++BS+Ihi0oUBg5531DbBivcdERlDBWPMXnulH8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:43:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7wXp+++BS+Ihi0oUBg5531DbBivcdERlDBWPMXnulH8="
+        }
+      ]
+    },
+    {
+      "Route": "js/LandingPage.js.gz",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\ta6rqiem5w-zjehqed60t.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "646"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"td9AcIR7afvdaeCpZWESJmacKtK8BpZAvq0gNmGZiRc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:43:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-td9AcIR7afvdaeCpZWESJmacKtK8BpZAvq0gNmGZiRc="
+        }
+      ]
+    },
+    {
+      "Route": "js/LandingPage.zjehqed60t.js",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\ta6rqiem5w-zjehqed60t.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001545595054"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "646"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"td9AcIR7afvdaeCpZWESJmacKtK8BpZAvq0gNmGZiRc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:43:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"7wXp+++BS+Ihi0oUBg5531DbBivcdERlDBWPMXnulH8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zjehqed60t"
+        },
+        {
+          "Name": "label",
+          "Value": "js/LandingPage.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7wXp+++BS+Ihi0oUBg5531DbBivcdERlDBWPMXnulH8="
+        }
+      ]
+    },
+    {
+      "Route": "js/LandingPage.zjehqed60t.js",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\js\\LandingPage.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1674"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7wXp+++BS+Ihi0oUBg5531DbBivcdERlDBWPMXnulH8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:43:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zjehqed60t"
+        },
+        {
+          "Name": "label",
+          "Value": "js/LandingPage.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7wXp+++BS+Ihi0oUBg5531DbBivcdERlDBWPMXnulH8="
+        }
+      ]
+    },
+    {
+      "Route": "js/LandingPage.zjehqed60t.js.gz",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\ta6rqiem5w-zjehqed60t.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "646"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"td9AcIR7afvdaeCpZWESJmacKtK8BpZAvq0gNmGZiRc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:43:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zjehqed60t"
+        },
+        {
+          "Name": "label",
+          "Value": "js/LandingPage.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-td9AcIR7afvdaeCpZWESJmacKtK8BpZAvq0gNmGZiRc="
         }
       ]
     },
@@ -19427,6 +20275,1198 @@
         {
           "Name": "integrity",
           "Value": "sha256-ZH6pA6BSx6fuHZvdaKph1DwUJ+VSYilIiEQu8ilnvqk="
+        }
+      ]
+    },
+    {
+      "Route": "lib/fontawesome-iconpicker/css/fontawesome-iconpicker.css",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\5o3f2kfl4j-cvgbjci1bo.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000685871056"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1457"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5hNnWoPQeoVl9auDW+Se9rmCN2mElwodSdQx/jP6rb4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:05:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"KC2XUWlJX7EuWPF02ZakG9K7ny3Y9AYDfmdnQD/pLlU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KC2XUWlJX7EuWPF02ZakG9K7ny3Y9AYDfmdnQD/pLlU="
+        }
+      ]
+    },
+    {
+      "Route": "lib/fontawesome-iconpicker/css/fontawesome-iconpicker.css",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\lib\\fontawesome-iconpicker\\css\\fontawesome-iconpicker.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7329"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KC2XUWlJX7EuWPF02ZakG9K7ny3Y9AYDfmdnQD/pLlU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:05:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KC2XUWlJX7EuWPF02ZakG9K7ny3Y9AYDfmdnQD/pLlU="
+        }
+      ]
+    },
+    {
+      "Route": "lib/fontawesome-iconpicker/css/fontawesome-iconpicker.css.gz",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\5o3f2kfl4j-cvgbjci1bo.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1457"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5hNnWoPQeoVl9auDW+Se9rmCN2mElwodSdQx/jP6rb4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:05:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5hNnWoPQeoVl9auDW+Se9rmCN2mElwodSdQx/jP6rb4="
+        }
+      ]
+    },
+    {
+      "Route": "lib/fontawesome-iconpicker/css/fontawesome-iconpicker.cvgbjci1bo.css",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\5o3f2kfl4j-cvgbjci1bo.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000685871056"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1457"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5hNnWoPQeoVl9auDW+Se9rmCN2mElwodSdQx/jP6rb4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:05:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"KC2XUWlJX7EuWPF02ZakG9K7ny3Y9AYDfmdnQD/pLlU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cvgbjci1bo"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/fontawesome-iconpicker/css/fontawesome-iconpicker.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KC2XUWlJX7EuWPF02ZakG9K7ny3Y9AYDfmdnQD/pLlU="
+        }
+      ]
+    },
+    {
+      "Route": "lib/fontawesome-iconpicker/css/fontawesome-iconpicker.cvgbjci1bo.css",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\lib\\fontawesome-iconpicker\\css\\fontawesome-iconpicker.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7329"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KC2XUWlJX7EuWPF02ZakG9K7ny3Y9AYDfmdnQD/pLlU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:05:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cvgbjci1bo"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/fontawesome-iconpicker/css/fontawesome-iconpicker.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KC2XUWlJX7EuWPF02ZakG9K7ny3Y9AYDfmdnQD/pLlU="
+        }
+      ]
+    },
+    {
+      "Route": "lib/fontawesome-iconpicker/css/fontawesome-iconpicker.cvgbjci1bo.css.gz",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\5o3f2kfl4j-cvgbjci1bo.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1457"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5hNnWoPQeoVl9auDW+Se9rmCN2mElwodSdQx/jP6rb4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:05:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cvgbjci1bo"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/fontawesome-iconpicker/css/fontawesome-iconpicker.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5hNnWoPQeoVl9auDW+Se9rmCN2mElwodSdQx/jP6rb4="
+        }
+      ]
+    },
+    {
+      "Route": "lib/fontawesome-iconpicker/css/fontawesome-iconpicker.min.css",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\cr2w2dczp8-sn6eujp02f.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000746825990"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1338"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fM70DmRHNqjTy3Mh6DkM0b0QG4DzjKHjIu2+WE3UP4I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:05:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"yExEWA6b/bqs3FXxQy03aOWIFtx9QEVnHZ/EwemRLbc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yExEWA6b/bqs3FXxQy03aOWIFtx9QEVnHZ/EwemRLbc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/fontawesome-iconpicker/css/fontawesome-iconpicker.min.css",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\lib\\fontawesome-iconpicker\\css\\fontawesome-iconpicker.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6184"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yExEWA6b/bqs3FXxQy03aOWIFtx9QEVnHZ/EwemRLbc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:05:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yExEWA6b/bqs3FXxQy03aOWIFtx9QEVnHZ/EwemRLbc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/fontawesome-iconpicker/css/fontawesome-iconpicker.min.css.gz",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\cr2w2dczp8-sn6eujp02f.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1338"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fM70DmRHNqjTy3Mh6DkM0b0QG4DzjKHjIu2+WE3UP4I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:05:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fM70DmRHNqjTy3Mh6DkM0b0QG4DzjKHjIu2+WE3UP4I="
+        }
+      ]
+    },
+    {
+      "Route": "lib/fontawesome-iconpicker/css/fontawesome-iconpicker.min.sn6eujp02f.css",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\cr2w2dczp8-sn6eujp02f.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000746825990"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1338"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fM70DmRHNqjTy3Mh6DkM0b0QG4DzjKHjIu2+WE3UP4I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:05:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"yExEWA6b/bqs3FXxQy03aOWIFtx9QEVnHZ/EwemRLbc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sn6eujp02f"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/fontawesome-iconpicker/css/fontawesome-iconpicker.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yExEWA6b/bqs3FXxQy03aOWIFtx9QEVnHZ/EwemRLbc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/fontawesome-iconpicker/css/fontawesome-iconpicker.min.sn6eujp02f.css",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\lib\\fontawesome-iconpicker\\css\\fontawesome-iconpicker.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6184"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yExEWA6b/bqs3FXxQy03aOWIFtx9QEVnHZ/EwemRLbc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:05:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sn6eujp02f"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/fontawesome-iconpicker/css/fontawesome-iconpicker.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yExEWA6b/bqs3FXxQy03aOWIFtx9QEVnHZ/EwemRLbc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/fontawesome-iconpicker/css/fontawesome-iconpicker.min.sn6eujp02f.css.gz",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\cr2w2dczp8-sn6eujp02f.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1338"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fM70DmRHNqjTy3Mh6DkM0b0QG4DzjKHjIu2+WE3UP4I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:05:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sn6eujp02f"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/fontawesome-iconpicker/css/fontawesome-iconpicker.min.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fM70DmRHNqjTy3Mh6DkM0b0QG4DzjKHjIu2+WE3UP4I="
+        }
+      ]
+    },
+    {
+      "Route": "lib/fontawesome-iconpicker/js/fontawesome-iconpicker.js",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\3d9k68jfyw-wcgapjacwj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000039461742"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25340"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3Z3G9t1WBjWXmUrzM6hV3EWC+B/jG6uJfMQ1pH2Ie40=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:05:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"sAlwRjlYvlekTLgTnPQK/oO1b+zc2Phz6cbLRVXWfyI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sAlwRjlYvlekTLgTnPQK/oO1b+zc2Phz6cbLRVXWfyI="
+        }
+      ]
+    },
+    {
+      "Route": "lib/fontawesome-iconpicker/js/fontawesome-iconpicker.js",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\lib\\fontawesome-iconpicker\\js\\fontawesome-iconpicker.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "188667"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sAlwRjlYvlekTLgTnPQK/oO1b+zc2Phz6cbLRVXWfyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:05:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sAlwRjlYvlekTLgTnPQK/oO1b+zc2Phz6cbLRVXWfyI="
+        }
+      ]
+    },
+    {
+      "Route": "lib/fontawesome-iconpicker/js/fontawesome-iconpicker.js.gz",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\3d9k68jfyw-wcgapjacwj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25340"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3Z3G9t1WBjWXmUrzM6hV3EWC+B/jG6uJfMQ1pH2Ie40=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:05:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3Z3G9t1WBjWXmUrzM6hV3EWC+B/jG6uJfMQ1pH2Ie40="
+        }
+      ]
+    },
+    {
+      "Route": "lib/fontawesome-iconpicker/js/fontawesome-iconpicker.min.js",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\q2o06kpcgo-qy2d8mcz5k.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000044482007"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22480"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uX9UOju5m3AiEy108UAAfKj9SRpPBF5qKQ5MUeT/kuY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:05:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"QvBM3HnWsvcCWqpqHZrtoefjB8t2qPNzdSDNyaSNH5Q=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QvBM3HnWsvcCWqpqHZrtoefjB8t2qPNzdSDNyaSNH5Q="
+        }
+      ]
+    },
+    {
+      "Route": "lib/fontawesome-iconpicker/js/fontawesome-iconpicker.min.js",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\lib\\fontawesome-iconpicker\\js\\fontawesome-iconpicker.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "110712"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QvBM3HnWsvcCWqpqHZrtoefjB8t2qPNzdSDNyaSNH5Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:05:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QvBM3HnWsvcCWqpqHZrtoefjB8t2qPNzdSDNyaSNH5Q="
+        }
+      ]
+    },
+    {
+      "Route": "lib/fontawesome-iconpicker/js/fontawesome-iconpicker.min.js.gz",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\q2o06kpcgo-qy2d8mcz5k.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22480"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uX9UOju5m3AiEy108UAAfKj9SRpPBF5qKQ5MUeT/kuY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:05:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uX9UOju5m3AiEy108UAAfKj9SRpPBF5qKQ5MUeT/kuY="
+        }
+      ]
+    },
+    {
+      "Route": "lib/fontawesome-iconpicker/js/fontawesome-iconpicker.min.qy2d8mcz5k.js",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\q2o06kpcgo-qy2d8mcz5k.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000044482007"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22480"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uX9UOju5m3AiEy108UAAfKj9SRpPBF5qKQ5MUeT/kuY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:05:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"QvBM3HnWsvcCWqpqHZrtoefjB8t2qPNzdSDNyaSNH5Q=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qy2d8mcz5k"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/fontawesome-iconpicker/js/fontawesome-iconpicker.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QvBM3HnWsvcCWqpqHZrtoefjB8t2qPNzdSDNyaSNH5Q="
+        }
+      ]
+    },
+    {
+      "Route": "lib/fontawesome-iconpicker/js/fontawesome-iconpicker.min.qy2d8mcz5k.js",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\lib\\fontawesome-iconpicker\\js\\fontawesome-iconpicker.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "110712"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QvBM3HnWsvcCWqpqHZrtoefjB8t2qPNzdSDNyaSNH5Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:05:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qy2d8mcz5k"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/fontawesome-iconpicker/js/fontawesome-iconpicker.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QvBM3HnWsvcCWqpqHZrtoefjB8t2qPNzdSDNyaSNH5Q="
+        }
+      ]
+    },
+    {
+      "Route": "lib/fontawesome-iconpicker/js/fontawesome-iconpicker.min.qy2d8mcz5k.js.gz",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\q2o06kpcgo-qy2d8mcz5k.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22480"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uX9UOju5m3AiEy108UAAfKj9SRpPBF5qKQ5MUeT/kuY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:05:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qy2d8mcz5k"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/fontawesome-iconpicker/js/fontawesome-iconpicker.min.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uX9UOju5m3AiEy108UAAfKj9SRpPBF5qKQ5MUeT/kuY="
+        }
+      ]
+    },
+    {
+      "Route": "lib/fontawesome-iconpicker/js/fontawesome-iconpicker.wcgapjacwj.js",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\3d9k68jfyw-wcgapjacwj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000039461742"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25340"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3Z3G9t1WBjWXmUrzM6hV3EWC+B/jG6uJfMQ1pH2Ie40=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:05:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"sAlwRjlYvlekTLgTnPQK/oO1b+zc2Phz6cbLRVXWfyI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wcgapjacwj"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/fontawesome-iconpicker/js/fontawesome-iconpicker.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sAlwRjlYvlekTLgTnPQK/oO1b+zc2Phz6cbLRVXWfyI="
+        }
+      ]
+    },
+    {
+      "Route": "lib/fontawesome-iconpicker/js/fontawesome-iconpicker.wcgapjacwj.js",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\lib\\fontawesome-iconpicker\\js\\fontawesome-iconpicker.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "188667"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sAlwRjlYvlekTLgTnPQK/oO1b+zc2Phz6cbLRVXWfyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:05:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wcgapjacwj"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/fontawesome-iconpicker/js/fontawesome-iconpicker.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sAlwRjlYvlekTLgTnPQK/oO1b+zc2Phz6cbLRVXWfyI="
+        }
+      ]
+    },
+    {
+      "Route": "lib/fontawesome-iconpicker/js/fontawesome-iconpicker.wcgapjacwj.js.gz",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\3d9k68jfyw-wcgapjacwj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25340"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3Z3G9t1WBjWXmUrzM6hV3EWC+B/jG6uJfMQ1pH2Ie40=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:05:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wcgapjacwj"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/fontawesome-iconpicker/js/fontawesome-iconpicker.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3Z3G9t1WBjWXmUrzM6hV3EWC+B/jG6uJfMQ1pH2Ie40="
         }
       ]
     },
