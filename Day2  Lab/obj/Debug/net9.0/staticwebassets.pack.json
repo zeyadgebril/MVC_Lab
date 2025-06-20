@@ -61,6 +61,10 @@
       "PackagePath": "staticwebassets\\css\\LandingPage.css"
     },
     {
+      "Id": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\css\\LoginPage.css",
+      "PackagePath": "staticwebassets\\css\\LoginPage.css"
+    },
+    {
       "Id": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\css\\details.css",
       "PackagePath": "staticwebassets\\css\\details.css"
     },
@@ -79,6 +83,10 @@
     {
       "Id": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\js\\LandingPage.js",
       "PackagePath": "staticwebassets\\js\\LandingPage.js"
+    },
+    {
+      "Id": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\js\\LoginPage.js",
+      "PackagePath": "staticwebassets\\js\\LoginPage.js"
     },
     {
       "Id": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\js\\site.js",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Oay9Wl4pv4sfsINmsXvNa52PRlYKRub2/dyBNYjsvd8=",
+  "Hash": "HchzfSIaRbxYnK8Vvy/8WT7wzRa6gv9ggn8qcCORd9Y=",
   "Source": "Day2  Lab",
   "BasePath": "_content/Day2  Lab",
   "Mode": "Default",
@@ -962,6 +962,27 @@
       "OriginalItemSpec": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
+      "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\ofxdzl4rry-m3qtxtp6ba.gz",
+      "SourceId": "Day2  Lab",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Day2  Lab",
+      "RelativePath": "js/LoginPage#[.{fingerprint=m3qtxtp6ba}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\js\\LoginPage.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "kme4lyxvbr",
+      "Integrity": "9A+3nKe0lALvGoudfqTSC1UE91xim9TjMoMvdnDGAT0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\js\\LoginPage.js"
+    },
+    {
       "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\orgtk8rlrc-61n19gt1b8.gz",
       "SourceId": "Day2  Lab",
       "SourceType": "Discovered",
@@ -1487,6 +1508,27 @@
       "OriginalItemSpec": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
+      "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\xzpjypo7qt-5cklvkrn01.gz",
+      "SourceId": "Day2  Lab",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Day2  Lab",
+      "RelativePath": "css/LoginPage#[.{fingerprint=5cklvkrn01}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\css\\LoginPage.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "a5eupvjmg9",
+      "Integrity": "Huj7QV5w8OZP+e94tboU9C59mR21FlhRFUh1LsywRTA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\css\\LoginPage.css"
+    },
+    {
       "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\ypjgwdotkm-87fc7y1x7t.gz",
       "SourceId": "Day2  Lab",
       "SourceType": "Discovered",
@@ -1632,6 +1674,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\LandingPage.css"
+    },
+    {
+      "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\css\\LoginPage.css",
+      "SourceId": "Day2  Lab",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\",
+      "BasePath": "_content/Day2  Lab",
+      "RelativePath": "css/LoginPage#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5cklvkrn01",
+      "Integrity": "y+YO4HY04F/GrbmuEuVVURou3N0IljWU39jDFCs1xDk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\LoginPage.css"
     },
     {
       "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\css\\site.css",
@@ -1968,6 +2031,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\LandingPage.js"
+    },
+    {
+      "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\js\\LoginPage.js",
+      "SourceId": "Day2  Lab",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\",
+      "BasePath": "_content/Day2  Lab",
+      "RelativePath": "js/LoginPage#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m3qtxtp6ba",
+      "Integrity": "nnHHdnMXlbDgfWVH/ALwQxrva/q72pgk55xqlxsHLzg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\LoginPage.js"
     },
     {
       "Identity": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\js\\site.js",
@@ -4227,6 +4311,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-rpJ/GlEkfI5Pmr8NLlVQdcFL601YqnpXIY26JlX3CU4="
+        }
+      ]
+    },
+    {
+      "Route": "css/LoginPage.5cklvkrn01.css",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\xzpjypo7qt-5cklvkrn01.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000500500501"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1997"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Huj7QV5w8OZP+e94tboU9C59mR21FlhRFUh1LsywRTA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:53:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"y+YO4HY04F/GrbmuEuVVURou3N0IljWU39jDFCs1xDk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5cklvkrn01"
+        },
+        {
+          "Name": "label",
+          "Value": "css/LoginPage.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y+YO4HY04F/GrbmuEuVVURou3N0IljWU39jDFCs1xDk="
+        }
+      ]
+    },
+    {
+      "Route": "css/LoginPage.5cklvkrn01.css",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\css\\LoginPage.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8166"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y+YO4HY04F/GrbmuEuVVURou3N0IljWU39jDFCs1xDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:53:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5cklvkrn01"
+        },
+        {
+          "Name": "label",
+          "Value": "css/LoginPage.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y+YO4HY04F/GrbmuEuVVURou3N0IljWU39jDFCs1xDk="
+        }
+      ]
+    },
+    {
+      "Route": "css/LoginPage.5cklvkrn01.css.gz",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\xzpjypo7qt-5cklvkrn01.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1997"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Huj7QV5w8OZP+e94tboU9C59mR21FlhRFUh1LsywRTA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:53:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5cklvkrn01"
+        },
+        {
+          "Name": "label",
+          "Value": "css/LoginPage.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Huj7QV5w8OZP+e94tboU9C59mR21FlhRFUh1LsywRTA="
+        }
+      ]
+    },
+    {
+      "Route": "css/LoginPage.css",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\xzpjypo7qt-5cklvkrn01.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000500500501"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1997"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Huj7QV5w8OZP+e94tboU9C59mR21FlhRFUh1LsywRTA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:53:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"y+YO4HY04F/GrbmuEuVVURou3N0IljWU39jDFCs1xDk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y+YO4HY04F/GrbmuEuVVURou3N0IljWU39jDFCs1xDk="
+        }
+      ]
+    },
+    {
+      "Route": "css/LoginPage.css",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\css\\LoginPage.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8166"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y+YO4HY04F/GrbmuEuVVURou3N0IljWU39jDFCs1xDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:53:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y+YO4HY04F/GrbmuEuVVURou3N0IljWU39jDFCs1xDk="
+        }
+      ]
+    },
+    {
+      "Route": "css/LoginPage.css.gz",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\xzpjypo7qt-5cklvkrn01.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1997"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Huj7QV5w8OZP+e94tboU9C59mR21FlhRFUh1LsywRTA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 10:53:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Huj7QV5w8OZP+e94tboU9C59mR21FlhRFUh1LsywRTA="
         }
       ]
     },
@@ -6783,6 +7165,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-td9AcIR7afvdaeCpZWESJmacKtK8BpZAvq0gNmGZiRc="
+        }
+      ]
+    },
+    {
+      "Route": "js/LoginPage.js",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\ofxdzl4rry-m3qtxtp6ba.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000908265213"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1100"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9A+3nKe0lALvGoudfqTSC1UE91xim9TjMoMvdnDGAT0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 20:58:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"nnHHdnMXlbDgfWVH/ALwQxrva/q72pgk55xqlxsHLzg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nnHHdnMXlbDgfWVH/ALwQxrva/q72pgk55xqlxsHLzg="
+        }
+      ]
+    },
+    {
+      "Route": "js/LoginPage.js",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\js\\LoginPage.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3523"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nnHHdnMXlbDgfWVH/ALwQxrva/q72pgk55xqlxsHLzg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 20:58:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nnHHdnMXlbDgfWVH/ALwQxrva/q72pgk55xqlxsHLzg="
+        }
+      ]
+    },
+    {
+      "Route": "js/LoginPage.js.gz",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\ofxdzl4rry-m3qtxtp6ba.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1100"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9A+3nKe0lALvGoudfqTSC1UE91xim9TjMoMvdnDGAT0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 20:58:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9A+3nKe0lALvGoudfqTSC1UE91xim9TjMoMvdnDGAT0="
+        }
+      ]
+    },
+    {
+      "Route": "js/LoginPage.m3qtxtp6ba.js",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\ofxdzl4rry-m3qtxtp6ba.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000908265213"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1100"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9A+3nKe0lALvGoudfqTSC1UE91xim9TjMoMvdnDGAT0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 20:58:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"nnHHdnMXlbDgfWVH/ALwQxrva/q72pgk55xqlxsHLzg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m3qtxtp6ba"
+        },
+        {
+          "Name": "label",
+          "Value": "js/LoginPage.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nnHHdnMXlbDgfWVH/ALwQxrva/q72pgk55xqlxsHLzg="
+        }
+      ]
+    },
+    {
+      "Route": "js/LoginPage.m3qtxtp6ba.js",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\js\\LoginPage.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3523"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nnHHdnMXlbDgfWVH/ALwQxrva/q72pgk55xqlxsHLzg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 20:58:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m3qtxtp6ba"
+        },
+        {
+          "Name": "label",
+          "Value": "js/LoginPage.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nnHHdnMXlbDgfWVH/ALwQxrva/q72pgk55xqlxsHLzg="
+        }
+      ]
+    },
+    {
+      "Route": "js/LoginPage.m3qtxtp6ba.js.gz",
+      "AssetFile": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\compressed\\ofxdzl4rry-m3qtxtp6ba.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1100"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9A+3nKe0lALvGoudfqTSC1UE91xim9TjMoMvdnDGAT0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 20:58:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m3qtxtp6ba"
+        },
+        {
+          "Name": "label",
+          "Value": "js/LoginPage.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9A+3nKe0lALvGoudfqTSC1UE91xim9TjMoMvdnDGAT0="
         }
       ]
     },

@@ -79,8 +79,8 @@
                                         <span class="input-group-text bg-light">
                                             <i class="fas fa-building"></i>
                                         </span>
-                                        <select id="Dept_id" name="Dept_id" class="form-select form-select-lg" required>
-                                            <option value="">Select Department</option>
+                                        <select id="Dept_id" name="Dept_id" class="form-select form-select-lg" onchange="GetCourse()" required>
+                                            <option value="0" selected disabled>--Select Department--</option>
                                             @foreach (var item in Model.DeptList)
                                             {
                                                 if (Model.Dept_id == item.ID)
@@ -105,18 +105,7 @@
                                             <i class="fas fa-book"></i>
                                         </span>
                                         <select id="Crs_id" name="Crs_id" class="form-select form-select-lg" required>
-                                            <option value="">Select Course</option>
-                                            @foreach (var item in Model.CourseList)
-                                            {
-                                                if (Model.Crs_id == item.ID)
-                                                {
-                                                    <option value="@item.ID" selected>@item.Name</option>
-                                                }
-                                                else
-                                                {
-                                                    <option value="@item.ID">@item.Name</option>
-                                                }
-                                            }
+                                            <option value="0" selected disabled>--Select Course--</option>
                                         </select>
                                     </div>
                                 </div>
@@ -207,3 +196,23 @@
 </div>
 
 
+
+
+
+    <script>
+        function GetCourse(){
+           let departmetSelectedId= $("#Dept_id").val();
+           $("#Crs_id").html("");
+           $.ajax({
+           url: "/instructor/GetCourseByDeptId?deptId="+departmetSelectedId,
+               success: function(result) {
+            $("#Crs_id").append(`<option value="0" selected disabled > -- Select Course -- </option>`);
+
+             for (let course of result) {
+                     $("#Crs_id").append(`<option value="${course.id}">${course.name}</option>`);
+                 }
+             }
+
+           });
+        }
+    </script>

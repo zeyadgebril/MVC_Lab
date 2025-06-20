@@ -41,6 +41,7 @@ C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\l
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\js\LoginPage.js
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\favicon.ico
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
@@ -66,11 +67,13 @@ C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\l
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\lib\jquery-validation\LICENSE.md
+C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\css\LoginPage.css
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
 wwwroot\css\details.css
 wwwroot\css\instructor.css
 wwwroot\css\LandingPage.css
+wwwroot\css\LoginPage.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\Image\1.png
@@ -87,6 +90,7 @@ wwwroot\Image\9.png
 wwwroot\Image\b7bad6bc-76b8-4ca9-917f-3231976c13d5.png
 wwwroot\Image\croc.png
 wwwroot\js\LandingPage.js
+wwwroot\js\LoginPage.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

@@ -157,6 +157,13 @@ namespace Day2__Lab.Controllers
                 return View("NotFound");
             }
         }
-    
+        //instructor/GetCourseByDeptId?deptID=
+        public IActionResult GetCourseByDeptId(int deptID)
+        {
+            var data = courseRepository.GetAll(string.Empty).Where(c => c.Dept_id == deptID).Select(c => new { c.ID, c.Name }).ToList();
+            return Json(data);
+        }
+
+
     }
 }

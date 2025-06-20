@@ -1034,3 +1034,5 @@ C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\obj\Debug
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\obj\Debug\net9.0\compressed\cr2w2dczp8-sn6eujp02f.gz
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\obj\Debug\net9.0\compressed\3d9k68jfyw-wcgapjacwj.gz
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\obj\Debug\net9.0\compressed\q2o06kpcgo-qy2d8mcz5k.gz
+C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\obj\Debug\net9.0\compressed\xzpjypo7qt-5cklvkrn01.gz
+C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\obj\Debug\net9.0\compressed\ofxdzl4rry-m3qtxtp6ba.gz
