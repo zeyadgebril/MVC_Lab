@@ -1,8 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.General;
 
 namespace Day2__Lab.Models
 {
-    public class CompanyDbcontext:DbContext
+    public class CompanyDbcontext:IdentityDbContext<ApplicationUser>
     {
         public DbSet<Department> Department { get; set; }
         public DbSet<instructor> instructor { get; set; }

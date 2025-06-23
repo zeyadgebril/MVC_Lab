@@ -1,0 +1,57 @@
+﻿@model AccountLoginVM
+
+@{
+    ViewData["Title"] = "Login";
+
+    Layout = "_LoginPage";
+}
+
+
+<div class="login-container">
+    <div class="login-card">
+        <div class="brand-logo">
+            <i class="fas fa-user-shield"></i>
+            <h2>Welcome Back</h2>
+            <p>
+                Please sign in to your account
+
+            </p>
+        </div>
+
+        <form method="post" asp-action="Login" asp-controller="Account">
+            <div class="form-floating">
+                <input type="email" class="form-control" asp-for="@Model.Email" placeholder="name@example.com" required>
+                <label asp-for="@Model.Email">Email address</label>
+            </div>
+
+            <div class="form-floating">
+                <div class="form-floating">
+                    <input type="password" class="form-control" asp-for="@Model.Password" placeholder="Password" required>
+                    <label asp-for="@Model.Password">Password</label>
+                </div>
+            </div>
+
+            <div class="remember-forgot">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" asp-for="@Model.RemberMe" >
+                    <label class="form-check-label" asp-for="@Model.RemberMe">
+                        Remember me
+                    </label>
+                </div>
+                <a href="#" class="forgot-password">Forgot password?</a>
+            </div>
+
+            <button type="submit" class="btn btn-login">
+                <i class="fas fa-spinner fa-spin loading"></i>
+                Sign In
+            </button>
+        </form>
+        
+        
+        <div class="signup-link">
+            Don't have an account? <a asp-action="Register" asp-controller="Account" >Sign up here</a>
+        </div>
+    </div>
+</div>
+
+

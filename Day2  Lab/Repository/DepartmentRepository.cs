@@ -6,9 +6,14 @@ namespace Day2__Lab.Repository
     public class DepartmentRepository : IDepartmentRepository
     {
         CompanyDbcontext db;
-        public DepartmentRepository(CompanyDbcontext dbcontext)
+        private readonly IInstructorRepository instructorRepository;
+        private readonly ICourseRepository courseRepository;
+
+        public DepartmentRepository(CompanyDbcontext dbcontext,IInstructorRepository instructorRepository,ICourseRepository courseRepository)
         {
             db = dbcontext;
+            this.instructorRepository = instructorRepository;
+            this.courseRepository = courseRepository;
         }
         public void Add(Department entity)
         {
@@ -52,15 +57,54 @@ namespace Day2__Lab.Repository
 
         public bool Delete(int id)
         {
-            var Instructor = GetById(id);
+            var Department = GetById(id);
             bool Condition = false;
-            if (Instructor != null)
+            if (Department != null)
             {
-                Instructor.IsDeleted = 1;
-                Update(Instructor);
+                Department.IsDeleted = 1;
+                Update(Department);
                 Condition = true;
             }
             return Condition;
+
+        }
+
+        public Department FindByName(string name)
+        {
+            return GetAll(string.Empty).FirstOrDefault(d => d.Name == name);
+        }
+
+        public int TotalNumberOfInstructor(int DepartmentID)
+        {
+            return instructorRepository.GetAll("Department").Where(i => i.Department.ID == DepartmentID && i.IsDeleted != 1 &&i.Department.IsDeleted!=1).Count();
+        }
+
+        public int AllActiveCourses(int DepartmentID)
+        {
+            return courseRepository.GetAll("Department").Where(c=>c.Dept_id==DepartmentID&&c.IsDeleted!=1&&c.Department.IsDeleted!=1).Count();
+        }
+
+        public float AllInstructorsSalary(int DepartmentID)
+        {
+            var salarys = 0.0f;
+            foreach(var item in instructorRepository.GetAll(string.Empty))
+            {
+                if(item.Dept_id==DepartmentID&&item.IsDeleted!=1)
+                {
+                    salarys += item.salary;
+                }
+            }
+            return salarys;
+        }
+
+        public string GetDepartmentManager(int DepartmentID)
+        {
+            return GetById(DepartmentID).Manager;
+        }
+
+        public string GetDepartmentName(int DepartmentID)
+        {
+            return GetById(DepartmentID).Name;
 
         }
     }

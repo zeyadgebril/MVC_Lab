@@ -1,0 +1,175 @@
+﻿@model AccountRegisterVM
+@{
+    ViewData["Title"] = "profile";
+    Layout = "_MyLayout";
+}
+<style>
+
+    .profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+    }
+
+    .profile-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    }
+
+    .profile-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    }
+
+    .profile-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+    font-size: 2rem;
+    }
+
+    .form-floating > .form-control {
+    border: 2px solid #e9ecef;
+    border-radius: 10px;
+    }
+
+    .form-floating > .form-control:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 0.25rem rgba(102, 126, 234, 0.25);
+    }
+
+    .btn-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    border-radius: 10px;
+    padding: 12px 30px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    }
+
+    .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+    }
+
+    .btn-outline-secondary {
+    border: 2px solid #6c757d;
+    border-radius: 10px;
+    padding: 12px 30px;
+    font-weight: 600;
+    }
+
+    .input-group-text {
+    background: #f8f9fa;
+    border: 2px solid #e9ecef;
+    border-right: none;
+    }
+
+    .input-group .form-control {
+    border-left: none;
+    }
+
+    .form-text {
+    font-size: 0.875rem;
+    color: #6c757d;
+    }
+
+    .alert {
+    border-radius: 10px;
+    border: none;
+    }
+</style>
+
+
+<div class="container">
+    <div class="profile-container">
+        <div class="profile-card">
+            <div class="profile-header">
+                <div class="profile-avatar">
+                    <i class="fas fa-user"></i>
+                </div>
+                <h2 class="mb-0">Edit Profile</h2>
+                <p class="mb-0 opacity-75">Update your personal information</p>
+            </div>
+
+            <div class="p-4">
+                <form method="post" asp-action="profile"asp-controller="Account" > 
+                    <input type="hidden" asp-for="@Model.Email" value="@Model.Email" />
+
+                    <!-- Email -->
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" asp-for="@Model.Email" placeholder="Email" disabled value="@Model.Email" required>
+                        <label asp-for="@Model.Email"><i class="fas fa-envelope me-2"></i>Email Address</label>
+                    </div>
+
+                    <!-- Phone Number -->
+                    <div class="mb-3">
+                        <label asp-for="@Model.PhoneNumber" class="form-label"><i class="fas fa-phone me-2"></i>Phone Number</label>
+                        <div class="input-group">
+                            <span class="input-group-text">
+                                <i class="fas fa-phone"></i>
+                            </span>
+                            <input type="tel" class="form-control" asp-for="@Model.PhoneNumber" placeholder="+1 (555) 123-4567" value="@Model.PhoneNumber">
+                        </div>
+                    </div>
+
+                    <!-- Address -->
+                    <div class="form-floating mb-4">
+                        <textarea class="form-control" asp-for="@Model.Address" placeholder="Address" value="@Model.Address" style="height: 100px" required>123 Main Street, Apt 4B
+New York, NY 10001</textarea>
+                        <label asp-for="@Model.Address" ><i class="fas fa-map-marker-alt me-2"></i>Address</label>
+                    </div>
+
+                    <!-- Password Section -->
+                    <div class="alert alert-info" role="alert">
+                        <i class="fas fa-info-circle me-2"></i>
+                        <strong>Password Security:</strong> Leave password fields empty if you don't want to change your password.
+                    </div>
+
+                    <!-- Current Password -->
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control" asp-for="@Model.OldPassword" placeholder="Current Password">
+                        <label asp-for="@Model.OldPassword"><i class="fas fa-lock me-2"></i>Current Password</label>
+                    </div>
+
+                    <!-- New Password -->
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control" asp-for="@Model.Password" placeholder="New Password">
+                        <label asp-for="@Model.Password"><i class="fas fa-key me-2"></i>New Password</label>
+                        <div class="form-text">
+                            Password must be at least 8 characters long and contain uppercase, lowercase, numbers, and special characters.
+                        </div>
+                    </div>
+
+                    <!-- Confirm Password -->
+                    <div class="form-floating mb-4">
+                        <input type="password" class="form-control" asp-for="@Model.ConfirmPassword" placeholder="Confirm New Password">
+                        <label asp-for="@Model.ConfirmPassword"><i class="fas fa-check-circle me-2"></i>Confirm New Password</label>
+                    </div>
+
+                    <div asp-validation-summary="All" ></div>
+                    <!-- Action Buttons -->
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <a asp-action="Privacy" asp-controller="Home" class="btn btn-outline-secondary me-md-2">
+                            <i class="fas fa-times me-2"></i>Cancel
+                        </a>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-save me-2"></i>Save Changes
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+@* <partial name="_ValidationScriptsPartial"> *@

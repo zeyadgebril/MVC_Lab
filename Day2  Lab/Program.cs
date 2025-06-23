@@ -1,6 +1,8 @@
 using Day2__Lab.Models;
 using Day2__Lab.Repository;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 
 namespace Day2__Lab
 {
@@ -26,6 +28,15 @@ namespace Day2__Lab
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("cs"));
             });
+            //*****************UserManager-Injection******************
+
+            builder.Services.AddIdentity<ApplicationUser, IdentityRole>(option =>
+            {
+                option.Password.RequireNonAlphanumeric = false;
+                option.Password.RequiredLength = 4;
+                option.Password.RequireUppercase = false;
+
+            }).AddEntityFrameworkStores<CompanyDbcontext>();
             //*****************End-Injection**************************
 
 

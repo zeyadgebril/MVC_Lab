@@ -83,7 +83,7 @@ namespace Day2__Lab.Controllers
 
                 instructorRepository.Add(instructor);
                 instructorRepository.save();
-                return RedirectToAction("Index");
+                return RedirectToAction ("Index");
             }
 
             return View("Add", ins);

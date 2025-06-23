@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Day2__Lab</title>
+    <link rel="icon" type="image/x-icon" href="~/ASSD-removebg-preview (1).ico">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="~/lib/fontawesome-free-6.7.2-web/css/all.min.css" rel="stylesheet" />
+    <link href="/css/LoginPage.css" rel="stylesheet" />
+
+
+    <script type="importmap"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/LoginPage.js"></script>
+
+</head>
+<body>
+    <a asp-action="Index" asp-controller="Home" class="back-to-home">
+        <i class="fas fa-arrow-left"></i>
+        Back to Home 
+    </a>
+    @RenderBody()
+
+
+</body>
+</html>

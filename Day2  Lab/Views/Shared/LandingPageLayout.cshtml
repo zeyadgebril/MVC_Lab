@@ -7,10 +7,9 @@
     <script type="importmap"></script>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="/lib/fontawesome-iconpicker/css/fontawesome-iconpicker.min.css">
+    <link href="~/lib/fontawesome-free-6.7.2-web/css/all.min.css" rel="stylesheet" />
     <link href="/css/LandingPage.css" rel="stylesheet" />
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="/lib/fontawesome-iconpicker/js/fontawesome-iconpicker.min.js"></script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
@@ -40,9 +39,18 @@
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
-                <div class="d-flex">
-                    <button class="btn btn-outline-light">Login / Signup</button>
-                </div>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <div class="d-flex">
+                        <a asp-action="Login" asp-controller="Account" class="btn btn-outline-light">Login / Signup</a>
+                    </div>
+                }
+                else
+                {
+                    <div class="d-flex">
+                        <a asp-action="Privacy" asp-controller="Home" class="btn btn-outline-light">Dashpoard</a>
+                    </div>
+                }
             </div>
         </div>
     </nav>
@@ -75,11 +83,11 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="card course-card">
                         <div class="course-image">
-                            <i class="fas fa-code"></i>
+                            <img src="/Image/webapp-removebg-preview.png" />
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Web Development Bootcamp</h5>
-                            <p class="card-text">Master HTML, CSS, JavaScript, and React to build modern web applications. Perfect for beginners and intermediate developers.</p>
+                            <p class="card-text">Master HTML, CSS, JavaScript, and React by building real-world websites and apps from scratch. Ideal for new or growing developers.</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <span class="text-primary fw-bold">$299</span>
                                 <button class="btn btn-primary">Enroll Now</button>
@@ -90,11 +98,11 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="card course-card">
                         <div class="course-image">
-                            <i class="fas fa-chart-line"></i>
+                            <img src="/Image/powerbi-removebg-preview.png" />
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Data Science Fundamentals</h5>
-                            <p class="card-text">Learn Python, statistics, and machine learning to analyze data and derive meaningful insights for business decisions.</p>
+                            <p class="card-text">Explore Python, statistics, and ML to clean, visualize, and analyze data. Gain practical insights for real-world business problems.</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <span class="text-primary fw-bold">$399</span>
                                 <button class="btn btn-primary">Enroll Now</button>
@@ -105,11 +113,11 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="card course-card">
                         <div class="course-image">
-                            <i class="fas fa-mobile-alt"></i>
+                            <img src="/Image/crossplatform-removebg-preview.png" />
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Mobile App Development</h5>
-                            <p class="card-text">Build native iOS and Android apps using React Native and Flutter. Create stunning mobile experiences.</p>
+                            <p class="card-text">Design and build native mobile apps with React Native and Flutter. Learn UI design, APIs, and deployment for both iOS and Android.</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <span class="text-primary fw-bold">$349</span>
                                 <button class="btn btn-primary">Enroll Now</button>
@@ -118,8 +126,10 @@
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
+    @RenderBody()
 
     <!-- Instructors Section -->
     <section id="instructors" class="py-5 bg-light">
@@ -133,7 +143,7 @@
                         </div>
                         <h5>Sarah Johnson</h5>
                         <p class="text-muted mb-3">Senior Full-Stack Developer</p>
-                        <p>10+ years of experience in web development. Former tech lead at Google and startup founder. Passionate about teaching modern web technologies.</p>
+                        <p>Sarah has over 10 years of experience in web development. She led teams at Google, co-founded a startup, and now shares her deep knowledge of HTML, CSS, JavaScript, and React with aspiring developers around the world.</p>
                         <div class="social-icons">
                             <a href="#"><i class="fab fa-linkedin-in"></i></a>
                             <a href="#"><i class="fab fa-twitter"></i></a>
@@ -148,7 +158,7 @@
                         </div>
                         <h5>Michael Chen</h5>
                         <p class="text-muted mb-3">Data Science Expert</p>
-                        <p>PhD in Computer Science with expertise in machine learning and AI. Published researcher and consultant for Fortune 500 companies.</p>
+                        <p>Michael holds a PhD in Computer Science and specializes in AI, ML, and data analysis. He has consulted for Fortune 500 companies and is passionate about teaching real-world applications of data science and Python programming.</p>
                         <div class="social-icons">
                             <a href="#"><i class="fab fa-linkedin-in"></i></a>
                             <a href="#"><i class="fab fa-twitter"></i></a>
@@ -163,7 +173,7 @@
                         </div>
                         <h5>Emily Rodriguez</h5>
                         <p class="text-muted mb-3">Mobile Development Specialist</p>
-                        <p>Award-winning mobile app developer with 50+ apps in the App Store. Expert in React Native, Flutter, and native iOS/Android development.</p>
+                        <p>Emily is a seasoned developer with over 50 apps on the market. She’s an expert in React Native and Flutter, with a strong focus on building scalable, user-friendly apps for iOS and Android platforms using the latest technologies.</p>
                         <div class="social-icons">
                             <a href="#"><i class="fab fa-linkedin-in"></i></a>
                             <a href="#"><i class="fab fa-twitter"></i></a>
@@ -174,6 +184,7 @@
             </div>
         </div>
     </section>
+
 
     <!-- Testimonials Section -->
     <section class="testimonial-section">
@@ -226,7 +237,6 @@
         </div>
     </section>
     <div>
-        @RenderBody()
     </div>
 
     <!-- Footer -->

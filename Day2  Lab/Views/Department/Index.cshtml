@@ -1,0 +1,87 @@
+﻿@model List<Department>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_MyLayout";
+
+}
+
+<style>
+
+
+    .form-container {
+        background: white;
+        border-radius: 15px;
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-header {
+        background: linear-gradient(135deg, #6c5ce7 0%, #a29bfe 100%);
+        color: white;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .btn-primary {
+        background: linear-gradient(135deg, #6c5ce7 0%, #a29bfe 100%);
+        border: none;
+        border-radius: 8px;
+    }
+
+        .btn-primary:hover {
+            background: linear-gradient(135deg, #5f4fcf 0%, #9085e8 100%);
+        }
+
+    .form-control:focus {
+        border-color: #6c5ce7;
+        box-shadow: 0 0 0 0.2rem rgba(108, 92, 231, 0.25);
+    }
+</style>
+
+
+<div class="container-fluid d-flex align-items-center justify-content-center  py-5">
+    <div class="col-12 col-md-8 col-lg-6 col-xl-4">
+        <div class="form-container">
+
+            <div class="form-header text-center py-4">
+                <i class="bi bi-train-front fs-1 mb-3"></i>
+                <h2 class="mb-1">Department Result</h2>
+
+            </div>
+
+
+            <div class="p-4">
+                <form method="get" asp-action="GitDepartmentReselt" asp-controller="Department">
+                    <div class="mb-3">
+                        <label for="DeptId" class="form-label">
+                            <i class="bi bi-train-front-fill me-2"></i>Deparment Name
+                        </label>
+                        <select class="form-control" id="DeptId" name="DeptId" required>
+                            <option value="-1" selected disabled>-- Select Department --</option>
+                            @foreach (var item in Model)
+                            {
+                                <option value="@item.ID"> @item.Name</option>
+
+                            }
+                        </select>
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary btn-lg">
+                            <i class="bi bi-check-circle me-2"></i>
+                            Result
+                        </button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="fab-container">
+    <div class="fab-tooltip">Add New Course</div>
+    <a class="fab-button" asp-action="AddNew" asp-controller="Department">
+        <i class="fa-solid fa-plus"></i>
+    </a>
+</div>
+
