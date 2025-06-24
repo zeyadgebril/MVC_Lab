@@ -39,11 +39,12 @@
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
-                @if (User.Identity.IsAuthenticated)
+                @if (!User.Identity.IsAuthenticated)
                 {
                     <div class="d-flex">
                         <a asp-action="Login" asp-controller="Account" class="btn btn-outline-light">Login / Signup</a>
                     </div>
+
                 }
                 else
                 {

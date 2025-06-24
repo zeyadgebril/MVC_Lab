@@ -1,0 +1,12 @@
+﻿@model RoleVM
+@{
+    ViewData["Title"] = "create";
+    Layout = "_LoginPage";
+}
+
+<form method="post" asp-action="create" asp-controller="Role">
+    <input asp-for="@Model.RoleName" class=" form form-control">
+    <button type="submit" class="btn btn-secondary" > Add</button>
+</form>
+
+

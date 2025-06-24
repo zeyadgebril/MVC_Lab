@@ -80,11 +80,14 @@
     </div>
 </div>
 
+@if (User.IsInRole("admin"))
+{
 
-<div class="fab-container">
-    <div class="fab-tooltip">Add New Course</div>
-    <a class="fab-button" asp-action="AddNew" asp-controller="Course">
-        <i class="fa-solid fa-plus"></i>
-    </a>
-</div>
+    <div class="fab-container">
+        <div class="fab-tooltip">Add New Course</div>
+        <a class="fab-button" asp-action="AddNew" asp-controller="Course">
+            <i class="fa-solid fa-plus"></i>
+        </a>
+    </div>
+}
 

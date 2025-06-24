@@ -224,11 +224,13 @@
                 <i class="fas fa-bars"></i>
             </button>
             <div class="navbar-nav ms-auto">
-                <div class="nav-item dropdown">
+                <div class="nav-item dropdown me-4">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
-                        <i class="fas fa-user-circle me-2"></i>Zeyad Gebril
+                        <i class="fas fa-user-circle me-2"></i>
+                        @(User.Identity?.Name?.Split('@')[0] ?? "Guest")
                     </a>
-                    <ul class="dropdown-menu">
+
+                    <ul class="dropdown-menu ">
                         <li><a class="dropdown-item"asp-action="profile" asp-controller="Account" ><i class="fas fa-user me-2"></i>Profile</a></li>
                         <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item" asp-action="signOut" asp-controller="Account"><i class="fas fa-sign-out-alt me-2"></i>Logout</a></li>
@@ -239,6 +241,7 @@
 
         <div class="content-area">
             @RenderBody()
+            
         </div>
     </div>
 

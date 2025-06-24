@@ -10,13 +10,17 @@
                 </p>
             </a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link text-dark" asp-controller="instructor" asp-action="Index">
-                <p class="text-white fs-4 fw-bold">
-                    <i class="fa-solid fa-chalkboard-user"></i>instructor
-                </p>
-            </a>
-        </li>
+        @if (User.IsInRole("admin"))
+        {
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-controller="instructor" asp-action="Index">
+                    <p class="text-white fs-4 fw-bold">
+                        <i class="fa-solid fa-chalkboard-user"></i>instructor
+                    </p>
+                </a>
+            </li>
+        }
+
         <li class="nav-item dropdown-item">
             <a class="nav-link text-dark dropdown-toggle-sidebar" onclick="toggleDropdown(this)">
                 <p class="text-white fs-4 fw-bold">
@@ -38,11 +42,14 @@
 
             </div>
         </li>
-        <li class="nav-item">
-            <a class="nav-link text-dark" asp-controller="Trainee" asp-action="getSessionAndCookie">
-                <p class="text-white fs-5 fw-bold"><i class="fa-solid fa-cookie-bite"></i>Session&Cookies</p>
-            </a>
-        </li>
+        @if (User.IsInRole("admin"))
+        {
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-controller="Trainee" asp-action="getSessionAndCookie">
+                    <p class="text-white fs-5 fw-bold"><i class="fa-solid fa-cookie-bite"></i>Session&Cookies</p>
+                </a>
+            </li>
+        }
         <li class="nav-item">
             <a class="nav-link text-dark" asp-controller="Course" asp-action="Index">
                 <p class="text-white fs-4 fw-bold">
@@ -50,12 +57,23 @@
                 </p>
             </a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link text-dark" asp-controller="Department" asp-action="Index">
-                <p class="text-white fs-4 fw-bold">
-                    <i class="fa-solid fa-building"></i>Department
-                </p>
-            </a>
-        </li>
+        @if (User.IsInRole("admin"))
+        {
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-controller="Department" asp-action="Index">
+                    <p class="text-white fs-4 fw-bold">
+                        <i class="fa-solid fa-building"></i>Department
+                    </p>
+                </a>
+            </li>
+        }
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-controller="Role" asp-action="AssignRoleToInstructor">
+                    <p class="text-white fs-4 fw-bold">
+                        <i class="fa-solid fa-face-rolling-eyes"></i>Manage Role
+                    </p>
+                </a>
+            </li>
+        
     </ul>
 </div>

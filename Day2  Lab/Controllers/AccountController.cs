@@ -2,21 +2,25 @@
 using System.Threading.Tasks;
 using Day2__Lab.Models;
 using Day2__Lab.ViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace Day2__Lab.Controllers
 {
+    [AllowAnonymous]
     public class AccountController : Controller
     {
         private readonly UserManager<ApplicationUser> userManager;
         private readonly SignInManager<ApplicationUser> signInManager;
+        private readonly RoleManager<IdentityRole> roleManager;
 
         public AccountController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
         {
             this.userManager = userManager;
             this.signInManager = signInManager;
+            this.roleManager = roleManager;
         }
         [HttpGet]
         public IActionResult Register()
@@ -40,6 +44,7 @@ namespace Day2__Lab.Controllers
               IdentityResult created=  await userManager.CreateAsync(user, registerData.Password);
                 if(created.Succeeded)
                 {
+                    await  userManager.AddToRoleAsync(user, "instructor");
                    await signInManager.SignInAsync(user, false);
                     return RedirectToAction("Login");
                 }
@@ -85,6 +90,7 @@ namespace Day2__Lab.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> profile()
         {
             AccountRegisterVM regData=null;
@@ -103,6 +109,8 @@ namespace Day2__Lab.Controllers
             return View("profile", regData);
         }
         [HttpPost]
+        [Authorize]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> profile(AccountRegisterVM profileData)
         {
             ModelState.Remove("ConfirmPassword");

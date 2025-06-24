@@ -1,9 +1,11 @@
 ﻿using Day2__Lab.Repository;
 using Day2__Lab.ViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Day2__Lab.Controllers
 {
+    [Authorize(Roles = "admin")]
     public class DepartmentController : Controller
     {
         private readonly IDepartmentRepository departmentRepository;

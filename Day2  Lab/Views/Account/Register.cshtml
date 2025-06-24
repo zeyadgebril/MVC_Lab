@@ -37,6 +37,8 @@
                 <label asp-for="@Model.PhoneNumber">Phone Number</label>
                 <span asp-validation-for="@Model.PhoneNumber" class="text-danger"></span>
             </div>
+            <input asp-for="@Model.OldPassword" type="hidden" value="0"/>
+
             <div class="form-floating">
                 <input type="text" class="form-control" asp-for="@Model.Address" placeholder="123 Main St, Cairo, Egypt" required>
                 <label asp-for="@Model.Address">Address</label>

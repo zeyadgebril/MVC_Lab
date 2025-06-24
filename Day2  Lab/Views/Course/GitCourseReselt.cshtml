@@ -8,230 +8,230 @@
 <style>
 
     .results-card {
-        background: white;
-        border-radius: 20px;
-        box-shadow: 0 20px 40px rgba(0,0,0,0.1);
-        overflow: hidden;
-        backdrop-filter: blur(10px);
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    overflow: hidden;
+    backdrop-filter: blur(10px);
     }
 
     .header-section {
-        background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
-        color: white;
-        padding: 2.5rem;
-        text-align: center;
-        position: relative;
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+    color: white;
+    padding: 2.5rem;
+    text-align: center;
+    position: relative;
     }
 
-        .header-section::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            height: 4px;
-            background: linear-gradient(90deg, #3498db, #2ecc71, #f39c12, #e74c3c);
-        }
+    .header-section::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #3498db, #2ecc71, #f39c12, #e74c3c);
+    }
 
     .course-title {
-        font-size: 2.5rem;
-        font-weight: 700;
-        margin-bottom: 0.5rem;
-        text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
     }
 
     .course-subtitle {
-        font-size: 1.1rem;
-        opacity: 0.9;
-        font-weight: 300;
+    font-size: 1.1rem;
+    opacity: 0.9;
+    font-weight: 300;
     }
 
     .header-controls {
-        position: absolute;
-        top: 2rem;
-        right: 2rem;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
     }
 
     .edit-course-btn {
-        background: linear-gradient(135deg, #f39c12, #e67e22);
-        border: none;
-        border-radius: 25px;
-        padding: 0.75rem 1.5rem;
-        color: white;
-        font-weight: 600;
-        transition: all 0.3s ease;
-        text-transform: uppercase;
-        letter-spacing: 0.5px;
-        font-size: 0.9rem;
-        text-decoration: none;
-        display: inline-flex;
-        align-items: center;
-        box-shadow: 0 4px 15px rgba(243, 156, 18, 0.3);
+    background: linear-gradient(135deg, #f39c12, #e67e22);
+    border: none;
+    border-radius: 25px;
+    padding: 0.75rem 1.5rem;
+    color: white;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(243, 156, 18, 0.3);
     }
 
-        .edit-course-btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 25px rgba(243, 156, 18, 0.5);
-            color: white;
-            background: linear-gradient(135deg, #e67e22, #d35400);
-        }
+    .edit-course-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(243, 156, 18, 0.5);
+    color: white;
+    background: linear-gradient(135deg, #e67e22, #d35400);
+    }
 
-        .edit-course-btn i {
-            margin-right: 0.5rem;
-            font-size: 1rem;
-        }
+    .edit-course-btn i {
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    }
 
     .stats-row {
-        background: #f8f9fa;
-        padding: 1.5rem;
-        border-bottom: 1px solid #e9ecef;
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-bottom: 1px solid #e9ecef;
     }
 
     .stat-item {
-        text-align: center;
+    text-align: center;
     }
 
     .stat-number {
-        font-size: 2rem;
-        font-weight: 700;
-        color: #2c3e50;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2c3e50;
     }
 
     .stat-label {
-        font-size: 0.9rem;
-        color: #6c757d;
-        text-transform: uppercase;
-        letter-spacing: 0.5px;
+    font-size: 0.9rem;
+    color: #6c757d;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
     }
 
     .table-container {
-        padding: 0;
+    padding: 0;
     }
 
     .custom-table {
-        margin-bottom: 0;
+    margin-bottom: 0;
     }
 
-        .custom-table thead th {
-            background: linear-gradient(135deg, #34495e 0%, #2c3e50 100%);
-            color: white;
-            border: none;
-            padding: 1rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            font-size: 0.9rem;
-        }
-
-        .custom-table tbody tr {
-            transition: all 0.3s ease;
-            border-bottom: 1px solid #e9ecef;
-        }
-
-            .custom-table tbody tr:hover {
-                background-color: #f8f9fa;
-                transform: translateY(-2px);
-                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            }
-
-        .custom-table td {
-            padding: 1rem;
-            vertical-align: middle;
-            border: none;
-        }
-
-    .trainee-name {
-        font-weight: 600;
-        color: #2c3e50;
+    .custom-table thead th {
+    background: linear-gradient(135deg, #34495e 0%, #2c3e50 100%);
+    color: white;
+    border: none;
+    padding: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 0.9rem;
     }
 
-    .score-fraction {
-        font-family: 'Courier New', monospace;
-        font-weight: 600;
-        font-size: 1.1rem;
+    .custom-table tbody tr {
+    transition: all 0.3s ease;
+    border-bottom: 1px solid #e9ecef;
     }
 
-    .badge-pass {
-        color: white;
-        padding: 0.5rem 1rem;
-        border-radius: 25px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 0.5px;
-    }
-
-    .badge-fail {
-        background: linear-gradient(135deg, #e74c3c, #c0392b);
-        color: white;
-        padding: 0.5rem 1rem;
-        border-radius: 25px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 0.5px;
-    }
-
-    .department-tag {
-        background: #3498db;
-        color: white;
-        padding: 0.3rem 0.8rem;
-        border-radius: 15px;
-        font-size: 0.85rem;
-        font-weight: 500;
-    }
-
-    .details-btn {
-        background: linear-gradient(135deg, #667eea, #764ba2);
-        border: none;
-        border-radius: 25px;
-        padding: 0.5rem 1.2rem;
-        color: white;
-        font-weight: 600;
-        transition: all 0.3s ease;
-        text-transform: uppercase;
-        letter-spacing: 0.5px;
-        font-size: 0.8rem;
-    }
-
-        .details-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 15px rgba(102, 126, 234, 0.4);
-            color: white;
-        }
-
-    .footer-section {
-        background: #f8f9fa;
-        padding: 1.5rem;
-        text-align: center;
-        color: #6c757d;
-        border-top: 1px solid #e9ecef;
-    }
-
-    @@media (max-width: 768px) {
-        .course-title
-
-    {
-        font-size: 1.8rem;
+    .custom-table tbody tr:hover {
+    background-color: #f8f9fa;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
 
     .custom-table td {
-        padding: 0.75rem 0.5rem;
-        font-size: 0.9rem;
+    padding: 1rem;
+    vertical-align: middle;
+    border: none;
+    }
+
+    .trainee-name {
+    font-weight: 600;
+    color: #2c3e50;
+    }
+
+    .score-fraction {
+    font-family: 'Courier New', monospace;
+    font-weight: 600;
+    font-size: 1.1rem;
+    }
+
+    .badge-pass {
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    }
+
+    .badge-fail {
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    }
+
+    .department-tag {
+    background: #3498db;
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    font-weight: 500;
     }
 
     .details-btn {
-        padding: 0.4rem 0.8rem;
-        font-size: 0.75rem;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border: none;
+    border-radius: 25px;
+    padding: 0.5rem 1.2rem;
+    color: white;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 0.8rem;
+    }
+
+    .details-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 15px rgba(102, 126, 234, 0.4);
+    color: white;
+    }
+
+    .footer-section {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    text-align: center;
+    color: #6c757d;
+    border-top: 1px solid #e9ecef;
+    }
+
+    @@media (max-width: 768px) {
+    .course-title
+
+    {
+    font-size: 1.8rem;
+    }
+
+    .custom-table td {
+    padding: 0.75rem 0.5rem;
+    font-size: 0.9rem;
+    }
+
+    .details-btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.75rem;
     }
 
     .header-controls {
-        position: static;
-        text-align: center;
-        margin-top: 1rem;
+    position: static;
+    text-align: center;
+    margin-top: 1rem;
     }
 
     .edit-course-btn {
-        padding: 0.6rem 1.2rem;
-        font-size: 0.8rem;
+    padding: 0.6rem 1.2rem;
+    font-size: 0.8rem;
     }
 
     }
@@ -370,7 +370,8 @@
         }
     </ul>
 </nav>
-
+@if (User.IsInRole("admin"))
+{
 
 <div class="fab-container">
     <div class="fab-tooltip">Edit</div>
@@ -424,6 +425,7 @@
         });
     });
 </script>
+}
 
     
 

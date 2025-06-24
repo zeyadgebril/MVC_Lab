@@ -5,12 +5,14 @@ using Azure.Core;
 using Day2__Lab.Models;
 using Day2__Lab.Repository;
 using Day2__Lab.ViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.Blazor;
 
 namespace Day2__Lab.Controllers
 {
+    [Authorize(Roles = "admin,instructor")]
     public class CourseController : Controller
     {
         
@@ -95,6 +97,7 @@ namespace Day2__Lab.Controllers
                 return View("NotFound");
             }
         }
+        [Authorize(Roles ="admin")]
         public IActionResult AddNew()
         {
             CourseWithDeptList courseWithDeptList = new CourseWithDeptList();
@@ -104,6 +107,7 @@ namespace Day2__Lab.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "admin")]
         [ValidateAntiForgeryToken]
         public IActionResult SaveNew(CourseWithDeptList dataFromForm)
         {
@@ -140,6 +144,7 @@ namespace Day2__Lab.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "admin")]
 
         public IActionResult Edit(int id)
         {
@@ -154,7 +159,9 @@ namespace Day2__Lab.Controllers
             return View("Edit", courseWithDeptList);
 
         }
-
+        [Authorize(Roles = "admin")]
+        [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult SaveEdit(CourseWithDeptList dataFromForm)
         {
             if (ModelState.IsValid)
@@ -177,6 +184,8 @@ namespace Day2__Lab.Controllers
 
 
         [HttpPost]
+        [Authorize(Roles = "admin")]
+
         public IActionResult Delete(int id, int courseDepartmentID)
         {
             var condition = courseRepository.Delete(id, courseDepartmentID);

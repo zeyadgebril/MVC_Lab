@@ -2,11 +2,14 @@
 using Day2__Lab.Models;
 using Day2__Lab.Repository;
 using Day2__Lab.ViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace Day2__Lab.Controllers
 {
+    [Authorize(Roles = "admin,instructor")]
+
     public class TraineeController : Controller
     {
         private readonly ITraineeRepository traineeRepository;
@@ -136,6 +139,7 @@ namespace Day2__Lab.Controllers
             return View("TraineeDetails",td);
         }
         [HttpPost]
+        [Authorize(Roles ="admin")]
         public IActionResult Delete(int id)
         {
             var condition = traineeRepository.Delete(id);

@@ -385,6 +385,9 @@
         </div>
     </div>
 </div>
+@if (User.IsInRole("admin"))
+{
+
 <div class="fab-container">
     <div class="del-fab-tooltip">Delete Course</div>
     <button class="del-fab-button" data-id="@Model.traineID">
@@ -392,7 +395,7 @@
     </button>
 </div>
 
-
+}
 <script>
     function goBack() {
               if (window.history.length > 1) {
