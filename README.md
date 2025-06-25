@@ -78,19 +78,6 @@
 </div>
 
 <br/>
-
-<h2 id="screenshots">🖼️ Screenshots</h2>
-<p>(Add your own screenshots here to demonstrate key pages or features)</p>
-
-<!-- Centered Main Screenshot -->
-<div style="text-align: center; margin-bottom: 30px;">
-  <img
-    src="https://github.com/zeyadgebril/MVC_Lab/blob/master/Project%20Images/landingPage%20(1).png?raw=true"
-    alt="Home Page"
-    style="width: 80%; max-width: 700px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"
-  />
-</div>
-
 <!-- Screenshot Grid 2x3 -->
 <div style="
   display: grid;
