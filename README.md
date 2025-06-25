@@ -105,10 +105,6 @@
     <img src="https://github.com/zeyadgebril/MVC_Lab/blob/master/Project%20Images/Screenshot%202025-06-25%20171634.png?raw=true" alt="Screenshot 5" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
     <p>Screenshot 5</p>
   </div>
-  <div style="text-align: center;">
-    <img src="images/6.png" alt="Screenshot 6" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
-    <p>Screenshot 6</p>
-  </div>
 </div>
 
 <hr />
