@@ -49,7 +49,40 @@ This project is part of Zeyad Gebril's learning journey with ASP.NET MVC at ITI,
 
 ---
 ## 🗂️ Project Structure
-<pre lang="markdown"><code> ``` MVC_Lab/ │ ├── wwwroot/ # Public static files │ ├── css/ # Custom stylesheets │ ├── Image/ # Static images │ ├── js/ # JavaScript files │ └── lib/ # Third-party libraries (Bootstrap, jQuery, etc.) │ ├── Controllers/ # MVC Controllers ├── CustomAttribute/ # Custom attributes for filters or validation ├── Filter/ # Custom filters (e.g., authorization, logging) ├── Migrations/ # EF Core migration history (if using EF) ├── Models/ # Entity and domain models ├── Repository/ # Data access layer (repository pattern) ├── ViewModel/ # View-specific models (DTOs or composite models) │ ├── Views/ # Razor views organized by controller │ ├── Account/ │ ├── Course/ │ ├── Department/ │ ├── Home/ │ ├── Instructor/ │ ├── Role/ │ ├── Shared/ # Layouts, partials, error views │ └── Trainee/ │ ├── _ViewImports.cshtml # Razor global imports │ └── _ViewStart.cshtml # Layout definition │ ├── appsettings.json # Configuration settings ├── libman.json # Library Manager config └── Program.cs # Entry point and app setup ``` </code></pre>
+```
+MVC_Lab/
+│
+├── wwwroot/                  # Public static files
+│   ├── css/                  # Custom stylesheets
+│   ├── Image/                # Static images
+│   ├── js/                   # JavaScript files
+│   └── lib/                  # Third-party libraries (Bootstrap, jQuery, etc.)
+│
+├── Controllers/              # MVC Controllers
+├── CustomAttribute/          # Custom attributes for filters or validation
+├── Filter/                   # Custom filters (e.g., authorization, logging)
+├── Migrations/               # EF Core migration history (if used)
+├── Models/                   # Entity and domain models
+├── Repository/               # Data access layer (repository pattern)
+├── ViewModel/                # View-specific models (DTOs or composite models)
+│
+├── Views/                    # Razor views organized by controller
+│   ├── Account/
+│   ├── Course/
+│   ├── Department/
+│   ├── Home/
+│   ├── Instructor/
+│   ├── Role/
+│   ├── Shared/               # Layouts, partials, error views
+│   └── Trainee/
+│   ├── _ViewImports.cshtml   # Razor global imports
+│   └── _ViewStart.cshtml     # Layout definition
+│
+├── appsettings.json          # Configuration settings
+├── libman.json               # Library Manager config
+└── Program.cs                # Entry point and app setup
+```
+
 ## 🧭 Tech Stack
 
 -   C#, ASP.NET MVC
