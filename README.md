@@ -49,7 +49,7 @@ This project is part of Zeyad Gebril's learning journey with ASP.NET MVC at ITI,
 
 ---
 ## 🗂️ Project Structure
-
+` 
 MVC_Lab/
 │
 ├── wwwroot/                  # Public static files
@@ -87,7 +87,7 @@ MVC_Lab/
 ├── appsettings.json          # Configuration settings (connection strings, etc.)
 ├── libman.json               # Library Manager config (client-side libraries)
 └── Program.cs                # Entry point and app builder
-
+`
 
 ## 🧭 Tech Stack
 
