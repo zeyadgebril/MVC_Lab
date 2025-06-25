@@ -3,91 +3,91 @@
     ViewData["Title"] = "profile";
     Layout = "_MyLayout";
 }
-<style>
+@section CSS{
 
-    .profile-container {
-    max-width: 600px;
-    margin: 0 auto;
-    }
+        .profile-container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
 
-    .profile-card {
-    background: white;
-    border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    }
+        .profile-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
 
-    .profile-header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    padding: 2rem;
-    text-align: center;
-    }
+        .profile-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
 
-    .profile-avatar {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.2);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto 1rem;
-    font-size: 2rem;
-    }
+        .profile-avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+            font-size: 2rem;
+        }
 
-    .form-floating > .form-control {
-    border: 2px solid #e9ecef;
-    border-radius: 10px;
-    }
+        .form-floating > .form-control {
+            border: 2px solid #e9ecef;
+            border-radius: 10px;
+        }
 
-    .form-floating > .form-control:focus {
-    border-color: #667eea;
-    box-shadow: 0 0 0 0.25rem rgba(102, 126, 234, 0.25);
-    }
+            .form-floating > .form-control:focus {
+                border-color: #667eea;
+                box-shadow: 0 0 0 0.25rem rgba(102, 126, 234, 0.25);
+            }
 
-    .btn-primary {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    border: none;
-    border-radius: 10px;
-    padding: 12px 30px;
-    font-weight: 600;
-    transition: all 0.3s ease;
-    }
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            border-radius: 10px;
+            padding: 12px 30px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
 
-    .btn-primary:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
-    }
+            .btn-primary:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+            }
 
-    .btn-outline-secondary {
-    border: 2px solid #6c757d;
-    border-radius: 10px;
-    padding: 12px 30px;
-    font-weight: 600;
-    }
+        .btn-outline-secondary {
+            border: 2px solid #6c757d;
+            border-radius: 10px;
+            padding: 12px 30px;
+            font-weight: 600;
+        }
 
-    .input-group-text {
-    background: #f8f9fa;
-    border: 2px solid #e9ecef;
-    border-right: none;
-    }
+        .input-group-text {
+            background: #f8f9fa;
+            border: 2px solid #e9ecef;
+            border-right: none;
+        }
 
-    .input-group .form-control {
-    border-left: none;
-    }
+        .input-group .form-control {
+            border-left: none;
+        }
 
-    .form-text {
-    font-size: 0.875rem;
-    color: #6c757d;
-    }
+        .form-text {
+            font-size: 0.875rem;
+            color: #6c757d;
+        }
 
-    .alert {
-    border-radius: 10px;
-    border: none;
-    }
-</style>
+        .alert {
+            border-radius: 10px;
+            border: none;
+        }
 
+}
 
 <div class="container">
     <div class="profile-container">
@@ -172,4 +172,3 @@ New York, NY 10001</textarea>
     </div>
 </div>
 
-@* <partial name="_ValidationScriptsPartial"> *@

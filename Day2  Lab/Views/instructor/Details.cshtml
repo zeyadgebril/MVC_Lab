@@ -5,8 +5,8 @@
 
 }
 
+@section CSS{
 
-<style>
    .instructor-container {
             max-width: 1200px;
             margin: 0 auto;
@@ -462,7 +462,7 @@
 @@keyframes spin {
             to { transform: rotate(360deg); }
         }
-    </style>
+}
 
 
 <div class="instructor-container">
@@ -561,7 +561,8 @@
 </div>
 
 
-<script>
+    @section Scripts {
+
     function goBack() {
               if (window.history.length > 1) {
                   window.history.back();
@@ -593,6 +594,5 @@
                }
            });
        });
-</script>
-
+       }
 

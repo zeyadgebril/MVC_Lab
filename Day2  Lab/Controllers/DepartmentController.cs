@@ -1,4 +1,5 @@
-﻿using Day2__Lab.Repository;
+﻿using Day2__Lab.Models;
+using Day2__Lab.Repository;
 using Day2__Lab.ViewModel;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -18,16 +19,39 @@ namespace Day2__Lab.Controllers
         {
             return View("Index",departmentRepository.GetAll(string.Empty));
         }
+        [HttpGet]
+        public IActionResult AddNew()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult AddNew(Department department)
+        {
+            if(ModelState.IsValid)
+            {
+                department.IsDeleted = 0;
+                departmentRepository.Add(department);
+                departmentRepository.save();
+                return RedirectToAction("Index", "Department");
+            }
+            return View(department);
+        }
         public IActionResult GitDepartmentReselt(int DeptId)
         {
-            DepartmentWithInstructorsInfoVM deptData = new DepartmentWithInstructorsInfoVM();
-            deptData.DeptId = DeptId;
-            deptData.DepartmentName = departmentRepository.GetDepartmentName(DeptId);
-            deptData.DepartmentManager = departmentRepository.GetDepartmentManager(DeptId);
-            deptData.AllActiveCourses = departmentRepository.AllActiveCourses(DeptId);
-            deptData.AllInstructorsSalary = departmentRepository.AllInstructorsSalary(DeptId);
-            deptData.TotalInstructors = departmentRepository.TotalNumberOfInstructor(DeptId);
-            return View("GitDepartmentReselt",deptData);
+            if(DeptId!=0)
+            {
+                DepartmentWithInstructorsInfoVM deptData = new DepartmentWithInstructorsInfoVM();
+                deptData.DeptId = DeptId;
+                deptData.DepartmentName = departmentRepository.GetDepartmentName(DeptId);
+                deptData.DepartmentManager = departmentRepository.GetDepartmentManager(DeptId);
+                deptData.AllActiveCourses = departmentRepository.AllActiveCourses(DeptId);
+                deptData.AllInstructorsSalary = departmentRepository.AllInstructorsSalary(DeptId);
+                deptData.TotalInstructors = departmentRepository.TotalNumberOfInstructor(DeptId);
+                return View("GitDepartmentReselt", deptData);
+            }
+            ModelState.AddModelError("", "Please Select department");
+            return View("Index", departmentRepository.GetAll(string.Empty));
+
         }
         [HttpGet]
         public IActionResult Edit(int id)

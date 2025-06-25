@@ -3,15 +3,16 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Day2__Lab</title>
-    <link rel="icon" type="image/x-icon" href="~/ASSD-removebg-preview (1).ico">
+    <title>@ViewData["Title"] </title>
+    <link rel="icon" type="image/svg" href="/icon.svg">
     <script type="importmap"></script>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 	<link href="~/lib/fontawesome-free-6.7.2-web/css/all.min.css" rel="stylesheet" />
-
     <link href="~/css/instructor.css" rel="stylesheet" />
-
+    <Style>
+        @await RenderSectionAsync("CSS", false);
+    </Style>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
@@ -277,7 +278,11 @@
             });
         });
     </script>
+    @await RenderSectionAsync("LibScripts", required: false)
+
+    <script>
     @await RenderSectionAsync("Scripts", required: false)
+    </script>
 
 </body>
 </html>

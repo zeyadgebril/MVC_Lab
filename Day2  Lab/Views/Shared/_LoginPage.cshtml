@@ -4,11 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Day2__Lab</title>
-    <link rel="icon" type="image/x-icon" href="~/ASSD-removebg-preview (1).ico">
+    <link rel="icon" type="image/svg" href="/icon.svg">
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link href="~/lib/fontawesome-free-6.7.2-web/css/all.min.css" rel="stylesheet" />
     <link href="/css/LoginPage.css" rel="stylesheet" />
-
+    <Style>
+        @await RenderSectionAsync("CSS", false)
+        ;
+    </Style>
 
     <script type="importmap"></script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
@@ -24,6 +27,7 @@
     </a>
     @RenderBody()
 
+    @await RenderSectionAsync("Scripts", required: false)
 
 </body>
 </html>

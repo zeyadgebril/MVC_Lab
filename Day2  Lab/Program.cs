@@ -1,3 +1,4 @@
+using Day2__Lab.Filter;
 using Day2__Lab.Models;
 using Day2__Lab.Repository;
 using Microsoft.AspNetCore.Identity;
@@ -13,7 +14,10 @@ namespace Day2__Lab
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-            builder.Services.AddControllersWithViews();
+            builder.Services.AddControllersWithViews(option =>
+            {
+                option.Filters.Add(new HandellErrorAttribute());
+            });
             builder.Services.AddSession();
 
             //*****************Injection******************************

@@ -1,14 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Day2  Lab.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Day2  Lab.wpzbph8cqy.bundle.scp.css"
-    },
-    {
-      "Id": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\ASSD-removebg-preview (1).ico",
-      "PackagePath": "staticwebassets\\ASSD-removebg-preview (1).ico"
-    },
-    {
       "Id": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\Image\\1.png",
       "PackagePath": "staticwebassets\\Image\\1.png"
     },
@@ -53,6 +45,10 @@
       "PackagePath": "staticwebassets\\Image\\9.png"
     },
     {
+      "Id": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\Image\\OIP (1).jpeg",
+      "PackagePath": "staticwebassets\\Image\\OIP (1).jpeg"
+    },
+    {
       "Id": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\Image\\b7bad6bc-76b8-4ca9-917f-3231976c13d5.png",
       "PackagePath": "staticwebassets\\Image\\b7bad6bc-76b8-4ca9-917f-3231976c13d5.png"
     },
@@ -93,8 +89,8 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\icon.svg",
+      "PackagePath": "staticwebassets\\icon.svg"
     },
     {
       "Id": "C:\\Users\\Zeyad\\OneDrive\\Desktop\\ITI\\MVC\\Lab Solution\\MVC_Lab\\Day2  Lab\\wwwroot\\js\\LandingPage.js",

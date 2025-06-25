@@ -1,4 +1,5 @@
-﻿using Day2__Lab.Models;
+﻿using Day2__Lab.Filter;
+using Day2__Lab.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Day2__Lab.Repository
@@ -102,6 +103,7 @@ namespace Day2__Lab.Repository
             return GetById(DepartmentID).Manager;
         }
 
+        [HandellError]
         public string GetDepartmentName(int DepartmentID)
         {
             return GetById(DepartmentID).Name;

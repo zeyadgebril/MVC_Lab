@@ -4,9 +4,7 @@
     Layout = "_MyLayout";
 
 }
-
-<style>
-
+@section CSS{
 
     .form-container {
     background: rgba(255, 255, 255, 0.95);
@@ -290,11 +288,16 @@
     .back-button:hover i {
     transform: translateX(-3px);
     }
-</style>
+    .special-margin{
+       margin-left:140px !important
+    }
+
+}
 
 
-<div class="container">
-    <div class="mb-3">
+
+<div class="container d-flex flex-column ">
+    <div class="mb-3  special-margin ">
         <a href="#" class="back-button" onclick="goBack()">
             <i class="fas fa-arrow-left"></i>
             Back to Courses
@@ -407,7 +410,7 @@
 
 </script>
 
-@section Scripts{
+@section LibScripts {
     <script src="/lib/jquery/dist/jquery.min.js"></script>
     <script src="/lib/jquery-validation/dist/jquery.validate.min.js"></script>
     <script src="/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"></script>

@@ -1507,7 +1507,6 @@ C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\l
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\lib\fontawesome-free-6.7.2-web\svgs\solid\wine-glass-empty.svg
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\lib\fontawesome-free-6.7.2-web\svgs\solid\user-lock.svg
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\lib\fontawesome-free-6.7.2-web\svgs\brands\reddit.svg
-C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\favicon.ico
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\lib\fontawesome-free-6.7.2-web\svgs\solid\face-smile-beam.svg
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\lib\fontawesome-free-6.7.2-web\svgs\solid\cubes-stacked.svg
@@ -1825,6 +1824,7 @@ C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\l
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\lib\fontawesome-free-6.7.2-web\svgs\solid\magnifying-glass-location.svg
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\lib\fontawesome-free-6.7.2-web\svgs\solid\vest.svg
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\lib\fontawesome-free-6.7.2-web\svgs\solid\arrow-up-long.svg
+C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\icon.svg
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\lib\fontawesome-free-6.7.2-web\svgs\solid\phone.svg
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\lib\fontawesome-free-6.7.2-web\svgs\solid\barcode.svg
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\lib\fontawesome-free-6.7.2-web\svgs\solid\film.svg
@@ -1908,7 +1908,6 @@ C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\l
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\lib\fontawesome-free-6.7.2-web\svgs\solid\file-zipper.svg
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\lib\fontawesome-free-6.7.2-web\svgs\solid\wave-square.svg
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\lib\fontawesome-free-6.7.2-web\svgs\solid\business-time.svg
-C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\ASSD-removebg-preview (1).ico
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\lib\fontawesome-free-6.7.2-web\svgs\solid\face-grin-stars.svg
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\lib\fontawesome-free-6.7.2-web\svgs\solid\person-dress-burst.svg
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\lib\fontawesome-free-6.7.2-web\svgs\solid\tree-city.svg
@@ -2170,13 +2169,12 @@ C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\l
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\lib\fontawesome-free-6.7.2-web\svgs\solid\keyboard.svg
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\lib\fontawesome-free-6.7.2-web\svgs\solid\hourglass-start.svg
 C:\Users\Zeyad\OneDrive\Desktop\ITI\MVC\Lab Solution\MVC_Lab\Day2  Lab\wwwroot\lib\fontawesome-free-6.7.2-web\svgs\solid\file-circle-xmark.svg
-wwwroot\ASSD-removebg-preview (1).ico
 wwwroot\css\details.css
 wwwroot\css\instructor.css
 wwwroot\css\LandingPage.css
 wwwroot\css\LoginPage.css
 wwwroot\css\site.css
-wwwroot\favicon.ico
+wwwroot\icon.svg
 wwwroot\Image\1.png
 wwwroot\Image\10.png
 wwwroot\Image\2.png
@@ -2191,6 +2189,7 @@ wwwroot\Image\9.png
 wwwroot\Image\b7bad6bc-76b8-4ca9-917f-3231976c13d5.png
 wwwroot\Image\croc.png
 wwwroot\Image\crossplatform-removebg-preview.png
+wwwroot\Image\OIP (1).jpeg
 wwwroot\Image\powerbi-removebg-preview.png
 wwwroot\Image\webapp-removebg-preview.png
 wwwroot\js\LandingPage.js
