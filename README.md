@@ -65,13 +65,35 @@
 
   <hr />
 
-  <h2 id="screenshots">🖼️ Screenshots</h2>
-  <p>(Add your own screenshots here to demonstrate key pages or features)</p>
-  <img src="https://github.com/zeyadgebril/MVC_Lab/blob/master/Project%20Images/landingPage%20(1).png?raw=true" alt="Home Page" style="max-width:100%;" />
-  <br/>
-  <img src="link-to-screenshot-2.png" alt="Form Submission" style="max-width:100%;" />
+ <h2 id="screenshots">🖼️ Screenshots</h2>
+<p>(Add your own screenshots here to demonstrate key pages or features)</p>
 
-  <hr />
+<!-- Centered Home Page Image -->
+<div style="text-align: center;">
+  <img
+    src="https://github.com/zeyadgebril/MVC_Lab/blob/master/Project%20Images/landingPage%20(1).png?raw=true"
+    alt="Home Page"
+    style="max-width:80%; border: 1px solid #ccc; border-radius: 10px;"
+  />
+</div>
+
+<br/>
+
+<!-- 2x3 Image Grid -->
+<div style="
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+">
+  <img src="images/1.png" alt="Screenshot 1" style="width: 100%; border-radius: 8px;" />
+  <img src="images/2.png" alt="Screenshot 2" style="width: 100%; border-radius: 8px;" />
+  <img src="images/3.png" alt="Screenshot 3" style="width: 100%; border-radius: 8px;" />
+  <img src="images/4.png" alt="Screenshot 4" style="width: 100%; border-radius: 8px;" />
+  <img src="images/5.png" alt="Screenshot 5" style="width: 100%; border-radius: 8px;" />
+  <img src="images/6.png" alt="Screenshot 6" style="width: 100%; border-radius: 8px;" />
+</div>
+<hr/>
 
   <h2 id="features">✨ Features</h2>
   <ul>
