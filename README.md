@@ -1,55 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MVC_Lab - README</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+      padding: 40px;
+      max-width: 960px;
+      margin: auto;
+      background-color: #fdfdfd;
+      color: #333;
+    }
+    pre {
+      background-color: #f4f4f4;
+      padding: 15px;
+      overflow-x: auto;
+      border-left: 4px solid #ccc;
+    }
+    h1, h2, h3 {
+      color: #2c3e50;
+    }
+    hr {
+      margin: 40px 0;
+    }
+    a {
+      color: #3498db;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
 
-# MVC_Lab
+  <h1>MVC_Lab</h1>
 
-Welcome to **MVC_Lab** 🐊 — an ASP.NET MVC educational playground by Zeyad Gebril. Dive into controllers, models, and views as you build your .NET MVC skills!
+  <p>
+    Welcome to <strong>MVC_Lab</strong> 🐊 — an ASP.NET MVC educational playground by <strong>Zeyad Gebril</strong>.
+    Dive into controllers, models, and views as you build your .NET MVC skills!
+  </p>
 
----
+  <hr />
 
-## 🚀 Table of Contents
-- [About](#about)
-- [Screenshots](#screenshots)
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Tech Stack](#tech-stack)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+  <h2>🚀 Table of Contents</h2>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#screenshots">Screenshots</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#prerequisites">Prerequisites</a></li>
+    <li><a href="#installation">Installation</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#project-structure">Project Structure</a></li>
+    <li><a href="#tech-stack">Tech Stack</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
 
----
+  <hr />
 
-## 🧠 About
-This project is part of Zeyad Gebril's learning journey with ASP.NET MVC at ITI, featuring a swamp of controllers, models, and razor views ready to explore :contentReference[oaicite:1]{index=1}.
+  <h2 id="about">🧠 About</h2>
+  <p>
+    This project is part of Zeyad Gebril's learning journey with ASP.NET MVC at ITI, featuring a swamp of controllers, models, and Razor views ready to explore.
+  </p>
 
----
+  <hr />
 
-## 🖼️ Screenshots
+  <h2 id="screenshots">🖼️ Screenshots</h2>
+  <p>(Add your own screenshots here to demonstrate key pages or features)</p>
+  <img src="link-to-screenshot-1.png" alt="Home Page" style="max-width:100%;" />
+  <br/>
+  <img src="link-to-screenshot-2.png" alt="Form Submission" style="max-width:100%;" />
 
-*(Add your own screenshots here to demonstrate key pages or features)*
+  <hr />
 
-![Home Page](link-to-screenshot-1.png)  
-![Form Submission](link-to-screenshot-2.png)
+  <h2 id="features">✨ Features</h2>
+  <ul>
+    <li><strong>Controller-Based Routing</strong>: Simple but effective action methods</li>
+    <li><strong>ViewBag/ViewData</strong> usage for dynamic data in views</li>
+    <li><strong>Forms & HttpPost Handling</strong></li>
+    <li>Add your distinctive features here</li>
+  </ul>
 
----
+  <hr />
 
-## ✨ Features
-- **Controller-Based Routing**: Simple but effective action methods
-- **ViewBag/ViewData** usage for dynamic data in views
-- **Forms & HttpPost Handling**
-- [Add your distinctive features here]
+  <h2 id="prerequisites">📋 Prerequisites</h2>
+  <ul>
+    <li>.NET Framework</li>
+    <li>Visual Studio</li>
+    <li>LocalDB</li>
+  </ul>
 
----
+  <hr />
 
-## 📋 Prerequisites
-- .NET Framework 
-- Visual Studio 
--  LocalDB 
-
----
-## 🗂️ Project Structure
-```
+  <h2 id="project-structure">🗂️ Project Structure</h2>
+  <pre>
 MVC_Lab/
 │
 ├── wwwroot/                  # Public static files
@@ -81,23 +130,27 @@ MVC_Lab/
 ├── appsettings.json          # Configuration settings
 ├── libman.json               # Library Manager config
 └── Program.cs                # Entry point and app setup
-```
+  </pre>
 
-## 🧭 Tech Stack
+  <hr />
 
--   C#, ASP.NET MVC
-    
--   Entity Framework (if used)
-    
--   Razor View Engine
-    
--   SQL Server (LocalDB)
-    
--   Bootstrap (if applicable)
+  <h2 id="tech-stack">🧭 Tech Stack</h2>
+  <ul>
+    <li>C#, ASP.NET MVC</li>
+    <li>Entity Framework (if used)</li>
+    <li>Razor View Engine</li>
+    <li>SQL Server (LocalDB)</li>
+    <li>Bootstrap (if applicable)</li>
+  </ul>
 
+  <hr />
 
-## 📫 Contact
+  <h2 id="contact">📫 Contact</h2>
+  <p>
+    <strong>Zeyad Gebril</strong><br/>
+    Email: <a href="mailto:zeyadgebril@outlook.com">zeyadgebril@outlook.com</a><br/>
+    GitHub: <a href="https://github.com/zeyadgebril" target="_blank">zeyadgebril</a>
+  </p>
 
-**Zeyad Gebril**  
-Email: Zeyadgebril@outlook.com  
-GitHub: [zeyadgebril](https://github.com/zeyadgebril)
+</body>
+</html>
