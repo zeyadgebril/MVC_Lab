@@ -79,13 +79,51 @@
 
 <br/>
 
-<!-- 2x3 Image Grid -->
+<h2 id="screenshots">🖼️ Screenshots</h2>
+<p>(Add your own screenshots here to demonstrate key pages or features)</p>
+
+<!-- Centered Main Screenshot -->
+<div style="text-align: center; margin-bottom: 30px;">
+  <img
+    src="https://github.com/zeyadgebril/MVC_Lab/blob/master/Project%20Images/landingPage%20(1).png?raw=true"
+    alt="Home Page"
+    style="width: 80%; max-width: 700px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"
+  />
+</div>
+
+<!-- Screenshot Grid 2x3 -->
 <div style="
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
-  margin-top: 20px;
+  gap: 20px;
+  margin: 0 auto;
 ">
+  <div style="text-align: center;">
+    <img src="https://github.com/zeyadgebril/MVC_Lab/blob/master/Project%20Images/Screenshot%202025-06-25%20171302.png?raw=true" alt="Screenshot 1" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
+    <p>Screenshot 1</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="https://github.com/zeyadgebril/MVC_Lab/blob/master/Project%20Images/Screenshot%202025-06-25%20171352.png?raw=true" alt="Screenshot 2" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
+    <p>Screenshot 2</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="images/3.png" alt="Screenshot 3" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
+    <p>Screenshot 3</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="images/4.png" alt="Screenshot 4" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
+    <p>Screenshot 4</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="images/5.png" alt="Screenshot 5" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
+    <p>Screenshot 5</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="images/6.png" alt="Screenshot 6" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
+    <p>Screenshot 6</p>
+  </div>
+</div>
+
 
   <img src="https://github.com/zeyadgebril/MVC_Lab/blob/master/Project%20Images/Screenshot%202025-06-25%20171553.png?raw=true" alt="Screenshot 3" style="width: 400; border-radius: 8px;" />
   <img src="https://github.com/zeyadgebril/MVC_Lab/blob/master/Project%20Images/Screenshot%202025-06-25%20171621.png?raw=true" alt="Screenshot 4" style="width: 400; border-radius: 8px;" />
@@ -93,11 +131,11 @@
 </div>
 <hr/>
   <a>
-    <img src="https://github.com/zeyadgebril/MVC_Lab/blob/master/Project%20Images/Screenshot%202025-06-25%20171302.png?raw=true" alt="Data Retrieval" width="400" />
+    <img  alt="Data Retrieval" width="400" />
   </a>
   <a>
   
-  <img src="https://github.com/zeyadgebril/MVC_Lab/blob/master/Project%20Images/Screenshot%202025-06-25%20171352.png?raw=true" alt="Data Type" width="400" />
+  <img  alt="Data Type" width="400" />
   </a>
 
   <h2 id="features">✨ Features</h2>
