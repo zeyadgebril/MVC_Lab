@@ -107,15 +107,15 @@
     <p>Screenshot 2</p>
   </div>
   <div style="text-align: center;">
-    <img src="images/3.png" alt="Screenshot 3" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
+    <img src="https://github.com/zeyadgebril/MVC_Lab/blob/master/Project%20Images/Screenshot%202025-06-25%20171553.png?raw=true" alt="Screenshot 3" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
     <p>Screenshot 3</p>
   </div>
   <div style="text-align: center;">
-    <img src="images/4.png" alt="Screenshot 4" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
+    <img src="https://github.com/zeyadgebril/MVC_Lab/blob/master/Project%20Images/Screenshot%202025-06-25%20171621.png?raw=true" alt="Screenshot 4" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
     <p>Screenshot 4</p>
   </div>
   <div style="text-align: center;">
-    <img src="images/5.png" alt="Screenshot 5" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
+    <img src="https://github.com/zeyadgebril/MVC_Lab/blob/master/Project%20Images/Screenshot%202025-06-25%20171634.png?raw=true" alt="Screenshot 5" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
     <p>Screenshot 5</p>
   </div>
   <div style="text-align: center;">
@@ -124,19 +124,7 @@
   </div>
 </div>
 
-
-  <img src="https://github.com/zeyadgebril/MVC_Lab/blob/master/Project%20Images/Screenshot%202025-06-25%20171553.png?raw=true" alt="Screenshot 3" style="width: 400; border-radius: 8px;" />
-  <img src="https://github.com/zeyadgebril/MVC_Lab/blob/master/Project%20Images/Screenshot%202025-06-25%20171621.png?raw=true" alt="Screenshot 4" style="width: 400; border-radius: 8px;" />
-  <img src="https://github.com/zeyadgebril/MVC_Lab/blob/master/Project%20Images/Screenshot%202025-06-25%20171634.png?raw=true" alt="Screenshot 5" style="width: 400; border-radius: 8px;" />
-</div>
-<hr/>
-  <a>
-    <img  alt="Data Retrieval" width="400" />
-  </a>
-  <a>
-  
-  <img  alt="Data Type" width="400" />
-  </a>
+<hr />
 
   <h2 id="features">✨ Features</h2>
   <ul>
