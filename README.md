@@ -86,11 +86,12 @@
   gap: 15px;
   margin-top: 20px;
 ">
-  <img src="https://github.com/zeyadgebril/MVC_Lab/blob/master/Project%20Images/Screenshot%202025-06-25%20171302.png?raw=true" alt="Screenshot 1" style="width: 100%; border-radius: 8px;" />
-  <img src="https://github.com/zeyadgebril/MVC_Lab/blob/master/Project%20Images/Screenshot%202025-06-25%20171352.png?raw=true" alt="Screenshot 2" style="width: 100%; border-radius: 8px;" />
-  <img src="https://github.com/zeyadgebril/MVC_Lab/blob/master/Project%20Images/Screenshot%202025-06-25%20171553.png?raw=true" alt="Screenshot 3" style="width: 100%; border-radius: 8px;" />
-  <img src="https://github.com/zeyadgebril/MVC_Lab/blob/master/Project%20Images/Screenshot%202025-06-25%20171621.png?raw=true" alt="Screenshot 4" style="width: 100%; border-radius: 8px;" />
-  <img src="https://github.com/zeyadgebril/MVC_Lab/blob/master/Project%20Images/Screenshot%202025-06-25%20171634.png?raw=true" alt="Screenshot 5" style="width: 100%; border-radius: 8px;" />
+
+  <img src="https://github.com/zeyadgebril/MVC_Lab/blob/master/Project%20Images/Screenshot%202025-06-25%20171302.png?raw=true" alt="Screenshot 1" style="width: 400; border-radius: 8px;" />
+  <img src="https://github.com/zeyadgebril/MVC_Lab/blob/master/Project%20Images/Screenshot%202025-06-25%20171352.png?raw=true" alt="Screenshot 2" style="width: 400; border-radius: 8px;" />
+  <img src="https://github.com/zeyadgebril/MVC_Lab/blob/master/Project%20Images/Screenshot%202025-06-25%20171553.png?raw=true" alt="Screenshot 3" style="width: 400; border-radius: 8px;" />
+  <img src="https://github.com/zeyadgebril/MVC_Lab/blob/master/Project%20Images/Screenshot%202025-06-25%20171621.png?raw=true" alt="Screenshot 4" style="width: 400; border-radius: 8px;" />
+  <img src="https://github.com/zeyadgebril/MVC_Lab/blob/master/Project%20Images/Screenshot%202025-06-25%20171634.png?raw=true" alt="Screenshot 5" style="width: 400; border-radius: 8px;" />
 </div>
 <hr/>
 
