@@ -94,6 +94,8 @@
   <img src="https://github.com/zeyadgebril/MVC_Lab/blob/master/Project%20Images/Screenshot%202025-06-25%20171634.png?raw=true" alt="Screenshot 5" style="width: 400; border-radius: 8px;" />
 </div>
 <hr/>
+    <img src="https://github.com/zeyadgebril/MVC_Lab/blob/master/Project%20Images/Screenshot%202025-06-25%20171302.png?raw=true" alt="Data Retrieval" width="400" />
+    <img src="https://github.com/zeyadgebril/MVC_Lab/blob/master/Project%20Images/Screenshot%202025-06-25%20171352.png?raw=true" alt="Data Type" width="400" />
 
   <h2 id="features">✨ Features</h2>
   <ul>
