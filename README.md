@@ -67,7 +67,7 @@
 
   <h2 id="screenshots">🖼️ Screenshots</h2>
   <p>(Add your own screenshots here to demonstrate key pages or features)</p>
-  <img src="https://github.com/zeyadgebril/MVC_Lab/blob/master/Project%20Images/landingPage.png?raw=true" alt="Home Page" style="max-width:100%;" />
+  <img src="https://github.com/zeyadgebril/MVC_Lab/blob/master/Project%20Images/landingPage%20(1).png?raw=true" alt="Home Page" style="max-width:100%;" />
   <br/>
   <img src="link-to-screenshot-2.png" alt="Form Submission" style="max-width:100%;" />
 
