@@ -51,13 +51,8 @@
     <li><a href="#about">About</a></li>
     <li><a href="#screenshots">Screenshots</a></li>
     <li><a href="#features">Features</a></li>
-    <li><a href="#prerequisites">Prerequisites</a></li>
-    <li><a href="#installation">Installation</a></li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#project-structure">Project Structure</a></li>
     <li><a href="#tech-stack">Tech Stack</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
 
@@ -72,7 +67,7 @@
 
   <h2 id="screenshots">🖼️ Screenshots</h2>
   <p>(Add your own screenshots here to demonstrate key pages or features)</p>
-  <img src="link-to-screenshot-1.png" alt="Home Page" style="max-width:100%;" />
+  <img src="https://github.com/zeyadgebril/MVC_Lab/blob/master/Project%20Images/landingPage.png?raw=true" alt="Home Page" style="max-width:100%;" />
   <br/>
   <img src="link-to-screenshot-2.png" alt="Form Submission" style="max-width:100%;" />
 
